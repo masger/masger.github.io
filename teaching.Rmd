@@ -2,7 +2,7 @@
 title: "Teaching"
 ---
 
-
+<br><br><br><br><br>  
 
 ## Usefull links  
   
@@ -11,6 +11,13 @@ title: "Teaching"
 [**A data.table and dplyr tour**](https://atrebas.github.io/post/2019-03-03-datatable-dplyr/)  
 
 [**Thomas Gerds R-tutorials**](https://publicifsv.sund.ku.dk/~tag/Teaching/share/R-tutorials/index.html)
+
+<br><br><br><br><br>  
+
+### Private links
+
+[**PDGA 113200**](https://www.pdga.com/player/113200)
+
 
 
 

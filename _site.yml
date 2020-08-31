@@ -7,7 +7,7 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "Papers"
+    - text: "Publications"
       icon: fa-user 
       href: papers.html
     - text: "Curriculum Vitae"
