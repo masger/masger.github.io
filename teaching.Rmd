@@ -12,11 +12,11 @@ title: "Teaching"
 
 [**Thomas Gerds R-tutorials**](https://publicifsv.sund.ku.dk/~tag/Teaching/share/R-tutorials/index.html)
 
+[**Course with data.table, ggplot2 and scraping**]https://github.com/uo-ec510-2020-spring/lectures
+
+[**Setup linux, Git and R**]https://github.com/grantmcdermott/arch-tips
+
 <br><br><br><br><br>  
-
-### Private links
-
-[**PDGA 113200**](https://www.pdga.com/player/113200)
 
 
 
