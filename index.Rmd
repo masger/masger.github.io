@@ -8,14 +8,14 @@ output:
 <img src="images/cph_foto_michael.jpg" style="width:15%;  border:5px solid; margin-left: 100px" align="right">
 I am a medical doctor at CLL-Lab at Rigshospitalet. My research fields are chronic lymphocytic leukemia and pneumococcal disease, where I study how different pathogens are associated with chronic lymphocytic leukemia. In general, I am interested in questions like:
 
+- How does the leukemia clone develop?
 - How do antimicrobial usage change in the years before chronic lymphocytic leukemia diagnosis? 
-- Whcih risk factors are important for the increased risk of infections?
+- Whcih risk factors are important for the increased risk of infections among patients with chronic lymphocytic leukemia?
 - What is the best pneumococcal vaccine strategy for patients with chronic lymphocytic leukemia?
-- How does the CLL clone develop?
 - Etc.  
 
 To answer these questions, I rely on a mix of tools that including classical survival routines, generalized additive models and I am a huge fan of the [**data.table**](https://rdatatable.gitlab.io/data.table/). In addition, I use the [**heaven**](https://github.com/tagteam/heaven) package for fast routines for the Danish health registers. 
 
-On a personal note, I have girlfriend, Sanja Cejvanovic. We welcomed our first child to the family in 2019. Alongside my research, I like to spend time with my family, play disc golf([**PDGA 113200**](https://www.pdga.com/player/113200)) and watch movies.
+On a personal note, I have a girlfriend, Sanja Cejvanovic. We welcomed our first child to the family in 2019. Alongside my research, I like to spend time with my family, play disc golf([**PDGA 113200**](https://www.pdga.com/player/113200)) and watch movies.
 
 Please feel free to contact me at the links provided on this website or at the following address: Department of Hematology, Blegdamsvej 9, 2100 Copenhagen Ø, DK

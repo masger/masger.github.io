@@ -6,11 +6,7 @@ output:
       in_header: cover.html
 ---
 
-<a href="maa_cv.pdf#" class="download" title="Download CV as PDF">Download CV</a>			
-
-
-
-
+![Alt](./maa_cv.pdf){width=100% height=800}
 
 
 
