@@ -1,5 +1,9 @@
 ---
-title: "Papers"
+title: "Publications"
+output:
+  html_document:
+    includes:
+      in_header: cover.html
 ---
 
 <br>

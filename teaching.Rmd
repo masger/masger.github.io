@@ -1,5 +1,9 @@
 ---
 title: "Teaching"
+output:
+  html_document:
+    includes:
+      in_header: cover.html
 ---
 
 <br><br><br><br><br>  

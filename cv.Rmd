@@ -1,5 +1,9 @@
 ---
 title: "Curriculum Vitae"
+output:
+  html_document:
+    includes:
+      in_header: cover.html
 ---
 
 <a href="maa_CV.pdf#" class="download" title="Download CV as PDF">Download CV</a>			
