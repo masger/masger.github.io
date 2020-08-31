@@ -1,9 +1,9 @@
 ---
-title: "CV"
+title: "Curriculum Vitae"
 ---
 
-<a href="CV.pdf#" class="download" title="Download CV as PDF">Download CV</a>			
+<a href="maa_CV.pdf#" class="download" title="Download CV as PDF">Download CV</a>			
 
 ## Header
 
-Say more about your CV here.
+Last updated: `r Sys.Date()`

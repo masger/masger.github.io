@@ -1,0 +1,18 @@
+---
+title: "Teaching"
+---
+
+
+
+## Usefull links  
+  
+[**data.table**](https://rdatatable.gitlab.io/data.table/)  
+  
+[**A data.table and dplyr tour**](https://atrebas.github.io/post/2019-03-03-datatable-dplyr/)  
+
+[**Thomas Gerds R-tutorials**](https://publicifsv.sund.ku.dk/~tag/Teaching/share/R-tutorials/index.html)
+
+
+
+
+

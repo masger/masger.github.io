@@ -1,5 +1,5 @@
 ---
-title: "Welcome to my website!"
+title: "Workplace of Michael A. Andersen"
 ---
 
-You're up and running!
+
