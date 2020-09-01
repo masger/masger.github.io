@@ -1,0 +1,5 @@
+---
+output: html_fragment
+---
+
+<div><img src=" images/nz.jpg" width="100%" align="center"></div>
