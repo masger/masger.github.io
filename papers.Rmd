@@ -8,7 +8,9 @@ output:
 
 <br>
 Google Scholar H-Index 11, antal Citationer 390
+
 [**Full list**](https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ)
+
 1: Andersen MA, Valentin R, Dissing Sjö L, Borgwardt L, Schmiegelow K, Andersen
 MK, Marvig RL, Yde CW, Niemann CU. Combining epigenetic therapy with venetoclax
 overcomes alemtuzumab resistance in T-cell prolymphocytic leukemia. A case

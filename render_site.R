@@ -1,1 +1,1 @@
-rmarkdown::render_site(input = "C:/Users/mand0579/Dokumenter/GitHub/masger.github.io", encoding = "UTF-8")
+rmarkdown::render_site(encoding = "UTF-8")
