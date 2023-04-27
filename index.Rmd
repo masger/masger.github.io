@@ -6,16 +6,12 @@ output:
       in_header: cover.html
 ---
 <img src="images/cph_foto_michael.jpg" style="width:15%;  border:5px solid; margin-left: 100px" align="right">
-I am a medical doctor at [**CLL-LAB**](https://www.rigshospitalet.dk/english/departments/centre-for-cancer-and-organ-diseases/department-of-haematology/research/Pages/leukemia-laboratory.aspx) at Rigshospitalet. My research fields are chronic lymphocytic leukemia and pneumococcal disease, where I study how different pathogens are associated with chronic lymphocytic leukemia. In general, I am interested in questions like:
 
-- How does the leukemia clone develop?
-- How do antimicrobial usage change in the years prior chronic lymphocytic leukemia diagnosis? 
-- Which risk factors are important for infections among patients with chronic lymphocytic leukemia?
-- When should we vaccinate patients with chronic lymphocytic leukemia?
-- Etc.  
+I am a dedicated clinical pharmacologist in training with a strong background in research and epidemiology. I have completed my internship at the Department of Clinical Pharmacology at Bispebjerg and Frederiksberg Hospital, where I have been involved many different projects including assessing the National Hospital Medication Register, using immunotherapy as a case study. My research on patients with chronic lymphocytic leukemia (CLL) uncovered a high risk of infections, which has subsequently inspired numerous studies. Among these is the development of an innovative machine learning model that combines infection risks and disease progression into a single outcome. This work has led to the PreVentACall randomized clinical trial, which holds significant implications for patients with CLL.
+I also contributed to the COVID-19 pandemic response as an epidemiologist in training, working with real-time national registers at the Department of Infectious Disease Epidemiology & Prevention at Statens Serum Institut (SSI).
+Currently, I am committed to explore ways to translate and implement pharmacogenetics and therapeutic drug monitoring into the clinical setting. My goal is to enhance patient care by providing more effective and safer treatments through the application of these techniques.
+To do this, I rely on a mix of tools that include classical survival routines and generalized additive models. In addition, I am a huge fan of the [**data.table**](https://rdatatable.gitlab.io/data.table/) and I use the [**heaven**](https://github.com/tagteam/heaven) package for the the Danish health registers.
 
-To answer these questions, I rely on a mix of tools that include classical survival routines and generalized additive models. In addition, I am a huge fan of the [**data.table**](https://rdatatable.gitlab.io/data.table/) and I use the [**heaven**](https://github.com/tagteam/heaven) package for the the Danish health registers. 
+On a personal note, I have a girlfriend and two sons. Alongside my research, I like to spend time with my family, play disc golf([**PDGA 113200**](https://www.pdga.com/player/113200)) and watch movies.
 
-On a personal note, I have a girlfriend, Sanja Cejvanovic. We welcomed our first child to the family in 2019. Alongside my research, I like to spend time with my family, play disc golf([**PDGA 113200**](https://www.pdga.com/player/113200)) and watch movies.
-
-Please feel free to contact me at the links provided on this website or at the following address: Department of Hematology, Blegdamsvej 9, 2100 Copenhagen Ø, DK
+Please feel free to contact me.
