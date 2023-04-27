@@ -7,7 +7,127 @@ output:
 ---
 
 <br>
+Google Scholar H-Index 11, antal Citationer 390
 [**Full list**](https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ)
+1: Andersen MA, Valentin R, Dissing Sjö L, Borgwardt L, Schmiegelow K, Andersen
+MK, Marvig RL, Yde CW, Niemann CU. Combining epigenetic therapy with venetoclax
+overcomes alemtuzumab resistance in T-cell prolymphocytic leukemia. A case
+report of a 26-year-old man with a prior history of T-cell acute lymphoblastic
+leukemia and GI-T lymphoma. Acta Oncol. 2020 Dec;59(12):1547-1551. doi:
+10.1080/0284186X.2020.1821913. Epub 2020 Sep 24. PMID: 32970500.
+
+2: Hleuhel MH, Ben-Dali Y, Da Cunha-Bang C, Brieghel C, Clasen-Linde E, Niemann
+CU, Andersen MA. Risk factors associated with Richter’s transformation in
+patients with chronic lymphocytic leukaemia: protocol for a retrospective
+population-based cohort study. BMJ Open. 2019 Mar 3;9(3):e023566. doi:
+10.1136/bmjopen-2018-023566. PMID: 30833314; PMCID: PMC6443055.
+
+3: Johansen MM, Andersen MA, Grønbaek K, Hansen JW. Long-term clinical outcomes
+of patients with hematologically unexplained cytopenia after routine assessment:
+A single center study. Eur J Haematol. 2018 Jul 20. doi: 10.1111/ejh.13146. Epub
+ahead of print. PMID: 30027609.
+
+4: Andersen MA, Eriksen CT, Brieghel C, Biccler JL, Cunha-Bang CD, Helleberg M,
+Niemann CU. and predictors of infection among patients prior to treatment of
+chronic lymphocytic leukemia: a Danish nationwide cohort study. Haematologica.
+2018 Jul;103(7):e300-e303. doi: 10.3324/haematol.2017.182006. Epub 2018 Mar 8.
+PMID: 29519862; PMCID: PMC6029543.
+
+5: Brieghel C, da Cunha-Bang C, Yde CW, Schmidt AY, Kinalis S, Nadeu F, Andersen MA, Jacobsen LO, Andersen MK, Pedersen LB, Delgado J, Baumann T, Mattsson M,
+Mansouri L, Rosenquist R, Campo E, Nielsen FC, Niemann CU. The Number of
+Signaling Pathways Altered by Driver Mutations in Chronic Lymphocytic Leukemia
+Impacts Disease Outcome. Clin Cancer Res. 2020 Mar 15;26(6):1507-1515. doi:
+10.1158/1078-0432.CCR-18-4158. Epub 2020 Jan 9. PMID: 31919133.
+
+6: Andersen MA, Niemann CU, Rostgaard K, Dalby T, Sørrig R, Weinberger DM,
+Hjalgrim H, Harboe ZB. Differences and Temporal Changes in Risk of Invasive
+Pneumococcal Disease in Adults with Hematological Malignancies: Results from a
+Nationwide 16-Year Cohort Study. Clin Infect Dis. 2021 Feb 1;72(3):463-471. doi:
+10.1093/cid/ciaa090. PMID: 32463435; PMCID: PMC7850540.
+
+7: Andersen MA, Moser CE, Lundgren J, Niemann CU. Epidemiology of bloodstream
+infections in patients with chronic lymphocytic leukemia: a longitudinal nation-
+wide cohort study. Leukemia. 2019 Mar;33(3):662-670. doi:
+10.1038/s41375-018-0316-5. Epub 2018 Dec 13. Erratum in: Leukemia. 2020
+Oct;34(10):2817-2818. PMID: 30546080.
+
+8: Andersen MA, Vojdeman FJ, Andersen MK, Brown Pde N, Geisler CH, Weis Bjerrum
+O, Niemann CU. Hypogammaglobulinemia in newly diagnosed chronic lymphocytic
+leukemia is a predictor of early death. Leuk Lymphoma. 2016 Jul;57(7):1592-9.
+doi: 10.3109/10428194.2016.1142082. Epub 2016 Feb 5. Erratum in: Leuk Lymphoma.
+2016 Jul;57(7):I. PMID: 26850493.
+
+9: Aarup K, Rotbain EC, Enggaard L, Pedersen RS, Bergmann OJ, Thomsen RH,
+Frederiksen M, Frederiksen H, Nielsen T, Christiansen I, Andersen MA, Niemann
+CU. Real-world outcomes for 205 patients with chronic lymphocytic leukemia
+treated with ibrutinib. Eur J Haematol. 2020 Nov;105(5):646-654. doi:
+10.1111/ejh.13499. Epub 2020 Aug 26. PMID: 32736410.
+
+10: Andersen MA, Moser CE, Lundgren J, Niemann CU. Correction: Epidemiology of
+bloodstream infections in patients with chronic lymphocytic leukemia: a
+longitudinal nation-wide cohort study. Leukemia. 2020 Oct;34(10):2817-2818. doi:
+10.1038/s41375-020-0992-9. Erratum for: Leukemia. 2019 Mar;33(3):662-670. PMID:
+32719435.
+
+11: Nielsen KF, Moustsen-Helms IR, Schelde AB, Gram MA, Emborg HD, Nielsen J,
+Hansen CH, Andersen MA, Meaidi M, Wohlfahrt J, Valentiner-Branth P. Vaccine
+effectiveness against SARS-CoV-2 reinfection during periods of Alpha, Delta, or
+Omicron dominance: A Danish nationwide study. PLoS Med. 2022 Nov
+22;19(11):e1004037. doi: 10.1371/journal.pmed.1004037. PMID: 36413551; PMCID:
+PMC9681105.
+
+12: Roen A, Terrones C, Bannister W, Helleberg M, Andersen MA, Niemann CU,
+Daugaard G, Specht L, Mocroft A, Reekie J, Lundgren J. Increased incidence rates
+of positive blood cultures shortly after chemotherapy compared to radiotherapy
+among individuals treated for solid malignant tumours. Infection. 2022 Jun 28.
+doi: 10.1007/s15010-022-01863-2. Epub ahead of print. PMID: 35764910.
+
+13: Andersen MA, Niemann CU. Immune failure, infection and survival in chronic
+lymphocytic leukemia in Denmark. Haematologica. 2018 Jul;103(7):e330. doi:
+10.3324/haematol.2018.197889. PMID: 29970495; PMCID: PMC6029532.
+
+14: Andersen MA, Grand MK, Brieghel C, Siersma V, Andersen CL, Niemann CU. Pre-
+diagnostic trajectories of lymphocytosis predict time to treatment and death in
+patients with chronic lymphocytic leukemia. Commun Med (Lond). 2022 May 12;2:50.
+doi: 10.1038/s43856-022-00117-4. PMID: 35603299; PMCID: PMC9098503.
+
+15: Andersen MA, Rostgaard K, Niemann CU, Hjalgrim H. Antimicrobial use before
+chronic lymphocytic leukemia: a retrospective cohort study. Leukemia. 2021
+Mar;35(3):747-751. doi: 10.1038/s41375-020-0980-0. Epub 2020 Jul 20. PMID:
+32684631.
+
+16: Svanberg R, MacPherson C, Zucco A, Agius R, Faitova T, Andersen MA, da
+Cunha-Bang C, Gjærde LK, Møller MEE, Brooks PT, Lindegaard B, Sejdic A, Gang AO,
+Hersby DS, Brieghel C, Nielsen SD, Podlekareva D, Hald A, Bay JT, Marquart H,
+Lundgren J, Lebech AM, Helleberg M, Niemann CU, Ostrowski SR. Early stimulated
+immune responses predict clinical disease severity in hospitalized COVID-19
+patients. Commun Med (Lond). 2022 Sep 12;2:114. doi: 10.1038/s43856-022-00178-5.
+PMID: 36101705; PMCID: PMC9466310.
+
+17: Davidsson OB, Olofsson IA, Kogelman LJ, Andersen MA, Rostgaard K, Hjalgrim
+H, Olesen J, Hansen TF. Twenty-five years of triptans - a nationwide population
+study. Cephalalgia. 2021 Jul;41(8):894-904. doi: 10.1177/0333102421991809. Epub
+2021 Feb 14. PMID: 33583217.
+
+18: Andersen MA, Bjerrum OW, Ranjan A, Skov V, Kruse TA, Thomassen M, Skytthe A,
+Hasselbalch HC, Christensen K. Myeloproliferative Neoplasms in Danish Twins.
+Acta Haematol. 2018;139(3):195-198. doi: 10.1159/000488384. Epub 2018 May 2.
+PMID: 29719285.
+
+19: Egholm GJ, Andersen MA, Andersen CL, Frederiksen H, Bjerrum OW, Niemann CU.
+Abnormal eosinophil count at CLL diagnosis correlates with shorter treatment
+free survival. Br J Haematol. 2021 Feb;192(3):e81-e84. doi: 10.1111/bjh.17264.
+Epub 2020 Dec 14. PMID: 33316076.
+
+20: Svanberg R, MacPherson C, Zucco A, Agius R, Faitova T, Andersen MA, da
+Cunha-Bang C, Gjærde LK, Møller MEE, Brooks PT, Lindegaard B, Sejdic A, Gang AO,
+Hersby DS, Brieghel C, Nielsen SD, Podlekareva D, Hald A, Bay JT, Marquart H,
+Lundgren J, Lebech AM, Helleberg M, Niemann CU, Ostrowski SR. Early stimulated
+immune responses predict clinical disease severity in hospitalized COVID-19
+patients. Commun Med (Lond). 2022 Sep 12;2(1):114. doi:
+10.1038/s43856-022-00178-5. PMID: 36400969.
+
+
 
 
 

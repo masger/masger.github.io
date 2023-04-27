@@ -1,12 +1,8 @@
 ---
 title: "Curriculum Vitae"
 output:
-  html_document:
-    includes:
-      in_header: cover.html
 ---
 
-![Alt](./maa_cv.pdf){width=100% height=800}
 
 
 
