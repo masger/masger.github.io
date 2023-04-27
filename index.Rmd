@@ -8,11 +8,15 @@ output:
 <img src="images/cph_foto_michael.jpg" style="width:15%;  border:5px solid; margin-left: 100px" align="right">
 
 I am a dedicated clinical pharmacologist in training with a strong background in research and epidemiology. I have completed my internship at the Department of Clinical Pharmacology at Bispebjerg and Frederiksberg Hospital, where I have been involved many different projects including assessing the National Hospital Medication Register, using immunotherapy as a case study. My research on patients with chronic lymphocytic leukemia (CLL) uncovered a high risk of infections, which has subsequently inspired numerous studies. Among these is the development of an innovative machine learning model that combines infection risks and disease progression into a single outcome. This work has led to the PreVentACall randomized clinical trial, which holds significant implications for patients with CLL.
+
 I also contributed to the COVID-19 pandemic response as an epidemiologist in training, working with real-time national registers at the Department of Infectious Disease Epidemiology & Prevention at Statens Serum Institut (SSI).
 Currently, I am committed to explore ways to translate and implement pharmacogenetics and therapeutic drug monitoring into the clinical setting. My goal is to enhance patient care by providing more effective and safer treatments through the application of these techniques.
+
 To do this, I rely on a mix of tools that include classical survival routines and generalized additive models. In addition, I am a huge fan of the [**data.table**](https://rdatatable.gitlab.io/data.table/) and I use the [**heaven**](https://github.com/tagteam/heaven) package for the the Danish health registers.
 
+
 On a personal note, I have a girlfriend and two sons. Alongside my research, I like to spend time with my family, play disc golf([**PDGA 113200**](https://www.pdga.com/player/113200)) and watch movies.
+
 
 Please feel free to contact me.
 [Download brief resumé (.pdf)](./maa_cv.pdf)
