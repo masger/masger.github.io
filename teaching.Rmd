@@ -7,6 +7,12 @@ output:
 ---
 
 <br><br><br><br><br>
+  
+## Resources
+
+[**UFL adverse event table**](bivirkning.html)
+
+
 
 ## Useful links
 
