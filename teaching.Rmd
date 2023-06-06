@@ -5,10 +5,7 @@ output:
     includes:
       in_header: cover.html
 ---
-
-<br>
-## Resources
-
+## For publications
 [**UFL adverse event table**](bivirkning.html)
 
 
