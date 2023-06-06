@@ -6,8 +6,7 @@ output:
       in_header: cover.html
 ---
 
-<br><br><br><br><br>
-  
+<br>
 ## Resources
 
 [**UFL adverse event table**](bivirkning.html)
@@ -19,8 +18,6 @@ output:
 [**data.table**](https://rdatatable.gitlab.io/data.table/)
 
 [**A data.table and dplyr tour**](https://atrebas.github.io/post/2019-03-03-datatable-dplyr/)
-
-[**Thomas Gerds R-tutorials**](https://publicifsv.sund.ku.dk/~tag/Teaching/share/R-tutorials/index.html)
 
 [**Course with data.table, tidyverse and web scraping**](https://github.com/uo-ec510-2020-spring/lectures)
 
