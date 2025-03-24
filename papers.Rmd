@@ -1,5 +1,6 @@
 ---
-title: "Publications"
+title: "Publications | Michael Asger Andersen"
+description: "Personal website of Michael Asger Andersen"
 output:
   html_document:
     includes:

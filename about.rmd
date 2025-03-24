@@ -1,5 +1,6 @@
 ---
-title: "About Me"
+title: "About Me | Michael Asger Andersen"
+description: "Personal website of Michael Asger Andersen"
 output:
   html_document:
     includes:

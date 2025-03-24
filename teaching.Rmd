@@ -1,5 +1,5 @@
 ---
-title: "Resources"
+title: "Resources | Michael Asger Andersen"
 output:
   html_document:
     includes:
