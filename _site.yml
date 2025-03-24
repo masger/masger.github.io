@@ -1,27 +1,45 @@
-name: "Michael Asger Andersen"                                # CHANGE HERE
+name: "Michael Asger Andersen"
 output_dir: "."
 navbar:
-  title: "Michael Asger Andersen"                             # CHANGE HERE
+  title: "Michael Asger Andersen"
   type: inverse
   left:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "Publications"
+    - text: "About Me"
       icon: fa-user
+      href: about.html
+#    - text: "Research"
+#      icon: fa-flask
+#      href: research.html
+    - text: "Publications"
+      icon: fa-file-text-o
       href: papers.html
+#    - text: "CV"
+#      icon: fa-file-o
+#      href: cv.html
     - text: "Resources"
       href: teaching.html
-      icon: fa-gear
+      icon: fa-bookmark
 
   right:
-    - text: "Contact me"
+    - text: "Contact"
       icon: fa-envelope-o
-      href: mailto:michael.asger.andersen@regionh.dk                    # CHANGE HERE
+      href: malito:michael.asger.andersen@regionh.dk
     - text: "GitHub"
       icon: fa-github
-      href: https://github.com/masger       # CHANGE HERE
+      href: https://github.com/masger
+    - text: "LinkedIn"
+      icon: fa-linkedin
+      href: https://www.linkedin.com/in/michael-asger-andersen-44ba759a/?originalSubdomain=dk
+#    - text: "Twitter"
+#      icon: fa-twitter
+#      href: # Add your Twitter URL here
 output:
   html_document:
     theme: readable
     highlight: textmate
+    css: styles.css
+    includes:
+      after_body: footer.html

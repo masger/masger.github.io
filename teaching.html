@@ -13,7 +13,7 @@
 
 <title>Resources</title>
 
-<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 <div><img src=" images/nz.jpg" width="100%" align="center"></div>
 
 
@@ -63,6 +63,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -255,15 +256,22 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="papers.html">
+  <a href="about.html">
     <span class="fa fa-user"></span>
+     
+    About Me
+  </a>
+</li>
+<li>
+  <a href="papers.html">
+    <span class="fa fa-file-text-o"></span>
      
     Publications
   </a>
 </li>
 <li>
   <a href="teaching.html">
-    <span class="fa fa-gear"></span>
+    <span class="fa fa-bookmark"></span>
      
     Resources
   </a>
@@ -271,10 +279,10 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="mailto:michael.asger.andersen@regionh.dk">
+  <a href="malito:michael.asger.andersen@regionh.dk">
     <span class="fa fa-envelope-o"></span>
      
-    Contact me
+    Contact
   </a>
 </li>
 <li>
@@ -282,6 +290,13 @@ $(document).ready(function () {
     <span class="fa fa-github"></span>
      
     GitHub
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/michael-asger-andersen-44ba759a/?originalSubdomain=dk">
+    <span class="fa fa-linkedin"></span>
+     
+    LinkedIn
   </a>
 </li>
       </ul>
@@ -298,30 +313,185 @@ $(document).ready(function () {
 </div>
 
 
-<p><br><br><br><br><br></p>
-<div id="resources" class="section level2">
-<h2>Resources</h2>
-<p><a href="bivirkning.html"><strong>UFL adverse event
-table</strong></a></p>
+<div class="resources-header">
+<h2>
+Academic &amp; Research Resources
+</h2>
+<p>
+This page collects useful tools, guides, and references for researchers,
+especially those working with R, data science, and healthcare data.
+</p>
 </div>
-<div id="useful-links" class="section level2">
-<h2>Useful links</h2>
-<p><a
-href="https://rdatatable.gitlab.io/data.table/"><strong>data.table</strong></a></p>
-<p><a
-href="https://atrebas.github.io/post/2019-03-03-datatable-dplyr/"><strong>A
-data.table and dplyr tour</strong></a></p>
-<p><a
-href="https://publicifsv.sund.ku.dk/~tag/Teaching/share/R-tutorials/index.html"><strong>Thomas
-Gerds R-tutorials</strong></a></p>
-<p><a
-href="https://github.com/uo-ec510-2020-spring/lectures"><strong>Course
-with data.table, tidyverse and web scraping</strong></a></p>
-<p><a href="https://github.com/grantmcdermott/arch-tips"><strong>Setup
-linux, Git and R</strong></a></p>
-<p><br><br><br><br><br></p>
+<div id="clinical-resources" class="section level2">
+<h2>Clinical Resources</h2>
+<div class="resource-section">
+  <div class="resource-card">
+    <h3>Adverse Event Classification</h3>
+    <p>A reference table for classifying drug adverse reactions using the A-F mnemonic system.</p>
+    <a href="bivirkning.html" class="btn btn-primary">View Adverse Event Table</a>
+  </div>
+
+  <div class="resource-card">
+    <h3>Danish Health Registers</h3>
+    <p>Coming soon: Guide to working with Danish national health registers for research.</p>
+    <a href="#" class="btn btn-secondary disabled">Coming Soon</a>
+  </div>
+</div>
+<div id="data-science-programming" class="section level2">
+<h2>Data Science &amp; Programming</h2>
+<div class="resource-section">
+  <div class="resource-card">
+    <h3>data.table Package</h3>
+    <p>The data.table package provides an enhanced version of data.frames with high performance and concise syntax.</p>
+    <a href="https://rdatatable.gitlab.io/data.table/" target="_blank" class="btn btn-primary">Official Documentation</a>
+  </div>
+
+  <div class="resource-card">
+    <h3>heaven Package</h3>
+    <p>The heaven package is designed for working with Danish health registers, providing specialized functions for common tasks.</p>
+    <a href="https://github.com/tagteam/heaven" target="_blank" class="btn btn-primary">GitHub Repository</a>
+  </div>
+
+  <div class="resource-card">
+    <h3>data.table vs dplyr Comparison</h3>
+    <p>A comprehensive comparison between data.table and dplyr approaches for data manipulation in R.</p>
+    <a href="https://atrebas.github.io/post/2019-03-03-datatable-dplyr/" target="_blank" class="btn btn-primary">View Comparison</a>
+  </div>
+</div>
+</div>
+<div id="development-environment-setup" class="section level2">
+<h2>Development Environment Setup</h2>
+<div class="resource-section">
+  <div class="resource-card">
+    <h3>Linux, Git & R Setup Guide</h3>
+    <p>A comprehensive guide for setting up a development environment with Linux, Git, and R.</p>
+    <a href="https://github.com/grantmcdermott/arch-tips" target="_blank" class="btn btn-primary">View Guide</a>
+  </div>
+
+  <div class="resource-card">
+    <h3>R, data.table & Web Scraping Course</h3>
+    <p>Course materials covering data.table, tidyverse, and web scraping techniques in R.</p>
+    <a href="https://github.com/uo-ec510-2020-spring/lectures" target="_blank" class="btn btn-primary">View Course Materials</a>
+  </div>
+</div>
+</div>
+<div id="my-r-packages-code" class="section level2">
+<h2>My R Packages &amp; Code</h2>
+<div class="resource-section coming-soon">
+  <h3>Coming Soon</h3>
+  <p>I'm working on several R packages and code repositories that will be made available here:</p>
+  <ul>
+    <li>Utilities for working with Danish health registers</li>
+    <li>Functions for common pharmacoepidemiological analyses</li>
+    <li>Templates for reproducible research projects</li>
+  </ul>
+</div>
+<style>
+.resources-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.resource-section {
+  margin-bottom: 3rem;
+}
+
+.resource-card {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.resource-card h3 {
+  color: #3498db;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.coming-soon {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 1.5rem;
+  border-left: 4px solid #3498db;
+}
+</style>
 </div>
 
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Contact</h4>
+        <p><i class="fa fa-envelope-o"></i> <a href="mailto:michael.asger.andersen@regionh.dk">michael.asger.andersen@regionh.dk</a></p>
+        <p><i class="fa fa-university"></i> Department of Clinical Pharmacology<br>Bispebjerg and Frederiksberg Hospital</p>
+      </div>
+
+      <div class="col-md-4">
+        <h4>Connect</h4>
+        <div class="social-links">
+          <a href="https://github.com/masger" target="_blank"><i class="fa fa-github"></i></a>
+          <!-- Add your other social media links -->
+          <a href="#" target="https://www.linkedin.com/in/michael-asger-andersen-44ba759a/?originalSubdomain=dk"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.pdga.com/player/113200" target="_blank"><i class="fa fa-trophy"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <h4>Quick Links</h4>
+        <ul class="list-unstyled">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="papers.html">Publications</a></li>
+          <li><a href="teaching.html">Resources</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="small">© <script>document.write(new Date().getFullYear())</script> Michael Asger Andersen. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 

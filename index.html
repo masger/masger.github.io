@@ -11,9 +11,9 @@
 
 
 
-<title>Welcome</title>
+<title>Michael Asger Andersen</title>
 
-<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 <div><img src=" images/nz.jpg" width="100%" align="center"></div>
 
 
@@ -63,6 +63,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -255,15 +256,22 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="papers.html">
+  <a href="about.html">
     <span class="fa fa-user"></span>
+     
+    About Me
+  </a>
+</li>
+<li>
+  <a href="papers.html">
+    <span class="fa fa-file-text-o"></span>
      
     Publications
   </a>
 </li>
 <li>
   <a href="teaching.html">
-    <span class="fa fa-gear"></span>
+    <span class="fa fa-bookmark"></span>
      
     Resources
   </a>
@@ -271,10 +279,10 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="mailto:michael.asger.andersen@regionh.dk">
+  <a href="malito:michael.asger.andersen@regionh.dk">
     <span class="fa fa-envelope-o"></span>
      
-    Contact me
+    Contact
   </a>
 </li>
 <li>
@@ -282,6 +290,13 @@ $(document).ready(function () {
     <span class="fa fa-github"></span>
      
     GitHub
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/michael-asger-andersen-44ba759a/?originalSubdomain=dk">
+    <span class="fa fa-linkedin"></span>
+     
+    LinkedIn
   </a>
 </li>
       </ul>
@@ -293,46 +308,110 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Welcome</h1>
+<h1 class="title toc-ignore">Michael Asger Andersen</h1>
 
 </div>
 
 
-<p><img src="images/cph_foto_michael.jpg" style="width:15%;  border:5px solid; margin-left: 100px" align="right"></p>
-<p>I am a dedicated clinical pharmacologist in training with a strong
-background in research and epidemiology. I have completed my internship
-at the Department of Clinical Pharmacology at Bispebjerg and
-Frederiksberg Hospital, where I have been involved many different
-projects including assessing the National Hospital Medication Register,
-using immunotherapy as a case study. My research on patients with
-chronic lymphocytic leukemia (CLL) uncovered a high risk of infections,
-which has subsequently inspired numerous studies. Among these is the
-development of an innovative machine learning model that combines
-infection risks and disease progression into a single outcome. This work
-has led to the PreVentACall randomized clinical trial, which holds
-significant implications for patients with CLL.</p>
-<p>I also contributed to the COVID-19 pandemic response as an
-epidemiologist in training, working with real-time national registers at
-the Department of Infectious Disease Epidemiology &amp; Prevention at
-Statens Serum Institut (SSI). Currently, I am committed to explore ways
-to translate and implement pharmacogenetics and therapeutic drug
-monitoring into the clinical setting. My goal is to enhance patient care
-by providing more effective and safer treatments through the application
-of these techniques.</p>
-<p>To do this, I rely on a mix of tools that include classical survival
-routines and generalized additive models. In addition, I am a huge fan
-of the <a
-href="https://rdatatable.gitlab.io/data.table/"><strong>data.table</strong></a>
-and I use the <a
-href="https://github.com/tagteam/heaven"><strong>heaven</strong></a>
-package for the the Danish health registers.</p>
-<p>On a personal note, I have a girlfriend and two sons. Alongside my
-research, I like to spend time with my family, play disc golf(<a
-href="https://www.pdga.com/player/113200"><strong>PDGA
-113200</strong></a>) and watch movies.</p>
-<p>Please feel free to contact me. <a href="./maa_cv.pdf">Download brief
-resumé (.pdf)</a></p>
+<p><img src="images/cph_foto_michael.jpg"
+style="width:15%; border:3px solid #3498db; margin-left:20px; float:right;" /></p>
+<div id="clinical-pharmacologist-researcher" class="section level2">
+<h2>Clinical Pharmacologist &amp; Researcher</h2>
+<p>Working at the intersection of pharmacology, epidemiology, and data
+analysis</p>
+<p><a href="research.html" class="btn btn-primary">Research</a> <a
+href="papers.html" class="btn btn-primary">Publications</a></p>
+</div>
+<div id="recent-projects" class="section level2">
+<h2>Recent projects</h2>
+<div class="research-card">
+<h3>
+VISION-TDM
+</h3>
+<p>
+A study optimizing venetoclax and ibrutinib dosing through therapeutic
+drug monitoring, combining retrospective analyses with prospective
+clinical data.
+</p>
+</div>
+<div class="research-card">
+<h3>
+SAMSON2
+</h3>
+<p>
+A study optimizing venetoclax and ibrutinib dosing through therapeutic
+drug monitoring, combining retrospective analyses with prospective
+clinical data.
+</p>
+</div>
+<div class="research-card">
+<h3>
+CYP2C19 Pharmacogenetic Testing
+</h3>
+<p>
+A study evaluating the clinical utility of CYP2C19 genotyping in
+clopidogrel therapy through both retrospective analysis and prospective
+patient data.
+</p>
+</div>
+</div>
+<div id="technical-expertise" class="section level2">
+<h2>Technical Expertise</h2>
+<ul>
+<li><strong>Statistical methods:</strong> Survival analysis, generalized
+additive models</li>
+<li><strong>Programming:</strong> R (<a
+href="https://rdatatable.gitlab.io/data.table/"><strong>data.table</strong></a>,
+<a
+href="https://github.com/tagteam/heaven"><strong>heaven</strong></a>)</li>
+<li><strong>Data sources:</strong> Danish health registers, clinical
+databases</li>
+</ul>
+</div>
+<div id="personal" class="section level2">
+<h2>Personal</h2>
+<p>When not researching, I enjoy spending time with my family, playing
+disc golf (<a href="https://www.pdga.com/player/113200"><strong>PDGA
+113200</strong></a>), and watching movies.</p>
+<p><a href="./maa_cv.pdf">Download brief resumé (.pdf)</a></p>
+</div>
 
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Contact</h4>
+        <p><i class="fa fa-envelope-o"></i> <a href="mailto:michael.asger.andersen@regionh.dk">michael.asger.andersen@regionh.dk</a></p>
+        <p><i class="fa fa-university"></i> Department of Clinical Pharmacology<br>Bispebjerg and Frederiksberg Hospital</p>
+      </div>
+
+      <div class="col-md-4">
+        <h4>Connect</h4>
+        <div class="social-links">
+          <a href="https://github.com/masger" target="_blank"><i class="fa fa-github"></i></a>
+          <!-- Add your other social media links -->
+          <a href="#" target="https://www.linkedin.com/in/michael-asger-andersen-44ba759a/?originalSubdomain=dk"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.pdga.com/player/113200" target="_blank"><i class="fa fa-trophy"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <h4>Quick Links</h4>
+        <ul class="list-unstyled">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="papers.html">Publications</a></li>
+          <li><a href="teaching.html">Resources</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="small">© <script>document.write(new Date().getFullYear())</script> Michael Asger Andersen. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 

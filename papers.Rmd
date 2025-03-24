@@ -6,130 +6,229 @@ output:
       in_header: cover.html
 ---
 
-<br>
-Google Scholar H-Index 11, antal Citationer 390
 
-[**Full list**](https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ)
+```{=html}
+<div class="publication-header">
+  <div class="pub-header-content">
+    <h2>Research Publications</h2>
+    <p>Google Scholar H-Index: 15 | Citations: 700+</p>
+    <p>
+      <a href="https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ" target="_blank" class="btn btn-primary"><i class="fa fa-google"></i> View Google Scholar Profile</a>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/?term=andersen+ma&sort=date" target="_blank" class="btn btn-primary"><i class="fa fa-book"></i> View PubMed Publications</a>
+    </p>
+  </div>
+  <div class="featured-research">
+    <div class="featured-image">
+      <img src="images/artisku.jpg" alt="Artis KU Visualization">
+      <div class="image-caption">Finding a Needle in a Haystack (CLL progression)</div>
+    </div>
+  </div>
+</div>
+```
+##
+## Automatically Generated Publication List
 
-1: Andersen MA, Valentin R, Dissing Sjö L, Borgwardt L, Schmiegelow K, Andersen
-MK, Marvig RL, Yde CW, Niemann CU. Combining epigenetic therapy with venetoclax
-overcomes alemtuzumab resistance in T-cell prolymphocytic leukemia. A case
-report of a 26-year-old man with a prior history of T-cell acute lymphoblastic
-leukemia and GI-T lymphoma. Acta Oncol. 2020 Dec;59(12):1547-1551. doi:
-10.1080/0284186X.2020.1821913. Epub 2020 Sep 24. PMID: 32970500.
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+if (!requireNamespace("rentrez", quietly = TRUE)) install.packages("rentrez")
+if (!requireNamespace("dplyr", quietly = TRUE)) install.packages("dplyr")
+library(rentrez)
+library(dplyr)
 
-2: Hleuhel MH, Ben-Dali Y, Da Cunha-Bang C, Brieghel C, Clasen-Linde E, Niemann
-CU, Andersen MA. Risk factors associated with Richter’s transformation in
-patients with chronic lymphocytic leukaemia: protocol for a retrospective
-population-based cohort study. BMJ Open. 2019 Mar 3;9(3):e023566. doi:
-10.1136/bmjopen-2018-023566. PMID: 30833314; PMCID: PMC6443055.
+# Function to format authors correctly
+format_authors <- function(authors) {
+  if (length(authors) > 5) {
+    paste0(paste(authors[1:5], collapse = ", "), ", et al.")
+  } else {
+    paste(authors, collapse = ", ")
+  }
+}
 
-3: Johansen MM, Andersen MA, Grønbaek K, Hansen JW. Long-term clinical outcomes
-of patients with hematologically unexplained cytopenia after routine assessment:
-A single center study. Eur J Haematol. 2018 Jul 20. doi: 10.1111/ejh.13146. Epub
-ahead of print. PMID: 30027609.
+# Search PubMed for your publications
+# You might need to refine this search term to get exactly your publications
+search_term <- '(andersen ma[Author]) NOT (andersen mak[Author]) AND ("2015"[Date - Publication] : "3000"[Date - Publication])'
+search_results <- rentrez::entrez_search(db = "pubmed", term = search_term, retmax = 100)
 
-4: Andersen MA, Eriksen CT, Brieghel C, Biccler JL, Cunha-Bang CD, Helleberg M,
-Niemann CU. and predictors of infection among patients prior to treatment of
-chronic lymphocytic leukemia: a Danish nationwide cohort study. Haematologica.
-2018 Jul;103(7):e300-e303. doi: 10.3324/haematol.2017.182006. Epub 2018 Mar 8.
-PMID: 29519862; PMCID: PMC6029543.
+# Fetch publication details
+if (length(search_results$ids) > 0) {
+  pub_summaries <- rentrez::entrez_summary(db = "pubmed", id = search_results$ids)
 
-5: Brieghel C, da Cunha-Bang C, Yde CW, Schmidt AY, Kinalis S, Nadeu F, Andersen MA, Jacobsen LO, Andersen MK, Pedersen LB, Delgado J, Baumann T, Mattsson M,
-Mansouri L, Rosenquist R, Campo E, Nielsen FC, Niemann CU. The Number of
-Signaling Pathways Altered by Driver Mutations in Chronic Lymphocytic Leukemia
-Impacts Disease Outcome. Clin Cancer Res. 2020 Mar 15;26(6):1507-1515. doi:
-10.1158/1078-0432.CCR-18-4158. Epub 2020 Jan 9. PMID: 31919133.
+  # Process the data into a data frame
+  publications <- lapply(pub_summaries, function(pub) {
+    # Extract and format date
+    pub_date <- if (!is.null(pub$pubdate)) pub$pubdate else "No date"
+    pub_year <- substr(pub_date, 1, 4)
 
-6: Andersen MA, Niemann CU, Rostgaard K, Dalby T, Sørrig R, Weinberger DM,
-Hjalgrim H, Harboe ZB. Differences and Temporal Changes in Risk of Invasive
-Pneumococcal Disease in Adults with Hematological Malignancies: Results from a
-Nationwide 16-Year Cohort Study. Clin Infect Dis. 2021 Feb 1;72(3):463-471. doi:
-10.1093/cid/ciaa090. PMID: 32463435; PMCID: PMC7850540.
+    # Extract authors
+    authors <- if (!is.null(pub$authors)) {
+      format_authors(pub$authors$name)
+    } else {
+      "No authors listed"
+    }
 
-7: Andersen MA, Moser CE, Lundgren J, Niemann CU. Epidemiology of bloodstream
-infections in patients with chronic lymphocytic leukemia: a longitudinal nation-
-wide cohort study. Leukemia. 2019 Mar;33(3):662-670. doi:
-10.1038/s41375-018-0316-5. Epub 2018 Dec 13. Erratum in: Leukemia. 2020
-Oct;34(10):2817-2818. PMID: 30546080.
+    # Create data frame row
+    data.frame(
+      Year = pub_year,
+      Title = if (!is.null(pub$title)) pub$title else "No title",
+      Authors = authors,
+      Journal = if (!is.null(pub$fulljournalname)) pub$fulljournalname else if (!is.null(pub$source)) pub$source else "No journal",
+      PMID = if (!is.null(pub$uid)) pub$uid else "No PMID",
+      stringsAsFactors = FALSE
+    )
+  })
 
-8: Andersen MA, Vojdeman FJ, Andersen MK, Brown Pde N, Geisler CH, Weis Bjerrum
-O, Niemann CU. Hypogammaglobulinemia in newly diagnosed chronic lymphocytic
-leukemia is a predictor of early death. Leuk Lymphoma. 2016 Jul;57(7):1592-9.
-doi: 10.3109/10428194.2016.1142082. Epub 2016 Feb 5. Erratum in: Leuk Lymphoma.
-2016 Jul;57(7):I. PMID: 26850493.
+  # Combine into a single data frame
+  publications_df <- do.call(rbind, publications)
 
-9: Aarup K, Rotbain EC, Enggaard L, Pedersen RS, Bergmann OJ, Thomsen RH,
-Frederiksen M, Frederiksen H, Nielsen T, Christiansen I, Andersen MA, Niemann
-CU. Real-world outcomes for 205 patients with chronic lymphocytic leukemia
-treated with ibrutinib. Eur J Haematol. 2020 Nov;105(5):646-654. doi:
-10.1111/ejh.13499. Epub 2020 Aug 26. PMID: 32736410.
+  # Sort by year (descending)
+  publications_df <- publications_df %>% arrange(desc(Year))
+} else {
+  publications_df <- data.frame(
+    Year = NA,
+    Title = "No publications found",
+    Authors = NA,
+    Journal = NA,
+    PMID = NA
+  )
+}
+```
 
-10: Andersen MA, Moser CE, Lundgren J, Niemann CU. Correction: Epidemiology of
-bloodstream infections in patients with chronic lymphocytic leukemia: a
-longitudinal nation-wide cohort study. Leukemia. 2020 Oct;34(10):2817-2818. doi:
-10.1038/s41375-020-0992-9. Erratum for: Leukemia. 2019 Mar;33(3):662-670. PMID:
-32719435.
-
-11: Nielsen KF, Moustsen-Helms IR, Schelde AB, Gram MA, Emborg HD, Nielsen J,
-Hansen CH, Andersen MA, Meaidi M, Wohlfahrt J, Valentiner-Branth P. Vaccine
-effectiveness against SARS-CoV-2 reinfection during periods of Alpha, Delta, or
-Omicron dominance: A Danish nationwide study. PLoS Med. 2022 Nov
-22;19(11):e1004037. doi: 10.1371/journal.pmed.1004037. PMID: 36413551; PMCID:
-PMC9681105.
-
-12: Roen A, Terrones C, Bannister W, Helleberg M, Andersen MA, Niemann CU,
-Daugaard G, Specht L, Mocroft A, Reekie J, Lundgren J. Increased incidence rates
-of positive blood cultures shortly after chemotherapy compared to radiotherapy
-among individuals treated for solid malignant tumours. Infection. 2022 Jun 28.
-doi: 10.1007/s15010-022-01863-2. Epub ahead of print. PMID: 35764910.
-
-13: Andersen MA, Niemann CU. Immune failure, infection and survival in chronic
-lymphocytic leukemia in Denmark. Haematologica. 2018 Jul;103(7):e330. doi:
-10.3324/haematol.2018.197889. PMID: 29970495; PMCID: PMC6029532.
-
-14: Andersen MA, Grand MK, Brieghel C, Siersma V, Andersen CL, Niemann CU. Pre-
-diagnostic trajectories of lymphocytosis predict time to treatment and death in
-patients with chronic lymphocytic leukemia. Commun Med (Lond). 2022 May 12;2:50.
-doi: 10.1038/s43856-022-00117-4. PMID: 35603299; PMCID: PMC9098503.
-
-15: Andersen MA, Rostgaard K, Niemann CU, Hjalgrim H. Antimicrobial use before
-chronic lymphocytic leukemia: a retrospective cohort study. Leukemia. 2021
-Mar;35(3):747-751. doi: 10.1038/s41375-020-0980-0. Epub 2020 Jul 20. PMID:
-32684631.
-
-16: Svanberg R, MacPherson C, Zucco A, Agius R, Faitova T, Andersen MA, da
-Cunha-Bang C, Gjærde LK, Møller MEE, Brooks PT, Lindegaard B, Sejdic A, Gang AO,
-Hersby DS, Brieghel C, Nielsen SD, Podlekareva D, Hald A, Bay JT, Marquart H,
-Lundgren J, Lebech AM, Helleberg M, Niemann CU, Ostrowski SR. Early stimulated
-immune responses predict clinical disease severity in hospitalized COVID-19
-patients. Commun Med (Lond). 2022 Sep 12;2:114. doi: 10.1038/s43856-022-00178-5.
-PMID: 36101705; PMCID: PMC9466310.
-
-17: Davidsson OB, Olofsson IA, Kogelman LJ, Andersen MA, Rostgaard K, Hjalgrim
-H, Olesen J, Hansen TF. Twenty-five years of triptans - a nationwide population
-study. Cephalalgia. 2021 Jul;41(8):894-904. doi: 10.1177/0333102421991809. Epub
-2021 Feb 14. PMID: 33583217.
-
-18: Andersen MA, Bjerrum OW, Ranjan A, Skov V, Kruse TA, Thomassen M, Skytthe A,
-Hasselbalch HC, Christensen K. Myeloproliferative Neoplasms in Danish Twins.
-Acta Haematol. 2018;139(3):195-198. doi: 10.1159/000488384. Epub 2018 May 2.
-PMID: 29719285.
-
-19: Egholm GJ, Andersen MA, Andersen CL, Frederiksen H, Bjerrum OW, Niemann CU.
-Abnormal eosinophil count at CLL diagnosis correlates with shorter treatment
-free survival. Br J Haematol. 2021 Feb;192(3):e81-e84. doi: 10.1111/bjh.17264.
-Epub 2020 Dec 14. PMID: 33316076.
-
-20: Svanberg R, MacPherson C, Zucco A, Agius R, Faitova T, Andersen MA, da
-Cunha-Bang C, Gjærde LK, Møller MEE, Brooks PT, Lindegaard B, Sejdic A, Gang AO,
-Hersby DS, Brieghel C, Nielsen SD, Podlekareva D, Hald A, Bay JT, Marquart H,
-Lundgren J, Lebech AM, Helleberg M, Niemann CU, Ostrowski SR. Early stimulated
-immune responses predict clinical disease severity in hospitalized COVID-19
-patients. Commun Med (Lond). 2022 Sep 12;2(1):114. doi:
-10.1038/s43856-022-00178-5. PMID: 36400969.
+```{r publication_list, results='asis'}
+# Generate HTML for publications
+for (i in 1:nrow(publications_df)) {
+  pub <- publications_df[i, ]
+  cat('<div class="publication-item">\n')
+  cat(paste0('  <div class="publication-year">', pub$Year, "</div>\n"))
+  cat(paste0('  <div class="publication-authors">', pub$Authors, "</div>\n"))
+  cat(paste0('  <div class="publication-title">', pub$Title, "</div>\n"))
+  cat(paste0('  <div class="publication-journal">', pub$Journal, "</div>\n"))
+  cat(paste0("[PubMed: ", pub$PMID, "](https://pubmed.ncbi.nlm.nih.gov/", pub$PMID, "/)  \n"))
+  cat("</div>\n\n")
+}
+```
 
 
 
+```{=html}
+<style>
+/* Header styling with integrated image */
+.publication-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+  gap: 2rem;
+}
 
+.pub-header-content {
+  flex: 1;
+  min-width: 300px;
+}
 
+.pub-header-content h2 {
+  margin-top: 0;
+}
+
+.featured-research {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.featured-image {
+  position: relative;
+  max-width: 100%;
+  transition: transform 0.3s ease;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.featured-image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.featured-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  padding: 10px 15px;
+  font-style: italic;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Publication list styling */
+.publication-item {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #3498db;
+  background-color: #f8f9fa;
+  border-radius: 0 4px 4px 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.publication-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.publication-year {
+  font-weight: bold;
+  color: #3498db;
+  margin-bottom: 0.5rem;
+}
+
+.publication-authors {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.publication-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.publication-journal {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.publication-links a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.publication-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .publication-header {
+    flex-direction: column;
+  }
+
+  .featured-research {
+    width: 100%;
+  }
+}
+</style>
+```
