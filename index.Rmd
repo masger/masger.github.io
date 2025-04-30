@@ -12,7 +12,7 @@ output:
 
 ## Clinical Pharmacologist & Researcher
 
-Working at the intersection of pharmacology, epidemiology, and data analysis
+Working at the intersection of personalized medicine and pharmacology
 
 [Research](research.html){.btn .btn-primary} [Publications](papers.html){.btn .btn-primary}
 
@@ -25,7 +25,7 @@ Working at the intersection of pharmacology, epidemiology, and data analysis
 
 <div class="research-card">
   <h3>SAMSON2</h3>
-  <p>A study optimizing venetoclax and ibrutinib dosing through therapeutic drug monitoring, combining retrospective analyses with prospective clinical data.</p>
+  <p>A study to examine statin intolerance using a N-of-1 trial design</p>
 </div>
 
 <div class="research-card">
@@ -36,7 +36,7 @@ Working at the intersection of pharmacology, epidemiology, and data analysis
 ## Technical Expertise
 
 - **Statistical methods:** Survival analysis, generalized additive models
-- **Programming:** R ([**data.table**](https://rdatatable.gitlab.io/data.table/), [**heaven**](https://github.com/tagteam/heaven))
+- **Programming:** R ([**data.table**](https://rdatatable.gitlab.io/data.table/), [**heaven**](https://github.com/tagteam/heaven), [**mgcv**](https://github.com/cran/mgcv))
 - **Data sources:** Danish health registers, clinical databases
 
 ## Personal
