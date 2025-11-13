@@ -1,205 +1,95 @@
-/* Modern styling for Michael Asger Andersen's website */
+/* Simple, clean styling */
 
-/* Primary colors */
-:root {
-  --primary-color: #2c3e50;     /* Dark blue/slate for headers */
-  --secondary-color: #3498db;   /* Lighter blue for links/accents */
-  --accent-color: #e74c3c;      /* Red accent for important elements */
-  --light-bg: #f8f9fa;          /* Light background */
-  --text-color: #333;           /* Main text color */
-  --light-text: #666;           /* For less important text */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Global styles */
 body {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: var(--text-color);
-  line-height: 1.6;
-  padding-top: 70px;
+    font-family: Georgia, serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
 }
 
-/* Headers */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--primary-color);
-  font-weight: 600;
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
+header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 h1 {
-  font-size: 2.5rem;
-  border-bottom: 2px solid var(--secondary-color);
-  padding-bottom: 0.5rem;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 h2 {
-  font-size: 2rem;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 h3 {
-  font-size: 1.5rem;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
-/* Links */
+h4 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 60px;
+    font-size: 14px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
 a {
-  color: var(--secondary-color);
-  transition: color 0.3s ease;
+    color: #0066cc;
 }
 
 a:hover {
-  color: var(--accent-color);
-  text-decoration: none;
-}
-
-/* Navbar styling */
-.navbar-inverse {
-  background-color: var(--primary-color);
-  border-color: transparent;
-}
-
-.navbar-inverse .navbar-nav > li > a,
-.navbar-inverse .navbar-brand {
-  color: white;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-brand:hover {
-  color: var(--secondary-color);
-}
-
-/* Profile section */
-.profile-section {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 2rem;
-}
-
-.profile-image {
-  width: 200px;
-  border: 5px solid var(--secondary-color);
-  border-radius: 5px;
-  margin-right: 2rem;
-}
-
-.profile-info {
-  flex: 1;
-}
-
-/* Publications styling */
-.publication-list {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.publication-item {
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid #eee;
-}
-
-.publication-year {
-  color: var(--accent-color);
-  font-weight: bold;
-}
-
-.publication-authors {
-  font-style: italic;
-}
-
-.publication-title {
-  font-weight: bold;
-}
-
-.publication-journal {
-  color: var(--light-text);
-}
-
-/* Make external links open in a new tab */
-.publication-links {
-  target: _blank;
-}
-
-
-
-/* Cards for research projects */
-.research-card {
-  background-color: var(--light-bg);
-  border-radius: 5px;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.research-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.research-card h3 {
-  color: var(--secondary-color);
-}
-
-/* Footer */
-footer {
-  margin-top: 3rem;
-  padding: 2rem 0;
-  background-color: var(--light-bg);
-  text-align: center;
-  border-top: 1px solid #eee;
-}
-
-.social-links {
-  margin: 1rem 0;
-}
-
-.social-links a {
-  display: inline-block;
-  margin: 0 0.5rem;
-  font-size: 1.5rem;
-  color: var(--primary-color);
-}
-
-.social-links a:hover {
-  color: var(--accent-color);
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .profile-section {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .profile-image {
-    margin-right: 0;
-    margin-bottom: 1rem;
-  }
-}
-
-/* Table styling */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 2rem 0;
-}
-
-th {
-  background-color: var(--primary-color);
-  color: white;
-  text-align: left;
-  padding: 0.75rem;
-}
-
-td {
-  padding: 0.75rem;
-  border-bottom: 1px solid #ddd;
-}
-
-tr:nth-child(even) {
-  background-color: var(--light-bg);
-}
-
-tr:hover {
-  background-color: #e9ecef;
+    color: #003366;
 }
