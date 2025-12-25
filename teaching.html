@@ -1,70 +1,541 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resources - Michael Asger Andersen</title>
-    <link rel="stylesheet" href="styles.css">
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Resources | Michael Asger Andersen</title>
+
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<div><img src=" images/nz.jpg" width="100%" align="center"></div>
+
+
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
 </head>
+
 <body>
-    <header>
-        <h1>Michael Asger Andersen</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="papers.html">Publications</a>
-            <a href="teaching.html">Resources</a>
-        </nav>
-    </header>
 
-    <main>
-        <h2>Resources</h2>
-        <p>Useful tools, guides, and references for researchers working with R, data science, and healthcare data.</p>
 
-        <section>
-            <h3>Clinical Resources</h3>
-            <ul>
-                <li><a href="bivirkning.html">Adverse Event Classification Table</a> - Reference for classifying drug adverse reactions</li>
-                <li>Danish Health Registers Guide (Coming soon)</li>
-            </ul>
-        </section>
+<div class="container-fluid main-container">
 
-        <section>
-            <h3>Data Science & Programming</h3>
-            <ul>
-                <li><a href="https://rdatatable.gitlab.io/data.table/">data.table Package</a> - High performance data manipulation in R</li>
-                <li><a href="https://github.com/tagteam/heaven">heaven Package</a> - Tools for working with Danish health registers</li>
-                <li><a href="https://atrebas.github.io/post/2019-03-03-datatable-dplyr/">data.table vs dplyr Comparison</a></li>
-            </ul>
-        </section>
 
-        <section>
-            <h3>Development Environment</h3>
-            <ul>
-                <li><a href="https://github.com/grantmcdermott/arch-tips">Linux, Git & R Setup Guide</a></li>
-                <li><a href="https://github.com/uo-ec510-2020-spring/lectures">R, data.table & Web Scraping Course</a></li>
-            </ul>
-        </section>
 
-        <section>
-            <h3>My R Packages & Code</h3>
-            <p>Coming soon:</p>
-            <ul>
-                <li>Utilities for working with Danish health registers</li>
-                <li>Functions for common pharmacoepidemiological analyses</li>
-                <li>Templates for reproducible research projects</li>
-            </ul>
-        </section>
-    </main>
 
-    <footer>
-        <p>Email: <a href="mailto:michael.asger.andersen@regionh.dk">michael.asger.andersen@regionh.dk</a></p>
-        <p>Department of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital</p>
-        <p>
-            <a href="https://github.com/masger">GitHub</a> |
-            <a href="https://www.linkedin.com/in/michael-asger-andersen-44ba759a/?originalSubdomain=dk">LinkedIn</a> |
-            <a href="https://www.pdga.com/player/113200">PDGA</a>
-        </p>
-    </footer>
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Michael Asger Andersen</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-user"></span>
+     
+    About Me
+  </a>
+</li>
+<li>
+  <a href="papers.html">
+    <span class="fa fa-file-text-o"></span>
+     
+    Publications
+  </a>
+</li>
+<li>
+  <a href="teaching.html">
+    <span class="fa fa-bookmark"></span>
+     
+    Resources
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="malito:michael.asger.andersen@regionh.dk">
+    <span class="fa fa-envelope-o"></span>
+     
+    Contact
+  </a>
+</li>
+<li>
+  <a href="https://github.com/masger">
+    <span class="fa fa-github"></span>
+     
+    GitHub
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/michael-asger-andersen-44ba759a/?originalSubdomain=dk">
+    <span class="fa fa-linkedin"></span>
+     
+    LinkedIn
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Resources | Michael Asger Andersen</h1>
+
+</div>
+
+
+<div class="resources-header">
+<h2>
+Academic &amp; Research Resources
+</h2>
+<p>
+This page collects useful tools, guides, and references for researchers,
+especially those working with R, data science, and healthcare data.
+</p>
+</div>
+<div id="clinical-resources" class="section level2">
+<h2>Clinical Resources</h2>
+<div class="resource-section">
+  <div class="resource-card">
+    <h3>Adverse Event Classification</h3>
+    <p>A reference table for classifying drug adverse reactions using the A-F mnemonic system.</p>
+    <a href="bivirkning.html" class="btn btn-primary">View Adverse Event Table</a>
+  </div>
+
+  <div class="resource-card">
+    <h3>Danish Health Registers</h3>
+    <p>Coming soon: Guide to working with Danish national health registers for research.</p>
+    <a href="#" class="btn btn-secondary disabled">Coming Soon</a>
+  </div>
+</div>
+<div id="data-science-programming" class="section level2">
+<h2>Data Science &amp; Programming</h2>
+<div class="resource-section">
+  <div class="resource-card">
+    <h3>data.table Package</h3>
+    <p>The data.table package provides an enhanced version of data.frames with high performance and concise syntax.</p>
+    <a href="https://rdatatable.gitlab.io/data.table/" target="_blank" class="btn btn-primary">Official Documentation</a>
+  </div>
+
+  <div class="resource-card">
+    <h3>heaven Package</h3>
+    <p>The heaven package is designed for working with Danish health registers, providing specialized functions for common tasks.</p>
+    <a href="https://github.com/tagteam/heaven" target="_blank" class="btn btn-primary">GitHub Repository</a>
+  </div>
+
+  <div class="resource-card">
+    <h3>data.table vs dplyr Comparison</h3>
+    <p>A comprehensive comparison between data.table and dplyr approaches for data manipulation in R.</p>
+    <a href="https://atrebas.github.io/post/2019-03-03-datatable-dplyr/" target="_blank" class="btn btn-primary">View Comparison</a>
+  </div>
+</div>
+</div>
+<div id="development-environment-setup" class="section level2">
+<h2>Development Environment Setup</h2>
+<div class="resource-section">
+  <div class="resource-card">
+    <h3>Linux, Git & R Setup Guide</h3>
+    <p>A comprehensive guide for setting up a development environment with Linux, Git, and R.</p>
+    <a href="https://github.com/grantmcdermott/arch-tips" target="_blank" class="btn btn-primary">View Guide</a>
+  </div>
+
+  <div class="resource-card">
+    <h3>R, data.table & Web Scraping Course</h3>
+    <p>Course materials covering data.table, tidyverse, and web scraping techniques in R.</p>
+    <a href="https://github.com/uo-ec510-2020-spring/lectures" target="_blank" class="btn btn-primary">View Course Materials</a>
+  </div>
+</div>
+</div>
+<div id="my-r-packages-code" class="section level2">
+<h2>My R Packages &amp; Code</h2>
+<div class="resource-section coming-soon">
+  <h3>Coming Soon</h3>
+  <p>I'm working on several R packages and code repositories that will be made available here:</p>
+  <ul>
+    <li>Utilities for working with Danish health registers</li>
+    <li>Functions for common pharmacoepidemiological analyses</li>
+    <li>Templates for reproducible research projects</li>
+  </ul>
+</div>
+<style>
+.resources-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.resource-section {
+  margin-bottom: 3rem;
+}
+
+.resource-card {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.resource-card h3 {
+  color: #3498db;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.coming-soon {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 1.5rem;
+  border-left: 4px solid #3498db;
+}
+</style>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Contact</h4>
+        <p><i class="fa fa-envelope-o"></i> <a href="mailto:michael.asger.andersen@regionh.dk">michael.asger.andersen@regionh.dk</a></p>
+        <p><i class="fa fa-university"></i> Department of Clinical Pharmacology<br>Bispebjerg and Frederiksberg Hospital</p>
+      </div>
+
+      <div class="col-md-4">
+        <h4>Connect</h4>
+        <div class="social-links">
+          <a href="https://github.com/masger" target="_blank"><i class="fa fa-github"></i></a>
+          <!-- Add your other social media links -->
+          <a href="#" target="https://www.linkedin.com/in/michael-asger-andersen-44ba759a/?originalSubdomain=dk"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.pdga.com/player/113200" target="_blank"><i class="fa fa-trophy"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <h4>Quick Links</h4>
+        <ul class="list-unstyled">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="papers.html">Publications</a></li>
+          <li><a href="teaching.html">Resources</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="small">© <script>document.write(new Date().getFullYear())</script> Michael Asger Andersen. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
 </body>
 </html>

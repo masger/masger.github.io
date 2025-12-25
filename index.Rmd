@@ -43,4 +43,4 @@ Working at the intersection of personalized medicine and pharmacology
 
 When not researching, I enjoy spending time with my family, playing soccer and disc golf ([**PDGA 113200**](https://www.pdga.com/player/113200)), and watching movies.
 
-[Download brief resumé (.pdf)](./maa_cv.pdf)
+[Download brief resumé (.pdf)](https://raw.githubusercontent.com/masger/CV/master/cv-academic.pdf)
