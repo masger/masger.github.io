@@ -8,30 +8,24 @@ output:
 ---
 
 
-![](images/cph_foto_michael.jpg){style="width:15%; border:3px solid #3498db; margin-left:20px; float:right;"}
+![](images/cph_foto_michael.jpg){style="width:20%; margin-bottom:20px;"}
 
 ## Clinical Pharmacologist & Researcher
 
 Working at the intersection of personalized medicine and pharmacology
 
-[Research](research.html){.btn .btn-primary} [Publications](papers.html){.btn .btn-primary}
+[Research](research.html) | [Publications](papers.html)
 
 ## Recent projects
 
-<div class="research-card">
-  <h3>VISION-TDM</h3>
-  <p>A study optimizing venetoclax and ibrutinib dosing through therapeutic drug monitoring, combining retrospective analyses with prospective clinical data.</p>
-</div>
+**VISION-TDM**
+A study optimizing venetoclax and ibrutinib dosing through therapeutic drug monitoring, combining retrospective analyses with prospective clinical data.
 
-<div class="research-card">
-  <h3>SAMSON2</h3>
-  <p>A study to examine statin intolerance using a N-of-1 trial design</p>
-</div>
+**SAMSON2**
+A study to examine statin intolerance using a N-of-1 trial design
 
-<div class="research-card">
-  <h3>CYP2C19 Pharmacogenetic Testing</h3>
-  <p>A study evaluating the clinical utility of CYP2C19 genotyping in clopidogrel therapy through both retrospective analysis and prospective patient data.</p>
-</div>
+**CYP2C19 Pharmacogenetic Testing**
+A study evaluating the clinical utility of CYP2C19 genotyping in clopidogrel therapy through both retrospective analysis and prospective patient data.
 
 ## Technical Expertise
 
@@ -39,8 +33,4 @@ Working at the intersection of personalized medicine and pharmacology
 - **Programming:** R ([**data.table**](https://rdatatable.gitlab.io/data.table/), [**heaven**](https://github.com/tagteam/heaven), [**mgcv**](https://github.com/cran/mgcv))
 - **Data sources:** Danish health registers, clinical databases
 
-## Personal
-
-When not researching, I enjoy spending time with my family, playing soccer and disc golf ([**PDGA 113200**](https://www.pdga.com/player/113200)), and watching movies.
-
-[Download brief resumé (.pdf)](https://raw.githubusercontent.com/masger/CV/master/cv-academic.pdf)
+[Download CV](https://raw.githubusercontent.com/masger/CV/master/cv-academic.pdf)

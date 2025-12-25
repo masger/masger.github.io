@@ -1,171 +1,49 @@
 ---
-title: "Publications | Michael Asger Andersen"
+title: "CV | Michael Asger Andersen"
 output:
   html_document:
     includes:
       in_header: cover.html
 ---
 
-<div class="publication-header">
-  <h2>Research Publications</h2>
-  <p>Google Scholar H-Index: 11 | Citations: 390+</p>
-  <p><a href="https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ" target="_blank" class="btn btn-primary"><i class="fa fa-google"></i> View Google Scholar Profile</a></p>
-</div>
+## Curriculum Vitae
 
-## Selected Publications
+[Download CV (.pdf)](https://raw.githubusercontent.com/masger/CV/master/cv-academic.pdf)
 
-<div class="publication-categories">
-  <button class="btn btn-sm btn-primary filter-btn active" data-filter="all">All Publications</button>
-  <button class="btn btn-sm btn-primary filter-btn" data-filter="cll">CLL Research</button>
-  <button class="btn btn-sm btn-primary filter-btn" data-filter="infection">Infections</button>
-  <button class="btn btn-sm btn-primary filter-btn" data-filter="covid">COVID-19</button>
-</div>
+---
 
-<ul class="publication-list">
-  <li class="publication-item" data-category="cll infection">
-    <div class="publication-year">2021</div>
-    <div class="publication-authors">Andersen MA, Niemann CU, Rostgaard K, Dalby T, Sørrig R, Weinberger DM, Hjalgrim H, Harboe ZB.</div>
-    <div class="publication-title">Differences and Temporal Changes in Risk of Invasive Pneumococcal Disease in Adults with Hematological Malignancies: Results from a Nationwide 16-Year Cohort Study.</div>
-    <div class="publication-journal">Clin Infect Dis. 2021 Feb 1;72(3):463-471.</div>
-    <div class="publication-links">
-      <a href="https://doi.org/10.1093/cid/ciaa090" target="_blank">DOI: 10.1093/cid/ciaa090</a> |
-      <a href="https://pubmed.ncbi.nlm.nih.gov/32463435/" target="_blank">PubMed</a>
-    </div>
-  </li>
+## Current Position
 
-  <li class="publication-item" data-category="cll">
-    <div class="publication-year">2020</div>
-    <div class="publication-authors">Andersen MA, Rostgaard K, Niemann CU, Hjalgrim H.</div>
-    <div class="publication-title">Antimicrobial use before chronic lymphocytic leukemia: a retrospective cohort study.</div>
-    <div class="publication-journal">Leukemia. 2021 Mar;35(3):747-751.</div>
-    <div class="publication-links">
-      <a href="https://doi.org/10.1038/s41375-020-0980-0" target="_blank">DOI: 10.1038/s41375-020-0980-0</a> |
-      <a href="https://pubmed.ncbi.nlm.nih.gov/32684631/" target="_blank">PubMed</a>
-    </div>
-  </li>
+**Clinical Pharmacologist in Training**
+Department of Clinical Pharmacology
+Bispebjerg and Frederiksberg Hospital
+2023 - Present
 
-  <li class="publication-item" data-category="cll infection">
-    <div class="publication-year">2019</div>
-    <div class="publication-authors">Andersen MA, Moser CE, Lundgren J, Niemann CU.</div>
-    <div class="publication-title">Epidemiology of bloodstream infections in patients with chronic lymphocytic leukemia: a longitudinal nation-wide cohort study.</div>
-    <div class="publication-journal">Leukemia. 2019 Mar;33(3):662-670.</div>
-    <div class="publication-links">
-      <a href="https://doi.org/10.1038/s41375-018-0316-5" target="_blank">DOI: 10.1038/s41375-018-0316-5</a> |
-      <a href="https://pubmed.ncbi.nlm.nih.gov/30546080/" target="_blank">PubMed</a>
-    </div>
-  </li>
+---
 
-  <li class="publication-item" data-category="cll">
-    <div class="publication-year">2018</div>
-    <div class="publication-authors">Andersen MA, Eriksen CT, Brieghel C, Biccler JL, Cunha-Bang CD, Helleberg M, Niemann CU.</div>
-    <div class="publication-title">Incidence and predictors of infection among patients prior to treatment of chronic lymphocytic leukemia: a Danish nationwide cohort study.</div>
-    <div class="publication-journal">Haematologica. 2018 Jul;103(7):e300-e303.</div>
-    <div class="publication-links">
-      <a href="https://doi.org/10.3324/haematol.2017.182006" target="_blank">DOI: 10.3324/haematol.2017.182006</a> |
-      <a href="https://pubmed.ncbi.nlm.nih.gov/29519862/" target="_blank">PubMed</a>
-    </div>
-  </li>
+## Education
 
-  <li class="publication-item" data-category="covid">
-    <div class="publication-year">2022</div>
-    <div class="publication-authors">Nielsen KF, Moustsen-Helms IR, Schelde AB, Gram MA, Emborg HD, Nielsen J, Hansen CH, Andersen MA, Meaidi M, Wohlfahrt J, Valentiner-Branth P.</div>
-    <div class="publication-title">Vaccine effectiveness against SARS-CoV-2 reinfection during periods of Alpha, Delta, or Omicron dominance: A Danish nationwide study.</div>
-    <div class="publication-journal">PLoS Med. 2022 Nov 22;19(11):e1004037.</div>
-    <div class="publication-links">
-      <a href="https://doi.org/10.1371/journal.pmed.1004037" target="_blank">DOI: 10.1371/journal.pmed.1004037</a> |
-      <a href="https://pubmed.ncbi.nlm.nih.gov/36413551/" target="_blank">PubMed</a>
-    </div>
-  </li>
-</ul>
+**PhD, Medical Science**
+University of Copenhagen
+2016 - 2020
 
-<!-- All other publications below with similar formatting -->
+**MD, Medicine**
+University of Copenhagen
+2009 - 2015
 
-## Publication Metrics
+---
 
-<div class="metrics-container">
-  <div class="metric-box">
-    <div class="metric-number">20+</div>
-    <div class="metric-label">Publications</div>
-  </div>
-  <div class="metric-box">
-    <div class="metric-number">390+</div>
-    <div class="metric-label">Citations</div>
-  </div>
-  <div class="metric-box">
-    <div class="metric-number">11</div>
-    <div class="metric-label">H-Index</div>
-  </div>
-</div>
+## Research Interests
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Publication filtering
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  const publications = document.querySelectorAll('.publication-item');
+- Pharmacogenetics implementation
+- Therapeutic drug monitoring
+- Infection risk in hematological malignancies
+- Register-based epidemiology
 
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', function() {
-      // Remove active class from all buttons
-      filterBtns.forEach(b => b.classList.remove('active'));
+---
 
-      // Add active class to clicked button
-      this.classList.add('active');
+## Contact
 
-      const filter = this.getAttribute('data-filter');
+Email: michael.asger.andersen@regionh.dk
 
-      publications.forEach(pub => {
-        if (filter === 'all' || pub.getAttribute('data-category').includes(filter)) {
-          pub.style.display = 'block';
-        } else {
-          pub.style.display = 'none';
-        }
-      });
-    });
-  });
-});
-</script>
-
-<style>
-.publication-header {
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #eee;
-}
-
-.publication-categories {
-  margin: 2rem 0;
-}
-
-.filter-btn {
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.metrics-container {
-  display: flex;
-  justify-content: space-around;
-  margin: 3rem 0;
-}
-
-.metric-box {
-  text-align: center;
-  padding: 1.5rem;
-  border-radius: 5px;
-  background-color: #f8f9fa;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  width: 30%;
-}
-
-.metric-number {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #3498db;
-}
-
-.metric-label {
-  font-size: 1.2rem;
-  color: #666;
-}
-
-/* Rest of the styling is handled by the global CSS */
-</style>
+[GitHub](https://github.com/masger) | [LinkedIn](https://www.linkedin.com/in/michael-asger-andersen-44ba759a/?originalSubdomain=dk) | [Google Scholar](https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ)
