@@ -1,0 +1,13 @@
+---
+title: "Contact"
+description: "Contact information"
+title-block-banner: false
+---
+
+**Michael Asger Andersen, MD, PhD**
+
+Department of Genomic Medicine\
+Rigshospitalet, Copenhagen University Hospital\
+Copenhagen, Denmark
+
+**E-mail:** [michael.asger.andersen@regionh.dk](mailto:michael.asger.andersen@regionh.dk)

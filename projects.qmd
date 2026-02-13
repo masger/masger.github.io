@@ -1,0 +1,19 @@
+---
+title: "Projects"
+subtitle: "Current research projects"
+page-layout: full
+listing:
+  - id: projects
+    contents: projects.yml
+    sort:
+      - "start desc"
+    type: table
+    fields: [title, description, start]
+    field-display-names:
+      title: Project
+      description: Description
+      start: Since
+---
+
+:::{#projects}
+:::

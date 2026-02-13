@@ -1,0 +1,48 @@
+---
+title: "Teaching"
+description-meta: "Teaching and supervision by Michael Asger Andersen"
+title-block-banner: false
+---
+
+## Courses
+
+### Danish Health Registers for Research
+**University of Copenhagen, Department of Computer Science** | 2021 to 2025
+
+Course on using Danish national health registers for epidemiological research. Covers data sources, study design, and data analysis in R.
+
+---
+
+### Clinical Pharmacology CRASH Course
+**Bispebjerg and Frederiksberg Hospital** | 2021 to 2023
+
+Intensive course for junior doctors covering pharmacokinetics, drug interactions, therapeutic drug monitoring, and adverse drug reactions.
+
+---
+
+### SEMS: Statistics and R Programming
+**University of Copenhagen, Section of Biostatistics** | 2021 to 2023
+
+Statistical methods course for medical students. Topics include survival analysis, regression modelling, and generalized additive models, with exercises in R.
+
+---
+
+## Supervision
+
+| Role | Current | Completed |
+|------|---------|-----------|
+| Primary supervisor, PhD students | 1 | 0 |
+| Co-supervisor, PhD students | 0 | 1 |
+| Primary supervisor, Master's/Bachelor's students | 1 | 4 |
+
+## Awards
+
+| Year | Award |
+|------|-------|
+| 2024 | Kampmann Second Best Oral Presentation |
+| 2023 | Lassen-dagen Second Best Oral, Bispebjerg and Frederiksberg Hospital |
+| 2022 | Best Poster Award, Lassen-dagen, Bispebjerg and Frederiksberg Hospital |
+| 2019 | Best Abstract Award, IWCLL Conference, Edinburgh |
+| 2019 | Audience Award, FYF Annual Poster Competition, Rigshospitalet |
+| 2018 | Best Scientific Visualization, ARTIS, University of Copenhagen |
+| 2017 | Best Abstract Award, IWCLL Conference, New York |

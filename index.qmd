@@ -1,0 +1,64 @@
+---
+title: "Michael Asger Andersen, MD, PhD"
+description-meta: "Michael Asger Andersen, Clinical Pharmacologist and Researcher"
+image: "files/images/cph_foto_michael.jpg"
+page-navigation: false
+toc: false
+page-layout: full
+
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 70%
+  links:
+    - icon: envelope
+      text: E-mail
+      href: mailto:michael.asger.andersen@regionh.dk
+    - text: "{{< ai orcid >}} ORCID"
+      href: https://orcid.org/0000-0001-9729-9974
+      target: _blank
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ
+      target: _blank
+    - icon: github
+      text: GitHub
+      href: https://github.com/masger
+      target: _blank
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/michael-asger-andersen-44ba759a/
+      target: _blank
+---
+
+:::{#hero-heading}
+
+I am a clinical pharmacologist studying how pharmacogenetic test results change prescribing and patient outcomes. I combine Danish national registry data with prospective clinical trials to measure whether genotype-guided dosing reduces adverse drug reactions and treatment failures.
+
+My current work focuses on CYP2C19-guided antiplatelet therapy, SLCO1B1 genotyping for statin intolerance, and therapeutic drug monitoring of targeted cancer therapies.
+
+## Experience
+
+**Fellow in Clinical Pharmacology** | 2023 to 2028
+
+- Department of Genomic Medicine, Rigshospitalet (current)
+- Department of Endocrinology, Herlev Hospital
+- Cardiovascular Medical and Science, Novo Nordisk
+
+**Postdoctoral Researcher** | Department of Clinical Pharmacology, Bispebjerg Hospital
+
+## Education
+
+**PhD in Medical Science** | University of Copenhagen | 2016 to 2020
+
+- Thesis: *Real-world evidence on the risk, type and treatment of infectious complications in chronic lymphocytic leukaemia*
+
+**Medical Doctor (MD)** | University of Copenhagen | 2008 to 2015
+
+## Positions
+
+- Chair, Danish Society for Personalized Medicine (2025 to present)
+- Editor, Frontiers in Epidemiology (2023 to present)
+- Member, Clinical Pharmacogenetics Implementation Consortium (CPIC) (2022 to present)
+- Member, Pharmacogenomics Global Research Network (2022 to present)
+
+:::

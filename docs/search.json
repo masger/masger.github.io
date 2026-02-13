@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "University of Copenhagen, Department of Computer Science | 2021 to 2025\nCourse on using Danish national health registers for epidemiological research. Covers data sources, study design, and data analysis in R.\n\n\n\n\nBispebjerg and Frederiksberg Hospital | 2021 to 2023\nIntensive course for junior doctors covering pharmacokinetics, drug interactions, therapeutic drug monitoring, and adverse drug reactions.\n\n\n\n\nUniversity of Copenhagen, Section of Biostatistics | 2021 to 2023\nStatistical methods course for medical students. Topics include survival analysis, regression modelling, and generalized additive models, with exercises in R."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "University of Copenhagen, Department of Computer Science | 2021 to 2025\nCourse on using Danish national health registers for epidemiological research. Covers data sources, study design, and data analysis in R.\n\n\n\n\nBispebjerg and Frederiksberg Hospital | 2021 to 2023\nIntensive course for junior doctors covering pharmacokinetics, drug interactions, therapeutic drug monitoring, and adverse drug reactions.\n\n\n\n\nUniversity of Copenhagen, Section of Biostatistics | 2021 to 2023\nStatistical methods course for medical students. Topics include survival analysis, regression modelling, and generalized additive models, with exercises in R."
+  },
+  {
+    "objectID": "teaching.html#supervision",
+    "href": "teaching.html#supervision",
+    "title": "Teaching",
+    "section": "Supervision",
+    "text": "Supervision\n\n\n\nRole\nCurrent\nCompleted\n\n\n\n\nPrimary supervisor, PhD students\n1\n0\n\n\nCo-supervisor, PhD students\n0\n1\n\n\nPrimary supervisor, Master’s/Bachelor’s students\n1\n4"
+  },
+  {
+    "objectID": "teaching.html#awards",
+    "href": "teaching.html#awards",
+    "title": "Teaching",
+    "section": "Awards",
+    "text": "Awards\n\n\n\n\n\n\n\nYear\nAward\n\n\n\n\n2024\nKampmann Second Best Oral Presentation\n\n\n2023\nLassen-dagen Second Best Oral, Bispebjerg and Frederiksberg Hospital\n\n\n2022\nBest Poster Award, Lassen-dagen, Bispebjerg and Frederiksberg Hospital\n\n\n2019\nBest Abstract Award, IWCLL Conference, Edinburgh\n\n\n2019\nAudience Award, FYF Annual Poster Competition, Rigshospitalet\n\n\n2018\nBest Scientific Visualization, ARTIS, University of Copenhagen\n\n\n2017\nBest Abstract Award, IWCLL Conference, New York"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Project\n      \n      \n        Description\n      \n      \n        Since\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nProject\n\n\n\nDescription\n\n\n\nSince\n\n\n\n\n\n\n\n\nPharmacogenomics in the Capital Region\n\n\nImplementing pre-emptive pharmacogenetic testing at Rigshospitalet for DPYD, TPMT/NUDT15, CYP2C19, and CYP2D6 to guide prescribing before treatment initiation.\n\n\n2025\n\n\n\n\n\n\nVISION-TDM\n\n\nMeasuring whether therapeutic drug monitoring of ibrutinib and venetoclax reduces toxicity and improves efficacy in patients with chronic lymphocytic leukaemia. Funded by the Danish Cancer Society.\n\n\n2024\n\n\n\n\n\n\nSAMSON-2\n\n\nMulticenter N-of-1 trial testing whether SLCO1B1 genotype predicts statin-associated muscle symptoms. Funded by the Capital Region of Denmark.\n\n\n2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Michael Asger Andersen, MD, PhD\nDepartment of Genomic Medicine\nRigshospitalet, Copenhagen University Hospital\nCopenhagen, Denmark\nE-mail: michael.asger.andersen at regionh dot dk"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Michael Asger Andersen, MD, PhD",
+    "section": "",
+    "text": "E-mail\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n\n  \n  \nI am a clinical pharmacologist studying how pharmacogenetic test results change prescribing and patient outcomes. I combine Danish national registry data with prospective clinical trials to measure whether genotype-guided dosing reduces adverse drug reactions and treatment failures.\nMy current work focuses on CYP2C19-guided antiplatelet therapy, SLCO1B1 genotyping for statin intolerance, and therapeutic drug monitoring of targeted cancer therapies.\n\n\nFellow in Clinical Pharmacology | 2023 to 2028\n\nDepartment of Genomic Medicine, Rigshospitalet (current)\nDepartment of Endocrinology, Herlev Hospital\nCardiovascular Medical and Science, Novo Nordisk\n\nPostdoctoral Researcher | Department of Clinical Pharmacology, Bispebjerg Hospital\n\n\n\nPhD in Medical Science | University of Copenhagen | 2016 to 2020\n\nThesis: Real-world evidence on the risk, type and treatment of infectious complications in chronic lymphocytic leukaemia\n\nMedical Doctor (MD) | University of Copenhagen | 2008 to 2015\n\n\n\n\nChair, Danish Society for Personalized Medicine (2025 to present)\nEditor, Frontiers in Epidemiology (2023 to present)\nMember, Clinical Pharmacogenetics Implementation Consortium (CPIC) (2022 to present)\nMember, Pharmacogenomics Global Research Network (2022 to present)"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Michael Asger Andersen, MD, PhD",
+    "section": "",
+    "text": "Fellow in Clinical Pharmacology | 2023 to 2028\n\nDepartment of Genomic Medicine, Rigshospitalet (current)\nDepartment of Endocrinology, Herlev Hospital\nCardiovascular Medical and Science, Novo Nordisk\n\nPostdoctoral Researcher | Department of Clinical Pharmacology, Bispebjerg Hospital"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Michael Asger Andersen, MD, PhD",
+    "section": "",
+    "text": "PhD in Medical Science | University of Copenhagen | 2016 to 2020\n\nThesis: Real-world evidence on the risk, type and treatment of infectious complications in chronic lymphocytic leukaemia\n\nMedical Doctor (MD) | University of Copenhagen | 2008 to 2015"
+  },
+  {
+    "objectID": "index.html#positions",
+    "href": "index.html#positions",
+    "title": "Michael Asger Andersen, MD, PhD",
+    "section": "",
+    "text": "Chair, Danish Society for Personalized Medicine (2025 to present)\nEditor, Frontiers in Epidemiology (2023 to present)\nMember, Clinical Pharmacogenetics Implementation Consortium (CPIC) (2022 to present)\nMember, Pharmacogenomics Global Research Network (2022 to present)"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "41 peer-reviewed publications | H-index: 17 | 887 citations (Google Scholar, December 2025)\nGoogle Scholar |  PubMed |  ORCID"
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "2026",
+    "text": "2026\nKjartansdóttir SP, Folkersen C, Rasmussen IH, Sunde PB, Saito A, et al.\nPharmacogenetic Predictors of Postoperative Opioid-Related Adverse Events: A Systematic Review.\nBasic & clinical pharmacology & toxicology\nPubMed"
+  },
+  {
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "2025",
+    "text": "2025\nBreining P, Bork CS, Bartels LE, Andersen MA\n[Statin-induced muscle symptoms].\nUgeskrift for laeger\nPubMed\nWindfeld-Mathiasen J, Heerfordt IM, Dalhoff KP, Andersen JT, Andersen MA, et al.\nResponse by Windfeld-Mathiasen et al to Letter Regarding Article, “Cardiovascular Disease in Anabolic Androgenic Steroid Users”.\nCirculation\nPubMed\nEadon MT, Hein DW, Andersen MA, Chapman AB, Cooper-DeHoff RM, et al.\nClinical Pharmacogenetics Implementation Consortium Guideline for NAT2 Genotype and Hydralazine Therapy.\nClinical pharmacology and therapeutics\nPubMed\nBrieghel C, Lacoppidan T, Packness E, Frederiksen CM, Werling M, et al.\nPolypharmacy independently predicts survival, hospitalization, and infections in patients with lymphoid cancer.\nHemaSphere\nPubMed\nWindfeld-Mathiasen J, Heerfordt IM, Dalhoff KP, Andersen JT, Andersen MA, et al.\nCardiovascular Disease in Anabolic Androgenic Steroid Users.\nCirculation\nPubMed\nKorsholm C, Bülow C, Christensen M, Dalhoff K, Feinberg JB, et al.\nDrug exposure and measurable residual disease in chronic lymphocytic leukemia: a systematic review.\nLeukemia & lymphoma\nPubMed"
+  },
+  {
+    "objectID": "publications.html#section-2",
+    "href": "publications.html#section-2",
+    "title": "Publications",
+    "section": "2024",
+    "text": "2024\nAndersen MA, Jensen TL, Petersen TS\nData Resource Profile: The Danish National Hospital Medicine Register.\nPharmacoepidemiology and drug safety\nPubMed\nAndersen MA, Helms Andreasen A, Evi Bang L, Jimenez-Solem E, Petersen TS\nA register-based cohort study on the effectiveness and Safety of anti-PCSK9 treatment in persons with hyperlipidemia.\nCommunications medicine\nPubMed\nPackness E, Davidsson OB, Rostgaard K, Andersen MA, Rotbain EC, et al.\nInfections and their prognostic significance before diagnosis of chronic lymphocytic leukemia, non-Hodgkin lymphoma, or multiple myeloma.\nBritish journal of cancer\nPubMed\nMarina D, Buch-Larsen K, Gillberg L, Andersen MA, Andersson M, et al.\nChemotherapy for post-menopausal women with early breast cancer seems not to result in clinically significant changes in thyroid function.\nCancer medicine\nPubMed\nKarlsen APH, Sunde PB, Olsen MH, Laigaard J, Folkersen C, et al.\nOpioids and personalized analgesia in the perioperative setting: A protocol for five systematic reviews.\nActa anaesthesiologica Scandinavica\nPubMed\nErichsen PA, Dalhoff K, Andersen MA\nShould high-dose N-acetylcysteine be given in cases of massive paracetamol overdoses: A narrative review.\nBasic & clinical pharmacology & toxicology\nPubMed\nAndersen MA, Gregersen R, Petersen TS, Wang JN, Petersen J, et al.\nAssociation Between First-time Neurologic Events and Metronidazole Treatment: A Case-time Control Study.\nClinical therapeutics\nPubMed"
+  },
+  {
+    "objectID": "publications.html#section-3",
+    "href": "publications.html#section-3",
+    "title": "Publications",
+    "section": "2023",
+    "text": "2023\nAndersen MA, Schouenborg J\nPolydimethylsiloxane as a more biocompatible alternative to glass in optogenetics.\nScientific reports\nPubMed\nDamkier P, Andersen MA\nTemporary Like Achilles: Pre-emptive germline pharmacogenetic testing.\nBasic & clinical pharmacology & toxicology\nPubMed\nRotbain EC, Allmer C, Rostgaard K, Andersen MA, Vainer N, et al.\nImpact of type 2 diabetes on mortality, cause of death, and treatment in chronic lymphocytic leukemia.\nAmerican journal of hematology\nPubMed\nVainer N, Aarup K, Andersen MA, Wind-Hansen L, Nielsen T, et al.\nReal-world outcomes upon second-line treatment in patients with chronic lymphocytic leukaemia.\nBritish journal of haematology\nPubMed\nDel Giudice I, Cappelli LV, Delgado J, Niemann CU, Andersen MA, et al.\nSpontaneous regression in chronic lymphocytic leukaemia. Clinical features of 50 cases from the ERIC registry and review of the literature.\nBritish journal of haematology\nPubMed\nSvanberg R, MacPherson C, Zucco A, Agius R, Faitova T, et al.\nErratum: Author Correction: Early stimulated immune responses predict clinical disease severity in hospitalized COVID-19 patients.\nCommunications medicine\nPubMed\nRoen A, Terrones C, Bannister W, Helleberg M, Andersen MA, et al.\nIncreased incidence rates of positive blood cultures shortly after chemotherapy compared to radiotherapy among individuals treated for solid malignant tumours.\nInfection\nPubMed"
+  },
+  {
+    "objectID": "publications.html#section-4",
+    "href": "publications.html#section-4",
+    "title": "Publications",
+    "section": "2022",
+    "text": "2022\nNielsen KF, Moustsen-Helms IR, Schelde AB, Gram MA, Emborg HD, et al.\nVaccine effectiveness against SARS-CoV-2 reinfection during periods of Alpha, Delta, or Omicron dominance: A Danish nationwide study.\nPLoS medicine\nPubMed\nSvanberg R, MacPherson C, Zucco A, Agius R, Faitova T, et al.\nEarly stimulated immune responses predict clinical disease severity in hospitalized COVID-19 patients.\nCommunications medicine\nPubMed\nPallesen J, Bhavsar R, Fjølner J, Bakke SA, Krog J, et al.\nThe effects of preoperative focused cardiac ultrasound in high-risk patients: A randomised controlled trial (PREOPFOCUS).\nActa anaesthesiologica Scandinavica\nPubMed\nStaerk-Østergaard J, Kirkeby C, Christiansen LE, Andersen MA, Møller CH, et al.\nEvaluation of diagnostic test procedures for SARS-CoV-2 using latent class models.\nJournal of medical virology\nPubMed\nAndersen MA, Grand MK, Brieghel C, Siersma V, Andersen CL, et al.\nPre-diagnostic trajectories of lymphocytosis predict time to treatment and death in patients with chronic lymphocytic leukemia.\nCommunications medicine\nPubMed\nWandall-Holm MF, Andersen MA, Buron MD, Magyari M\nAging With Multiple Sclerosis: Age-Related Factors and Socioeconomic Risks.\nFrontiers in neurology\nPubMed\nBrieghel C, Galle V, Agius R, da Cunha-Bang C, Andersen MA, et al.\nIdentifying patients with chronic lymphocytic leukemia without need of treatment: End of endless watch and wait?\nEuropean journal of haematology\nPubMed\nVojdeman FJ, Helby J, Pedersen LB, Brieghel C, Andersen MA, et al.\nChronic lymphocytic leukaemia clones are detectable decades before diagnosis.\nBritish journal of haematology\nPubMed"
+  },
+  {
+    "objectID": "publications.html#section-5",
+    "href": "publications.html#section-5",
+    "title": "Publications",
+    "section": "2021",
+    "text": "2021\nRotbain EC, Rostgaard K, Andersen MA, Da Cunha-Bang C, Niemann CU, et al.\nHealthcare Utilization and Comorbidity in Chronic Lymphocytic Leukemia.\nClinical epidemiology\nPubMed\nBrieghel C, Aarup K, Torp MH, Andersen MA, Yde CW, et al.\nClinical Outcomes in Patients with Multi-Hit TP53 Chronic Lymphocytic Leukemia Treated with Ibrutinib.\nClinical cancer research : an official journal of the American Association for Cancer Research\nPubMed\nAndersen MA, Buron MD, Magyari M\nLate-onset MS is associated with an increased rate of reaching disability milestones.\nJournal of neurology\nPubMed\nDavidsson OB, Olofsson IA, Kogelman LJ, Andersen MA, Rostgaard K, et al.\nTwenty-five years of triptans - a nationwide population study.\nCephalalgia : an international journal of headache\nPubMed\nda Cunha-Bang C, Rostgaard K, Andersen MA, Rotbain EC, Grønbaek K, et al.\nRisk of new malignancies among patients with CLL treated with chemotherapy: results of a Danish population-based study.\nBritish journal of haematology\nPubMed\nEgholm GJ, Andersen MA, Andersen CL, Frederiksen H, Bjerrum OW, et al.\nAbnormal eosinophil count at CLL diagnosis correlates with shorter treatment free survival.\nBritish journal of haematology\nPubMed\nAndersen MA, Rostgaard K, Niemann CU, Hjalgrim H\nAntimicrobial use before chronic lymphocytic leukemia: a retrospective cohort study.\nLeukemia\nPubMed\nAndersen MA, Niemann CU, Rostgaard K, Dalby T, Sørrig R, et al.\nDifferences and Temporal Changes in Risk of Invasive Pneumococcal Disease in Adults with Hematological Malignancies: Results from a Nationwide 16-Year Cohort Study.\nClinical infectious diseases : an official publication of the Infectious Diseases Society of America\nPubMed"
+  },
+  {
+    "objectID": "publications.html#section-6",
+    "href": "publications.html#section-6",
+    "title": "Publications",
+    "section": "2020",
+    "text": "2020\nAndersen MA, Valentin R, Dissing Sjö L, Borgwardt L, Schmiegelow K, et al.\nCombining epigenetic therapy with venetoclax overcomes alemtuzumab resistance in T-cell prolymphocytic leukemia. A case report of a 26-year-old man with a prior history of T-cell acute lymphoblastic leukemia and GI-T lymphoma.\nActa oncologica (Stockholm, Sweden)\nPubMed\nAarup K, Rotbain EC, Enggaard L, Pedersen RS, Bergmann OJ, et al.\nReal-world outcomes for 205 patients with chronic lymphocytic leukemia treated with ibrutinib.\nEuropean journal of haematology\nPubMed\nAndersen MA, Moser CE, Lundgren J, Niemann CU\nCorrection: Epidemiology of bloodstream infections in patients with chronic lymphocytic leukemia: a longitudinal nation-wide cohort study.\nLeukemia\nPubMed\nBen-Dali Y, Hleuhel MH, da Cunha-Bang C, Brieghel C, Poulsen CB, et al.\nRichter’s transformation in patients with chronic lymphocytic leukaemia: a Nationwide Epidemiological Study.\nLeukemia & lymphoma\nPubMed\nAgius R, Brieghel C, Andersen MA, Pearson AT, Ledergerber B, et al.\nMachine learning can identify newly diagnosed patients with CLL at high risk of infection.\nNature communications\nPubMed\nBrieghel C, da Cunha-Bang C, Yde CW, Schmidt AY, Kinalis S, et al.\nThe Number of Signaling Pathways Altered by Driver Mutations in Chronic Lymphocytic Leukemia Impacts Disease Outcome.\nClinical cancer research : an official journal of the American Association for Cancer Research\nPubMed\nPallesen J, Bhavsar R, Fjølner J, Krog J, Malachauskiené L, et al.\nThe effects of preoperative point-of-care focused cardiac ultrasound in high-risk patients: study protocol for a prospective randomised controlled trial.\nDanish medical journal\nPubMed"
+  },
+  {
+    "objectID": "publications.html#section-7",
+    "href": "publications.html#section-7",
+    "title": "Publications",
+    "section": "2019",
+    "text": "2019\nAndersen MA, Sotty F, Jensen PH, Badolo L, Jeggo R, et al.\nLong-Term Exposure to PFE-360 in the AAV-α-Synuclein Rat Model: Findings and Implications.\neNeuro\nPubMed\nHleuhel MH, Ben-Dali Y, Da Cunha-Bang C, Brieghel C, Clasen-Linde E, et al.\nRisk factors associated with Richter’s transformation in patients with chronic lymphocytic leukaemia: protocol for a retrospective population-based cohort study.\nBMJ open\nPubMed\nAndersen MA, Moser CE, Lundgren J, Niemann CU\nEpidemiology of bloodstream infections in patients with chronic lymphocytic leukemia: a longitudinal nation-wide cohort study.\nLeukemia\nPubMed\nBrieghel C, Kinalis S, Yde CW, Schmidt AY, Jønson L, et al.\nDeep targeted sequencing of TP53 in chronic lymphocytic leukemia: clinical impact at diagnosis and at time of treatment.\nHaematologica\nPubMed"
+  },
+  {
+    "objectID": "publications.html#section-8",
+    "href": "publications.html#section-8",
+    "title": "Publications",
+    "section": "2018",
+    "text": "2018\nJohansen MM, Andersen MA, Grønbaek K, Hansen JW\nLong-term clinical outcomes of patients with hematologically unexplained cytopenia after routine assessment: A single center study.\nEuropean journal of haematology\nPubMed\nAndersen MA, Niemann CU\nImmune failure, infection and survival in chronic lymphocytic leukemia in Denmark.\nHaematologica\nPubMed\nAndersen MA, Bjerrum OW, Ranjan A, Skov V, Kruse TA, et al.\nMyeloproliferative Neoplasms in Danish Twins.\nActa haematologica\nPubMed\nAndersen MA, Christensen KV, Badolo L, Smith GP, Jeggo R, et al.\nParkinson’s disease-like burst firing activity in subthalamic nucleus induced by AAV-α-synuclein is normalized by LRRK2 modulation.\nNeurobiology of disease\nPubMed\nAndersen MA, Eriksen CT, Brieghel C, Biccler JL, Cunha-Bang CD, et al.\nand predictors of infection among patients prior to treatment of chronic lymphocytic leukemia: a Danish nationwide cohort study.\nHaematologica\nPubMed\nAndersen MA, Wegener KM, Larsen S, Badolo L, Smith GP, et al.\nPFE-360-induced LRRK2 inhibition induces reversible, non-adverse renal changes in rats.\nToxicology\nPubMed"
+  },
+  {
+    "objectID": "publications.html#section-9",
+    "href": "publications.html#section-9",
+    "title": "Publications",
+    "section": "2017",
+    "text": "2017\nAndersen MA, Nielsen RT\n[Spontaneous renal rupture of fornix due to obstructing urethral stone].\nUgeskrift for laeger\nPubMed"
+  },
+  {
+    "objectID": "publications.html#section-10",
+    "href": "publications.html#section-10",
+    "title": "Publications",
+    "section": "2016",
+    "text": "2016\nMiller MM, Alyea RA, LeSommer C, Doheny DL, Rowley SM, et al.\nEditor’s Highlight: Development of an In vitro Assay Measuring Uterine-Specific Estrogenic Responses for Use in Chemical Safety Assessment.\nToxicological sciences : an official journal of the Society of Toxicology\nPubMed\nAndersen MA, Vojdeman FJ, Andersen MK, Brown Pde N, Geisler CH, et al.\nHypogammaglobulinemia in newly diagnosed chronic lymphocytic leukemia is a predictor of early death.\nLeukemia & lymphoma\nPubMed"
+  },
+  {
+    "objectID": "publications.html#section-11",
+    "href": "publications.html#section-11",
+    "title": "Publications",
+    "section": "2015",
+    "text": "2015\nMadsen CT, Sylvestersen KB, Young C, Larsen SC, Poulsen JW, et al.\nBiotin starvation causes mitochondrial protein hyperacetylation and partial rescue by the SIRT3-like deacetylase Hst4p.\nNature communications\nPubMed\nBrandauer J, Andersen MA, Kellezi H, Risis S, Frøsig C, et al.\nAMP-activated protein kinase controls exercise training- and AICAR-induced increases in SIRT3 and MnSOD.\nFrontiers in physiology\nPubMed"
+  }
+]

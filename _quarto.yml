@@ -1,0 +1,72 @@
+project:
+  type: website
+  output-dir: docs
+
+description-meta: "Michael Asger Andersen - Clinical Pharmacologist & Researcher"
+author-meta: "Michael Asger Andersen"
+
+website:
+  title: "Michael Asger Andersen"
+  image: "files/images/cph_foto_michael.jpg"
+  description: "Clinical Pharmacologist & Researcher"
+
+  navbar:
+    background: light
+
+    left:
+      - text: About
+        menu:
+          - text: Contact
+            href: contact.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Projects
+        href: projects.qmd
+
+    right:
+      - icon: github
+        href: https://github.com/masger
+        target: _blank
+      - text: "{{< ai orcid >}}"
+        href: https://orcid.org/0000-0001-9729-9974
+        target: _blank
+
+  page-navigation: true
+
+  page-footer:
+    left: "[Michael Asger Andersen](https://masger.github.io) &copy; <script>document.write(new Date().getFullYear())</script>"
+    right:
+      - icon: github
+        href: https://github.com/masger
+        target: _blank
+
+  search:
+    location: navbar
+    type: textbox
+
+  reader-mode: true
+
+  open-graph: true
+  twitter-card: true
+
+  site-url: "https://masger.github.io"
+
+  google-analytics:
+    tracking-id: ""
+    anonymize-ip: true
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    footnotes-hover: true
+    fig-align: center
+    link-external-icon: false
+    link-external-newwindow: true
+    email-obfuscation: javascript
+    include-in-header: "files/includes/_academic.qmd"

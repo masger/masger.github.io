@@ -1,0 +1,67 @@
+---
+title: "Publications"
+description-meta: "Publications by Michael Asger Andersen"
+title-block-banner: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+if (!requireNamespace("rentrez", quietly = TRUE)) install.packages("rentrez")
+library(rentrez)
+```
+
+41 peer-reviewed publications | H-index: 17 | 887 citations (Google Scholar, December 2025)
+
+[{{< ai google-scholar >}} Google Scholar](https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ){target="_blank"} | [{{< ai pubmed >}} PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=andersen+ma&sort=date){target="_blank"} | [{{< ai orcid >}} ORCID](https://orcid.org/0000-0001-9729-9974){target="_blank"}
+
+---
+
+```{r publication_list, results='asis'}
+format_authors <- function(authors) {
+  if (length(authors) > 5) {
+    paste0(paste(authors[1:5], collapse = ", "), ", et al.")
+  } else {
+    paste(authors, collapse = ", ")
+  }
+}
+
+search_term <- '(andersen ma[Author]) NOT (andersen mak[Author]) AND ("2015"[Date - Publication] : "3000"[Date - Publication])'
+search_results <- rentrez::entrez_search(db = "pubmed", term = search_term, retmax = 100)
+
+if (length(search_results$ids) > 0) {
+  pub_summaries <- rentrez::entrez_summary(db = "pubmed", id = search_results$ids)
+
+  publications <- lapply(pub_summaries, function(pub) {
+    pub_year <- substr(if (!is.null(pub$pubdate)) pub$pubdate else "No date", 1, 4)
+    authors <- if (!is.null(pub$authors)) {
+      format_authors(pub$authors$name)
+    } else {
+      "No authors listed"
+    }
+    data.frame(
+      Year = pub_year,
+      Title = if (!is.null(pub$title)) pub$title else "No title",
+      Authors = authors,
+      Journal = if (!is.null(pub$fulljournalname)) pub$fulljournalname else if (!is.null(pub$source)) pub$source else "",
+      PMID = if (!is.null(pub$uid)) pub$uid else "",
+      stringsAsFactors = FALSE
+    )
+  })
+
+  publications_df <- do.call(rbind, publications)
+  publications_df <- publications_df[order(publications_df$Year, decreasing = TRUE), ]
+
+  current_year <- ""
+  for (i in seq_len(nrow(publications_df))) {
+    pub <- publications_df[i, ]
+    if (pub$Year != current_year) {
+      current_year <- pub$Year
+      cat(paste0("\n## ", current_year, "\n\n"))
+    }
+    cat(paste0(pub$Authors, "  \n"))
+    cat(paste0("*", pub$Title, "*  \n"))
+    cat(paste0(pub$Journal, "  \n"))
+    cat(paste0("[PubMed](https://pubmed.ncbi.nlm.nih.gov/", pub$PMID, "/){target=\"_blank\"}  \n\n"))
+  }
+}
+```
