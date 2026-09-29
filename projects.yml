@@ -1,14 +1,23 @@
-- title: "VISION-TDM"
+- title: "SAMSON-2 Trial"
   path: "#"
-  description: "Measuring whether therapeutic drug monitoring of ibrutinib and venetoclax reduces toxicity and improves efficacy in patients with chronic lymphocytic leukaemia. Funded by the Danish Cancer Society."
+  description: "Investigator-initiated, nationwide, 11-center randomized controlled trial comparing a digital double-blind N-of-1 trial platform against guideline-directed standard care titration to systematically differentiate statin-associated muscle symptoms from expectation bias. Funded by the Capital Region of Denmark, Bispebjerg Hospital, and Hørslev-Fonden."
+  role: "Sponsor & Principal Investigator"
   start: 2024
 
-- title: "SAMSON-2"
+- title: "TDM-VISION"
   path: "#"
-  description: "Multicenter N-of-1 trial testing whether SLCO1B1 genotype predicts statin-associated muscle symptoms. Funded by the Capital Region of Denmark."
+  description: "Prospective clinical research project evaluating therapeutic drug monitoring algorithms and pharmacokinetic-pharmacodynamic exposure metrics for targeted oral therapies (ibrutinib and venetoclax) in chronic lymphocytic leukemia. Funded by the Danish Cancer Society (DKK 2.3M)."
+  role: "Principal Investigator"
   start: 2024
 
-- title: "Pharmacogenomics in the Capital Region"
+- title: "Cardiovascular Pharmacogenetics & Biobank Linkage"
   path: "#"
-  description: "Implementing pre-emptive pharmacogenetic testing at Rigshospitalet for DPYD, TPMT/NUDT15, CYP2C19, and CYP2D6 to guide prescribing before treatment initiation."
+  description: "Deterministic individual-level linkage across Danish nationwide health registries and the Copenhagen Hospital Biobank (CHB) evaluating clinical outcomes associated with CYP2C19 loss-of-function variants in antiplatelet therapy, SLCO1B1-mediated statin uptake, and bedside clinical decision support."
+  role: "Principal Investigator"
   start: 2025
+
+- title: "SPOCK Trial & European PGx Consortia"
+  path: "#"
+  description: "Multinational European clopidogrel pharmacogenomics consortium (1,200 patients) investigating CYP2C19 genotype-guided therapy, alongside active working group participation in COST Action CardioPharmGeneNet and CPIC guideline development."
+  role: "Co-investigator & Work Package Collaborator"
+  start: 2022

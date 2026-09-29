@@ -1,67 +1,112 @@
 ---
 title: "Publications"
-description-meta: "Publications by Michael Asger Andersen"
+description-meta: "Peer-reviewed publications by Michael Asger Andersen, MD, PhD"
 title-block-banner: false
+page-layout: full
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
-if (!requireNamespace("rentrez", quietly = TRUE)) install.packages("rentrez")
-library(rentrez)
-```
+::: {.metric-banner}
+::: {.metric-item}
+<span class="metric-val">37</span>
+<span class="metric-label">Peer-Reviewed Articles</span>
+:::
+::: {.metric-item}
+<span class="metric-val">18</span>
+<span class="metric-label">First / Last Author</span>
+:::
+::: {.metric-item}
+<span class="metric-val">18</span>
+<span class="metric-label">H-Index (Google Scholar)</span>
+:::
+::: {.metric-item}
+<span class="metric-val">1,037</span>
+<span class="metric-label">Citations</span>
+:::
+:::
 
-41 peer-reviewed publications | H-index: 17 | 887 citations (Google Scholar, December 2025)
-
-[{{< ai google-scholar >}} Google Scholar](https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ){target="_blank"} | [{{< ai pubmed >}} PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=andersen+ma&sort=date){target="_blank"} | [{{< ai orcid >}} ORCID](https://orcid.org/0000-0001-9729-9974){target="_blank"}
+[{{< ai google-scholar >}} Google Scholar](https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ){.btn .btn-outline-primary .btn-sm target="_blank"} [{{< ai pubmed >}} PubMed Search](https://pubmed.ncbi.nlm.nih.gov/?term=Andersen+MA%5BAuthor%5D&sort=date){.btn .btn-outline-secondary .btn-sm target="_blank"} [{{< ai orcid >}} ORCID: 0000-0001-9729-9974](https://orcid.org/0000-0001-9729-9974){.btn .btn-outline-info .btn-sm target="_blank"}
 
 ---
 
-```{r publication_list, results='asis'}
-format_authors <- function(authors) {
-  if (length(authors) > 5) {
-    paste0(paste(authors[1:5], collapse = ", "), ", et al.")
-  } else {
-    paste(authors, collapse = ", ")
-  }
-}
 
-search_term <- '(andersen ma[Author]) NOT (andersen mak[Author]) AND ("2015"[Date - Publication] : "3000"[Date - Publication])'
-search_results <- rentrez::entrez_search(db = "pubmed", term = search_term, retmax = 100)
+## I. ORIGINAL SCIENTIFIC PUBLICATIONS (PEER REVIEWED)
 
-if (length(search_results$ids) > 0) {
-  pub_summaries <- rentrez::entrez_summary(db = "pubmed", id = search_results$ids)
+1. **Andersen MA**, Vojdeman FJ, Andersen MK, Brown Pde N, Geisler CH, Weis Bjerrum O, Niemann CU. Hypogammaglobulinemia in newly diagnosed chronic lymphocytic leukemia is a predictor of early death. *Leuk Lymphoma* 2016;57(7):1592-1599. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/26850493/){target="_blank" .pub-badge}]
 
-  publications <- lapply(pub_summaries, function(pub) {
-    pub_year <- substr(if (!is.null(pub$pubdate)) pub$pubdate else "No date", 1, 4)
-    authors <- if (!is.null(pub$authors)) {
-      format_authors(pub$authors$name)
-    } else {
-      "No authors listed"
-    }
-    data.frame(
-      Year = pub_year,
-      Title = if (!is.null(pub$title)) pub$title else "No title",
-      Authors = authors,
-      Journal = if (!is.null(pub$fulljournalname)) pub$fulljournalname else if (!is.null(pub$source)) pub$source else "",
-      PMID = if (!is.null(pub$uid)) pub$uid else "",
-      stringsAsFactors = FALSE
-    )
-  })
+2. **Andersen MA**, Eriksen CT, Brieghel C, Biccler JL, Cunha-Bang CD, Helleberg M, Niemann CU. Predictors of infection among patients prior to treatment of chronic lymphocytic leukemia: a Danish nationwide cohort study. *Haematologica* 2018;103(7):e300-e303. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/29519862/){target="_blank" .pub-badge}]
 
-  publications_df <- do.call(rbind, publications)
-  publications_df <- publications_df[order(publications_df$Year, decreasing = TRUE), ]
+3. **Andersen MA**, Bjerrum OW, Ranjan A, Skov V, Kruse TA, Thomassen M, Skytthe A, Hasselbalch HC, Christensen K. Myeloproliferative Neoplasms in Danish Twins. *Acta Haematol* 2018;139(3):195-198. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/29719285/){target="_blank" .pub-badge}]
 
-  current_year <- ""
-  for (i in seq_len(nrow(publications_df))) {
-    pub <- publications_df[i, ]
-    if (pub$Year != current_year) {
-      current_year <- pub$Year
-      cat(paste0("\n## ", current_year, "\n\n"))
-    }
-    cat(paste0(pub$Authors, "  \n"))
-    cat(paste0("*", pub$Title, "*  \n"))
-    cat(paste0(pub$Journal, "  \n"))
-    cat(paste0("[PubMed](https://pubmed.ncbi.nlm.nih.gov/", pub$PMID, "/){target=\"_blank\"}  \n\n"))
-  }
-}
-```
+4. Johansen MM, **Andersen MA**, Gronbaek K, Hansen JW. Long-term clinical outcomes of patients with hematologically unexplained cytopenia after routine assessment: A single center study. *Eur J Haematol* 2018;101(6):830-837. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/30027609/){target="_blank" .pub-badge}]
+
+5. **Andersen MA**, Moser CE, Lundgren J, Niemann CU. Epidemiology of bloodstream infections in patients with chronic lymphocytic leukemia: a longitudinal nation-wide cohort study. *Leukemia* 2019;33(3):662-670. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/30546080/){target="_blank" .pub-badge}]
+
+6. Hleuhel MH, Ben-Dali Y, Da Cunha-Bang C, Brieghel C, Clasen-Linde E, Niemann CU, **Andersen MA**. Risk factors associated with Richter's transformation in patients with chronic lymphocytic leukaemia: protocol for a retrospective population-based cohort study. *BMJ Open* 2019;9(5):e023566. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/30833314/){target="_blank" .pub-badge}]
+
+7. Brieghel C, da Cunha-Bang C, Yde CW, Schmidt AY, Kinalis S, Nadeu F, **Andersen MA**, Jacobsen LO, Andersen MK, Pedersen LB, Delgado J, Baumann T, Mattsson M, Mansouri L, Rosenquist R, Campo E, Nielsen FC, Niemann CU. The Number of Signaling Pathways Altered by Driver Mutations in Chronic Lymphocytic Leukemia Impacts Disease Outcome. *Clin Cancer Res* 2020;26(6):1507-1515. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/31919133/){target="_blank" .pub-badge}]
+
+8. **Andersen MA**, Niemann CU, Rostgaard K, Dalby T, Sorrig R, Weinberger DM, Hjalgrim H, Harboe ZB. Differences and Temporal Changes in Risk of Invasive Pneumococcal Disease in Adults with Hematological Malignancies: Results from a Nationwide 16-Year Cohort Study. *Clin Infect Dis* 2021;72(3):463-471. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/32463435/){target="_blank" .pub-badge}]
+
+9. **Andersen MA**, Rostgaard K, Niemann CU, Hjalgrim H. Antimicrobial use before chronic lymphocytic leukemia: a retrospective cohort study. *Leukemia* 2021;35(3):747-751. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/32684631/){target="_blank" .pub-badge}]
+
+10. Aarup K, Rotbain EC, Enggaard L, Pedersen RS, Bergmann OJ, Thomsen RH, Frederiksen M, Frederiksen H, Nielsen T, Christiansen I, **Andersen MA**, Niemann CU. Real-world outcomes for 205 patients with chronic lymphocytic leukemia treated with ibrutinib. *Eur J Haematol* 2020;105(5):646-654. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/32736410/){target="_blank" .pub-badge}]
+
+11. **Andersen MA**, Valentin R, Dissing Sjo L, Borgwardt L, Schmiegelow K, Andersen MK, Marvig RL, Yde CW, Niemann CU. Combining epigenetic therapy with venetoclax overcomes alemtuzumab resistance in T-cell prolymphocytic leukemia. A case report of a 26-year-old man with a prior history of T-cell acute lymphoblastic leukemia and GI-T lymphoma. *Acta Oncol* 2020;59(12):1547-1551. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/32970500/){target="_blank" .pub-badge}]
+
+12. Egholm GJ, **Andersen MA**, Andersen CL, Frederiksen H, Bjerrum OW, Niemann CU. Abnormal eosinophil count at CLL diagnosis correlates with shorter treatment free survival. *Br J Haematol* 2021;192(3):e81-e84. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/34580859/){target="_blank" .pub-badge}]
+
+13. Davidsson OB, Olofsson IA, Kogelman LJ, **Andersen MA**, Rostgaard K, Hjalgrim H, Olesen J, Hansen TF. Twenty-five years of triptans. *Cephalalgia* 2021;41(8):894-904. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/33583217/){target="_blank" .pub-badge}]
+
+14. **Andersen MA**, Grand MK, Brieghel C, Siersma V, Andersen CL, Niemann CU. Pre-diagnostic trajectories of lymphocytosis predict time to treatment and death in patients with chronic lymphocytic leukemia. *Commun Med (Lond)* 2022;2:50. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/35603299/){target="_blank" .pub-badge}]
+
+15. Roen A, Terrones C, Bannister W, Helleberg M, **Andersen MA**, Niemann CU, Daugaard G, Specht L, Mocroft A, Reekie J, Lundgren J. Increased incidence rates of positive blood cultures shortly after chemotherapy compared to radiotherapy among individuals treated for solid malignant tumours. *Infection* 2023;51(1):147-157. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/35764910/){target="_blank" .pub-badge}]
+
+16. Svanberg R, MacPherson C, Zucco A, Agius R, Faitova T, **Andersen MA**, da Cunha-Bang C, Gjaerde LK, Moller MEE, Brooks PT, Lindegaard B, Sejdic A, Gang AO, Hersby DS, Brieghel C, Nielsen SD, Podlekareva D, Hald A, Bay JT, Marquart H, Lundgren J, Lebech AM, Helleberg M, Niemann CU, Ostrowski SR. Early stimulated immune responses predict clinical disease severity in hospitalized COVID-19 patients. *Commun Med (Lond)* 2022;2:114. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/36101705/){target="_blank" .pub-badge}]
+
+17. Nielsen KF, Moustsen-Helms IR, Schelde AB, Gram MA, Emborg HD, Nielsen J, Hansen CH, **Andersen MA**, Meaidi M, Wohlfahrt J, Valentiner-Branth P. Vaccine effectiveness against SARS-CoV-2 reinfection during periods of Alpha, Delta, or Omicron dominance: A Danish nationwide study. *PLoS Med* 2022;19(11):e1004037. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/36413551/){target="_blank" .pub-badge}]
+
+18. Del Giudice I, Cappelli LV, Delgado J, Niemann CU, **Andersen MA**, Rotbain EHC, Aarup K, Walewska R, Visentin A, Deodato M, Frustaci AM, Cavalloni C, Gentile M, Yassin MA, Lad D, Scarfo L, Flogegard M, Mattsson M, Raponi S, Ilari C, Starza ID, Orlandi EM, Tedeschi A, Trentin L, Semenzato G, Guarini A, Ghia P, Montserrat E, Foa R. Spontaneous regression in chronic lymphocytic leukaemia. Clinical features of 50 cases from the ERIC registry and review of the literature. *Br J Haematol* 2023;201(2):353-356. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/36793194/){target="_blank" .pub-badge}]
+
+19. Vainer N, Aarup K, **Andersen MA**, Wind-Hansen L, Nielsen T, Frederiksen H, Enggaard L, Poulsen CB, Niemann CU, Rotbain EC. Real-world outcomes upon second-line treatment in patients with chronic lymphocytic leukaemia. *Br J Haematol* 2023;201(5):874-886. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/36896699/){target="_blank" .pub-badge}]
+
+20. Rotbain EC, Allmer C, Rostgaard K, **Andersen MA**, Vainer N, da Cunha-Bang C, Parikh SA, Rabe KG, Hjalgrim H, Frederiksen H, Slager SL, Niemann CU. Impact of type 2 diabetes on mortality, cause of death, and treatment in chronic lymphocytic leukemia. *Am J Hematol* 2023;98(8):1236-1245. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/37212419/){target="_blank" .pub-badge}]
+
+21. **Andersen MA**, Gregersen R, Petersen TS, Wang JN, Petersen J, Jimenez-Solem E. Association Between First-time Neurologic Events and Metronidazole Treatment: A Case-time Control Study. *Clin Ther* 2024;46(4):307-312. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/38493002/){target="_blank" .pub-badge}]
+
+22. Karlsen APH, Sunde PB, Olsen MH, Laigaard J, Folkersen C, Tran TXM, Rasmussen IH, Kjartansdottir S, Saito A, **Andersen MA**, Maagaard M, Papadomanolakis-Pakis N, Dalhoff K, Nikolajsen L, Lunn TH, Meyhoff CS, Jakobsen JC, Mathiesen O. Opioids and personalized analgesia in the perioperative setting: A protocol for five systematic reviews. *Acta Anaesthesiol Scand* 2024;68(10):1573-1580. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39107975/){target="_blank" .pub-badge}]
+
+23. Packness E, Davidsson OB, Rostgaard K, **Andersen MA**, Rotbain EC, Niemann CU, Brieghel C, Hjalgrim H. Infections and their prognostic significance before diagnosis of chronic lymphocytic leukemia, non-Hodgkin lymphoma, or multiple myeloma. *Br J Cancer* 2024;131(7):1186-1194. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39174738/){target="_blank" .pub-badge}]
+
+24. **Andersen MA**, Helms Andreasen A, Evi Bang L, Jimenez-Solem E, Petersen TS. A register-based cohort study on the effectiveness and Safety of anti-PCSK9 treatment in persons with hyperlipidemia. *Commun Med (Lond)* 2024;4(1):193. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39375518/){target="_blank" .pub-badge}]
+
+25. **Andersen MA**, Jensen TL, Petersen TS. Data Resource Profile: The Danish National Hospital Medicine Register. *Pharmacoepidemiol Drug Saf* 2024;33(12):e70054. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39533502/){target="_blank" .pub-badge}]
+
+26. Windfeld-Mathiasen J, Heerfordt IM, Dalhoff KP, Andersen JT, **Andersen MA**, Johansson KS, Biering-Sorensen T, Olsen FJ, Horwitz H. Cardiovascular Disease in Anabolic Androgenic Steroid Users. *Circulation* 2025;151(11):828-834. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39945117/){target="_blank" .pub-badge}]
+
+27. Brieghel C, Lacoppidan T, Packness E, Frederiksen CM, Werling M, **Andersen MA**, Poulsen CB, Rotbain EC, Niemann CU. Polypharmacy independently predicts survival, hospitalization, and infections in patients with lymphoid cancer. *Hemasphere* 2025;9(1):e70172. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/40672879/){target="_blank" .pub-badge}]
+
+
+## II. SCIENTIFIC REVIEWS (PEER REVIEWED)
+
+28. Erichsen PA, Dalhoff K, **Andersen MA**. Should high-dose N-acetylcysteine be given in cases of massive paracetamol overdoses: A narrative review. *Basic Clin Pharmacol Toxicol* 2024;135(3):285-294. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39004668/){target="_blank" .pub-badge}]
+
+29. Korsholm C, Bulow C, Christensen M, Dalhoff K, Feinberg JB, Lund TM, Niemann CU, Petersen TS, **Andersen MA**. Drug exposure and measurable residual disease in chronic lymphocytic leukemia: a systematic review. *Leuk Lymphoma* 2025;66(2):229-239. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39509142/){target="_blank" .pub-badge}]
+
+30. Kjartansdottir SP, Folkersen C, Rasmussen IH, Sunde PB, Saito A, Maagaard M, **Andersen MA**, Dalhoff KP, Karlsen APH. Pharmacogenetic Predictors of Postoperative Opioid-Related Adverse Events: A Systematic Review. *Basic Clin Pharmacol Toxicol* 2026;138(1):e70154. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/41486598/){target="_blank" .pub-badge}]
+
+
+## III. OTHER PEER REVIEWED PUBLICATIONS (PARALLEL PUBLICATIONS, EDITORIALS, LETTERS ETC.)
+
+31. **Andersen MA**, Nielsen RT. Spontaneous renal rupture of fornix due to obstructing urethral stone. *Ugeskr Laeger* 2017;179(36):V02170114. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/28606297/){target="_blank" .pub-badge}]
+
+32. **Andersen MA**, Niemann CU. Immune failure, infection and survival in chronic lymphocytic leukemia in Denmark. *Haematologica* 2018;103(7):e330. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/29970495/){target="_blank" .pub-badge}]
+
+33. **Andersen MA**, Moser CE, Lundgren J, Niemann CU. Correction: Epidemiology of bloodstream infections in patients with chronic lymphocytic leukemia: a longitudinal nation-wide cohort study. *Leukemia* 2020;34(10):2817-2818. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/32719435/){target="_blank" .pub-badge}]
+
+34. Svanberg R, MacPherson C, Zucco A, Agius R, Faitova T, **Andersen MA**, da Cunha-Bang C, Gjaerde LK, Moller MEE, Brooks PT, Lindegaard B, Sejdic A, Harboe ZB, Gang AO, Hersby DS, Brieghel C, Nielsen SD, Podlekareva D, Hald A, Bay JT, Marquart H, Lundgren J, Lebech AM, Helleberg M, Niemann CU, Ostrowski SR. Author Correction: Early stimulated immune responses predict clinical disease severity in hospitalized COVID-19 patients. *Commun Med (Lond)* 2023;3:15. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/38625315/){target="_blank" .pub-badge}]
+
+35. Damkier P, **Andersen MA**. Temporary Like Achilles: Pre-emptive germline pharmacogenetic testing. *Basic Clin Pharmacol Toxicol* 2023;133(4):397-399. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/37337835/){target="_blank" .pub-badge}]
+
+36. Windfeld-Mathiasen J, Heerfordt IM, Dalhoff KP, Andersen JT, **Andersen MA**, Johansson KS, Biering-Sorensen T, Olsen FJ, Horwitz H. Response by Windfeld-Mathiasen et al to Letter Regarding Article, 'Cardiovascular Disease in Anabolic Androgenic Steroid Users'. *Circulation* 2025;152:e296-e297. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/41115166/){target="_blank" .pub-badge}]
+
+37. Breining P, Bork CS, Bartels LE, **Andersen MA**. Statin-induced muscle symptoms. *Ugeskr Laeger* 2025;187:V08240562. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/41251244/){target="_blank" .pub-badge}]

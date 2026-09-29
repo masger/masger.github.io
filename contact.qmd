@@ -1,13 +1,31 @@
 ---
 title: "Contact"
-description: "Contact information"
+description-meta: "Contact Michael Asger Andersen, MD, PhD"
 title-block-banner: false
+page-layout: full
 ---
 
-**Michael Asger Andersen, MD, PhD**
+## Michael Asger Andersen, MD, PhD
 
-Department of Genomic Medicine\
-Rigshospitalet, Copenhagen University Hospital\
+**Specialty Registrar in Clinical Pharmacology**  
+Department of Clinical Biochemistry and Genomic Medicine, Rigshospitalet  
+Department of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital  
 Copenhagen, Denmark
 
-**E-mail:** [michael.asger.andersen@regionh.dk](mailto:michael.asger.andersen@regionh.dk)
+---
+
+### Contact & Profiles
+
+- **Work E-mail**: [michael.asger.andersen@regionh.dk](mailto:michael.asger.andersen@regionh.dk)
+- **Direct Phone**: +45 31 77 08 56
+- **ORCID**: [0000-0001-9729-9974](https://orcid.org/0000-0001-9729-9974)
+- **Google Scholar**: [Profile](https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ){target="_blank"}
+- **GitHub**: [github.com/masger](https://github.com/masger){target="_blank"}
+- **LinkedIn**: [Profile](https://www.linkedin.com/in/michael-asger-andersen-44ba759a/){target="_blank"}
+
+---
+
+### Curriculum Vitae
+
+A complete 5-page academic curriculum vitae matching the European academic standard is available for download:  
+[Download Academic CV (PDF)](cv-michael-andersen.pdf){.btn .btn-outline-primary target="_blank"}

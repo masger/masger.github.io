@@ -1,48 +1,74 @@
 ---
-title: "Teaching"
-description-meta: "Teaching and supervision by Michael Asger Andersen"
+title: "Teaching & Mentorship"
+description-meta: "Teaching, supervision, and academic honors - Michael Asger Andersen, MD, PhD"
 title-block-banner: false
+page-layout: full
 ---
 
-## Courses
+## Teaching Experience
 
-### Danish Health Registers for Research
-**University of Copenhagen, Department of Computer Science** | 2021 to 2025
+### SEMS: Biostatistics, Epidemiology & R Programming
+**University of Copenhagen, Faculty of Health and Medical Sciences** | 2021 to 2022
 
-Course on using Danish national health registers for epidemiological research. Covers data sources, study design, and data analysis in R.
+Instructor in biostatistics and epidemiology for 3rd semester MSc Medicine students (5 ECTS, ca. 20 students per class, 2 hours weekly). Directed practical case-based teaching covering hypothesis testing, linear and logistic regression, survival analysis, and statistical data analysis in R.
 
 ---
 
-### Clinical Pharmacology CRASH Course
+### Clinical Pharmacology CRASH Course 1 & 2
 **Bispebjerg and Frederiksberg Hospital** | 2021 to 2023
 
-Intensive course for junior doctors covering pharmacokinetics, drug interactions, therapeutic drug monitoring, and adverse drug reactions.
+Co-organizer and instructor for acute hospital physicians and junior doctors (ca. 50 participants per course, held 4 times per semester). Covered applied pharmacokinetics, therapeutic drug monitoring (TDM), drug-drug interactions, and management of acute intoxications.
 
 ---
 
-### SEMS: Statistics and R Programming
-**University of Copenhagen, Section of Biostatistics** | 2021 to 2023
+### Danish Health Registers for Clinical Research
+**University of Copenhagen & Bispebjerg Hospital** | 2021 to 2025
 
-Statistical methods course for medical students. Topics include survival analysis, regression modelling, and generalized additive models, with exercises in R.
+Annual lecture and practical seminar for clinical researchers and PhD students on using Danish nationwide health registries (LPR2, LPR3, Lægemiddelstatistikregisteret, CPR) for pharmacoepidemiology and observational research (ca. 20 participants).
 
 ---
 
-## Supervision
+### Digital Health and Data (Module 1)
+**University of Copenhagen, Department of Computer Science** | 2020 to 2021
 
-| Role | Current | Completed |
-|------|---------|-----------|
-| Primary supervisor, PhD students | 1 | 0 |
-| Co-supervisor, PhD students | 0 | 1 |
-| Primary supervisor, Master's/Bachelor's students | 1 | 4 |
+Invited lecturer for postgraduate students and researchers on health data structures, electronic health records, and clinical data governance (ca. 50 participants per year).
 
-## Awards
+---
 
-| Year | Award |
-|------|-------|
-| 2024 | Kampmann Second Best Oral Presentation |
-| 2023 | Lassen-dagen Second Best Oral, Bispebjerg and Frederiksberg Hospital |
-| 2022 | Best Poster Award, Lassen-dagen, Bispebjerg and Frederiksberg Hospital |
-| 2019 | Best Abstract Award, IWCLL Conference, Edinburgh |
-| 2019 | Audience Award, FYF Annual Poster Competition, Rigshospitalet |
-| 2018 | Best Scientific Visualization, ARTIS, University of Copenhagen |
-| 2017 | Best Abstract Award, IWCLL Conference, New York |
+### Medical IT & Health Informatics
+**University of Copenhagen, Faculty of Health and Medical Sciences** | 2008 to 2015
+
+Lectures on medical IT systems, clinical databases, and informatics for 1st semester undergraduate medical students (ca. 150 to 200 students per semester).
+
+---
+
+## Academic Supervision & Examination
+
+### Supervision
+- **PhD Co-Supervisor**: Ongoing co-supervision for 1 PhD student within the TDM-VISION project (2024 to present).
+- **Master & Bachelor Theses**: Primary supervisor for 4 Master theses and 2 Bachelor projects at the University of Copenhagen (2018 to 2022).
+
+### External Examination (Censor)
+- **MSc in Medicine**: External Examiner (Censor) for 10 Bachelor and Master theses in Medicine, Faculty of Health and Medical Sciences, University of Copenhagen (2026).
+- **Master in Personalized Medicine**: External Examiner for 2 Master theses, University of Copenhagen and Technical University of Denmark (DTU) (2026).
+
+---
+
+## Scientific Awards & Honors
+
+| Year | Honor / Award | Institution / Event |
+|:---|:---|:---|
+| **2026** | **Best Poster Award** | 40th Nordic Congress in Clinical Biochemistry, Aarhus |
+| **2024** | **Second Best Oral Presentation** | Danish Society of Clinical Pharmacology (DSKF) Annual Meeting |
+| **2023** | **Second Best Oral Presentation** | Lassen-dagen, Bispebjerg and Frederiksberg Hospital |
+| **2022** | **Best Poster Award** | Lassen-dagen, Bispebjerg and Frederiksberg Hospital |
+| **2019** | **Best Abstract Award** | International Workshop on Chronic Lymphocytic Leukemia (IWCLL), Edinburgh |
+| **2019** | **Audience Award** | FYF Annual Poster Competition, Rigshospitalet |
+| **2018** | **Best Scientific Visualization** | ARTIS, Faculty of Health and Medical Sciences, University of Copenhagen |
+| **2017** | **Best Abstract Award** | International Workshop on Chronic Lymphocytic Leukemia (IWCLL), New York |
+
+---
+
+## Pedagogical Training
+- **PhD Supervision for Co-Supervisors**: Faculty of Health and Medical Sciences, University of Copenhagen (2018).
+- **Medical Pedagogical Training Course**: Danish Health Authority & Danish Society of Clinical Pharmacology (Sundhedsstyrelsen / DSKF, 2022).

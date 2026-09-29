@@ -1,6 +1,6 @@
 ---
 title: "Michael Asger Andersen, MD, PhD"
-description-meta: "Michael Asger Andersen, Clinical Pharmacologist and Researcher"
+description-meta: "Michael Asger Andersen, MD, PhD - Clinical Pharmacologist & Physician-Researcher"
 image: "files/images/cph_foto_michael.jpg"
 page-navigation: false
 toc: false
@@ -9,7 +9,7 @@ page-layout: full
 about:
   id: hero-heading
   template: trestles
-  image-width: 70%
+  image-width: 65%
   links:
     - icon: envelope
       text: E-mail
@@ -28,37 +28,43 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/michael-asger-andersen-44ba759a/
       target: _blank
+    - icon: file-earmark-pdf
+      text: CV (PDF)
+      href: cv-michael-andersen.pdf
+      target: _blank
 ---
 
 :::{#hero-heading}
 
-I am a clinical pharmacologist studying how pharmacogenetic test results change prescribing and patient outcomes. I combine Danish national registry data with prospective clinical trials to measure whether genotype-guided dosing reduces adverse drug reactions and treatment failures.
+I am a clinical pharmacologist and physician-researcher investigating how precision pharmacotherapy and pharmacogenetics improve patient outcomes. My research program bridges prospective randomized clinical trials, nationwide Danish health registries, and clinical implementation to establish pharmacological causality and optimize drug safety.
 
-My current work focuses on CYP2C19-guided antiplatelet therapy, SLCO1B1 genotyping for statin intolerance, and therapeutic drug monitoring of targeted cancer therapies.
+I serve as Sponsor and Principal Investigator for the nationwide SAMSON-2 trial, establishing an N-of-1 trial platform to systematically evaluate statin-associated muscle symptoms and overcome drug intolerance. In parallel, I lead the TDM-VISION project, establishing therapeutic drug monitoring algorithms for targeted oral oncolytics in chronic lymphocytic leukemia.
 
-## Experience
+## Appointments & Clinical Rotations
 
-**Fellow in Clinical Pharmacology** | 2023 to 2028
-
-- Department of Genomic Medicine, Rigshospitalet (current)
+**Specialty Registrar in Clinical Pharmacology** | Capital Region of Denmark | 2023 to 2027
+- Department of Clinical Biochemistry and Genomic Medicine, Rigshospitalet (current)
+- Department of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital
 - Department of Endocrinology, Herlev Hospital
-- Cardiovascular Medical and Science, Novo Nordisk
+- Senior Medical Doctor, Cardiovascular Clinical Development, Novo Nordisk
 
-**Postdoctoral Researcher** | Department of Clinical Pharmacology, Bispebjerg Hospital
+**Postdoctoral Researcher & Clinical Assistant** | Rigshospitalet & Statens Serum Institut | 2016 to 2021
+- CLL-LAB, Department of Hematology, Rigshospitalet
+- Department of Infectious Disease Epidemiology and Prevention, Statens Serum Institut
 
 ## Education
 
-**PhD in Medical Science** | University of Copenhagen | 2016 to 2020
-
-- Thesis: *Real-world evidence on the risk, type and treatment of infectious complications in chronic lymphocytic leukaemia*
+**PhD in Medicine** | University of Copenhagen | January 15th, 2021
+- Thesis: *Real-world evidence on the risk, type and treatment of infectious complications in chronic lymphocytic leukaemia* (Department of Hematology, Rigshospitalet)
 
 **Medical Doctor (MD)** | University of Copenhagen | 2008 to 2015
 
-## Positions
+## Leadership & Commissions
 
-- Chair, Danish Society for Personalized Medicine (2025 to present)
-- Editor, Frontiers in Epidemiology (2023 to present)
-- Member, Clinical Pharmacogenetics Implementation Consortium (CPIC) (2022 to present)
-- Member, Pharmacogenomics Global Research Network (2022 to present)
+- **Chair**, Danish Society for Personalized Medicine (DSPM) (2025 to present; Board Member 2023 to 2025)
+- **Appointed National Expert (1 of 3)**, Danish National Strategy for Personalized Medicine (2026 to present)
+- **Working Group Member**, Clinical Pharmacogenetics Implementation Consortium (CPIC) NAT2 guideline & PGRN (2022 to present)
+- **Review Editor**, *Frontiers in Epidemiology* (Epidemiology of Chronic Diseases and Prevention) (2023 to present)
+- **Auditor**, Danish Society of Clinical Pharmacology (DSKF) (2026 to present)
 
 :::
