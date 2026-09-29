@@ -2,30 +2,28 @@ project:
   type: website
   output-dir: docs
 
-description-meta: "Michael Asger Andersen, MD, PhD - Clinical Pharmacologist & Physician-Researcher"
+description-meta: "Michael Asger Andersen - Clinical Pharmacologist & Researcher"
 author-meta: "Michael Asger Andersen"
 
 website:
   title: "Michael Asger Andersen"
   image: "files/images/cph_foto_michael.jpg"
-  description: "Clinical Pharmacologist & Physician-Researcher"
+  description: "Clinical Pharmacologist & Researcher"
 
   navbar:
     background: light
+
     left:
       - text: About
-        href: index.qmd
-      - text: Research & Projects
-        href: projects.qmd
+        menu:
+          - text: Contact
+            href: contact.qmd
       - text: Publications
         href: publications.qmd
-      - text: Teaching & Mentorship
+      - text: Teaching
         href: teaching.qmd
-      - text: CV (PDF)
-        href: cv-michael-andersen.pdf
-        target: _blank
-      - text: Contact
-        href: contact.qmd
+      - text: Projects
+        href: projects.qmd
 
     right:
       - icon: github
@@ -34,32 +32,36 @@ website:
       - text: "{{< ai orcid >}}"
         href: https://orcid.org/0000-0001-9729-9974
         target: _blank
-      - text: "{{< ai google-scholar >}}"
-        href: https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ
-        target: _blank
+
+  page-navigation: true
 
   page-footer:
-    left: "Michael Asger Andersen &copy; <script>document.write(new Date().getFullYear())</script>"
+    left: "[Michael Asger Andersen](https://masger.github.io) &copy; <script>document.write(new Date().getFullYear())</script>"
     right:
       - icon: github
         href: https://github.com/masger
-        target: _blank
-      - text: "{{< ai orcid >}}"
-        href: https://orcid.org/0000-0001-9729-9974
         target: _blank
 
   search:
     location: navbar
     type: textbox
 
+  reader-mode: true
+
   open-graph: true
   twitter-card: true
+
   site-url: "https://masger.github.io"
+
+  google-analytics:
+    tracking-id: ""
+    anonymize-ip: true
+
+bibliography: references.bib
 
 format:
   html:
-    theme:
-      light: cosmo
+    theme: cosmo
     css: styles.css
     toc: true
     footnotes-hover: true

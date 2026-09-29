@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Michael Asger Andersen">
-<meta name="description" content="Michael Asger Andersen, MD, PhD - Clinical Pharmacologist &amp; Physician-Researcher">
+<meta name="description" content="Michael Asger Andersen - Clinical Pharmacologist &amp; Researcher">
 
-<title>Research &amp; Projects – Michael Asger Andersen</title>
+<title>Projects – Michael Asger Andersen</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -88,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-role','listing-description','listing-start',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-start',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-title","listing-description","listing-role","listing-start"],
     };
@@ -107,6 +107,15 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '', { 'anonymize_ip': true});
+</script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
@@ -142,12 +151,12 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Research &amp; Projects – Michael Asger Andersen">
-<meta property="og:description" content="Prospective clinical trials, therapeutic drug monitoring, and translational pharmacogenetics">
+<meta property="og:title" content="Projects – Michael Asger Andersen">
+<meta property="og:description" content="Current research projects">
 <meta property="og:image" content="https://masger.github.io/files/images/cph_foto_michael.jpg">
 <meta property="og:site_name" content="Michael Asger Andersen">
-<meta name="twitter:title" content="Research &amp; Projects – Michael Asger Andersen">
-<meta name="twitter:description" content="Prospective clinical trials, therapeutic drug monitoring, and translational pharmacogenetics">
+<meta name="twitter:title" content="Projects – Michael Asger Andersen">
+<meta name="twitter:description" content="Current research projects">
 <meta name="twitter:image" content="https://masger.github.io/files/images/cph_foto_michael.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -169,29 +178,28 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./contact.html">
+ <span class="dropdown-text">Contact</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
-<span class="menu-text">Research &amp; Projects</span></a>
-  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
-<span class="menu-text">Teaching &amp; Mentorship</span></a>
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv-michael-andersen.pdf" target="_blank"> 
-<span class="menu-text">CV (PDF)</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+<span class="menu-text">Projects</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -204,13 +212,14 @@ window.Quarto = {
     <a class="nav-link" href="https://orcid.org/0000-0001-9729-9974" target="_blank"> 
 <span class="menu-text"><i class="ai  ai-orcid" aria-label="orcid"></i></span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://scholar.google.dk/citations?hl=da&amp;user=Bu8uQCAAAAAJ" target="_blank"> 
-<span class="menu-text"><i class="ai  ai-google-scholar" aria-label="google-scholar"></i></span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -227,8 +236,8 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research &amp; Projects</h1>
-<p class="subtitle lead">Prospective clinical trials, therapeutic drug monitoring, and translational pharmacogenetics</p>
+<h1 class="title">Projects</h1>
+<p class="subtitle lead">Current research projects</p>
 </div>
 
 
@@ -256,13 +265,10 @@ window.Quarto = {
         Project
       </option>
       <option value="listing-description" data-direction="asc">
-        Summary
-      </option>
-      <option value="listing-role" data-direction="asc">
-        Role
+        Description
       </option>
       <option value="listing-start" data-direction="asc">
-        Active Since
+        Since
       </option>
     </select>
   </div>
@@ -280,15 +286,11 @@ window.Quarto = {
 </th>
 
 <th>
-<a class="sort" data-sort="listing-role" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Role</a>
+<a class="sort" data-sort="listing-description" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Description</a>
 </th>
 
 <th>
-<a class="sort" data-sort="listing-description" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Summary</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-start" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Active Since</a>
+<a class="sort" data-sort="listing-start" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Since</a>
 </th>
 
 </tr>
@@ -298,9 +300,6 @@ window.Quarto = {
 <tr data-index="0" data-listing-title-sort="Cardiovascular Pharmacogenetics &amp; Biobank Linkage">
 <td>
 <a href="#" class="title listing-title">Cardiovascular Pharmacogenetics &amp; Biobank Linkage</a>
-</td>
-<td>
-<span class="listing-role">Principal Investigator</span>
 </td>
 <td>
 <span class="listing-description">Deterministic individual-level linkage across Danish nationwide health registries and the Copenhagen Hospital Biobank (CHB) evaluating clinical outcomes associated with CYP2C19 loss-of-function variants in antiplatelet therapy, SLCO1B1-mediated statin uptake, and bedside clinical decision support.</span>
@@ -316,9 +315,6 @@ window.Quarto = {
 <a href="#" class="title listing-title">SAMSON-2 Trial</a>
 </td>
 <td>
-<span class="listing-role">Sponsor &amp; Principal Investigator</span>
-</td>
-<td>
 <span class="listing-description">Investigator-initiated, nationwide, 11-center randomized controlled trial comparing a digital double-blind N-of-1 trial platform against guideline-directed standard care titration to systematically differentiate statin-associated muscle symptoms from expectation bias. Funded by the Capital Region of Denmark, Bispebjerg Hospital, and Hørslev-Fonden.</span>
 </td>
 <td>
@@ -332,9 +328,6 @@ window.Quarto = {
 <a href="#" class="title listing-title">TDM-VISION</a>
 </td>
 <td>
-<span class="listing-role">Principal Investigator</span>
-</td>
-<td>
 <span class="listing-description">Prospective clinical research project evaluating therapeutic drug monitoring algorithms and pharmacokinetic-pharmacodynamic exposure metrics for targeted oral therapies (ibrutinib and venetoclax) in chronic lymphocytic leukemia. Funded by the Danish Cancer Society (DKK 2.3M).</span>
 </td>
 <td>
@@ -343,15 +336,12 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="3" data-listing-title-sort="SPOCK Trial &amp; European PGx Consortia">
+<tr data-index="3" data-listing-title-sort="SPOCK Trial &amp; European PGx Networks">
 <td>
-<a href="#" class="title listing-title">SPOCK Trial &amp; European PGx Consortia</a>
+<a href="#" class="title listing-title">SPOCK Trial &amp; European PGx Networks</a>
 </td>
 <td>
-<span class="listing-role">Co-investigator &amp; Work Package Collaborator</span>
-</td>
-<td>
-<span class="listing-description">Multinational European clopidogrel pharmacogenomics consortium (1,200 patients) investigating CYP2C19 genotype-guided therapy, alongside active working group participation in COST Action CardioPharmGeneNet and CPIC guideline development.</span>
+<span class="listing-description">Multinational European clopidogrel pharmacogenomics consortium investigating CYP2C19 genotype-guided antiplatelet therapy, alongside active working group participation in COST Action CardioPharmGeneNet and CPIC guideline development.</span>
 </td>
 <td>
 <span class="listing-start">2022</span>
@@ -777,7 +767,7 @@ window.Quarto = {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-Michael Asger Andersen ©
+<a href="https://masger.github.io">Michael Asger Andersen</a> ©
 <script>document.write(new Date().getFullYear())</script>
 </div>   
     <div class="nav-footer-center">
@@ -790,11 +780,6 @@ Michael Asger Andersen ©
       <i class="bi bi-github" role="img">
 </i> 
     </a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0000-0001-9729-9974" target="_blank">
-<p><i class="ai  ai-orcid" aria-label="orcid"></i></p>
-</a>
   </li>  
 </ul>
     </div>

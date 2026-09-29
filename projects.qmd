@@ -1,6 +1,6 @@
 ---
-title: "Research & Projects"
-subtitle: "Prospective clinical trials, therapeutic drug monitoring, and translational pharmacogenetics"
+title: "Projects"
+subtitle: "Current research projects"
 page-layout: full
 listing:
   - id: projects
@@ -8,12 +8,11 @@ listing:
     sort:
       - "start desc"
     type: table
-    fields: [title, role, description, start]
+    fields: [title, description, start]
     field-display-names:
       title: Project
-      role: Role
-      description: Summary
-      start: Active Since
+      description: Description
+      start: Since
 ---
 
 :::{#projects}
