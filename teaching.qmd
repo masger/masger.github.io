@@ -21,7 +21,7 @@ Intensive course for junior doctors covering pharmacokinetics, drug interactions
 ---
 
 ### SEMS: Statistics and R Programming
-**University of Copenhagen, Section of Biostatistics** | 2021 to 2023
+**University of Copenhagen, Section of Biostatistics** | 2021 to 2022
 
 Statistical methods course for medical students. Topics include survival analysis, regression modelling, and generalized additive models, with exercises in R.
 
@@ -31,15 +31,18 @@ Statistical methods course for medical students. Topics include survival analysi
 
 | Role | Current | Completed |
 |------|---------|-----------|
-| Primary supervisor, PhD students | 1 | 0 |
-| Co-supervisor, PhD students | 0 | 1 |
-| Primary supervisor, Master's/Bachelor's students | 1 | 4 |
+| Co-supervisor, PhD students (TDM-VISION) | 1 | 0 |
+| Primary supervisor, Master's theses | 0 | 4 |
+| Primary supervisor, Bachelor's projects | 0 | 2 |
+
+External examiner (censor) for 10 Bachelor's and Master's theses in Medicine, University of Copenhagen, and for 2 Master's theses in Personalized Medicine, University of Copenhagen and Technical University of Denmark (2026).
 
 ## Awards
 
 | Year | Award |
 |------|-------|
-| 2024 | Kampmann Second Best Oral Presentation |
+| 2026 | Best poster award, 40th Nordic Congress in Clinical Biochemistry, Aarhus |
+| 2024 | Second best oral presentation, Danish Society of Clinical Pharmacology (DSKF) annual meeting |
 | 2023 | Lassen-dagen Second Best Oral, Bispebjerg and Frederiksberg Hospital |
 | 2022 | Best Poster Award, Lassen-dagen, Bispebjerg and Frederiksberg Hospital |
 | 2019 | Best Abstract Award, IWCLL Conference, Edinburgh |

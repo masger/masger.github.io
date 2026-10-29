@@ -7,9 +7,9 @@ page-layout: full
 
 ## Michael Asger Andersen, MD, PhD
 
-**Specialty Registrar in Clinical Pharmacology**  
-Department of Clinical Biochemistry and Genomic Medicine, Rigshospitalet  
+**Specialty registrar in clinical pharmacology**  
 Department of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital  
+Bispebjerg Bakke 23, 2400 Copenhagen NV  
 Copenhagen, Denmark
 
 ---
@@ -27,5 +27,5 @@ Copenhagen, Denmark
 
 ### Curriculum Vitae
 
-A complete 5-page academic curriculum vitae matching the European academic standard is available for download:  
-[Download Academic CV (PDF)](cv-michael-andersen.pdf){.btn .btn-outline-primary target="_blank"}
+The academic CV with the full publication list was updated on 29 October 2026:  
+[Academic CV (PDF)](cv-michael-andersen.pdf){.btn .btn-outline-primary target="_blank"} [Publication list (PDF)](publication-list.pdf){.btn .btn-outline-secondary target="_blank"}

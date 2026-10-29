@@ -1,6 +1,6 @@
 - title: "SAMSON-2 Trial"
   path: "#"
-  description: "Investigator-initiated, nationwide, 11-center randomized controlled trial comparing a digital double-blind N-of-1 trial platform against guideline-directed standard care titration to systematically differentiate statin-associated muscle symptoms from expectation bias. Funded by the Capital Region of Denmark, Bispebjerg Hospital, and Hørslev-Fonden."
+  description: "Investigator-initiated, nationwide, 11-center randomized controlled trial comparing a digital double-blind N-of-1 trial platform against guideline-directed standard care titration to systematically differentiate statin-associated muscle symptoms from expectation bias. Funded by the Capital Region of Denmark, Bispebjerg Hospital, and Hørslev-Fonden. Protocol approved in CTIS (2025-524955-30-01); protocol paper submitted to American Heart Journal in October 2026."
   role: "Sponsor & Principal Investigator"
   start: 2024
 
@@ -21,3 +21,9 @@
   description: "Multinational European clopidogrel pharmacogenomics consortium investigating CYP2C19 genotype-guided antiplatelet therapy, alongside active working group participation in COST Action CardioPharmGeneNet and CPIC guideline development."
   role: "Work Package Collaborator"
   start: 2022
+
+- title: "OPTIMUS-AF"
+  path: "#"
+  description: "Nationwide, decentralised randomised trial (n = 520) in persistent or permanent atrial fibrillation with side effects attributed to rate-control therapy, comparing a double-blind double-dummy N-of-1 crossover of metoprolol versus verapamil against standard care. PI Morten Lamberts, Herlev and Gentofte Hospital. Funded by Independent Research Fund Denmark (2027 to 2031). Responsible for investigational medicinal product, N-of-1 methodology, and CYP2D6 and drug concentration analyses."
+  role: "Co-applicant"
+  start: 2027

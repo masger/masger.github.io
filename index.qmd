@@ -1,6 +1,6 @@
 ---
 title: "Michael Asger Andersen, MD, PhD"
-description-meta: "Michael Asger Andersen, Clinical Pharmacologist and Researcher"
+description-meta: "Michael Asger Andersen, physician and researcher in clinical pharmacology and pharmacogenetics"
 image: "files/images/cph_foto_michael.jpg"
 page-navigation: false
 toc: false
@@ -11,6 +11,10 @@ about:
   template: trestles
   image-width: 70%
   links:
+    - icon: file-earmark-text
+      text: CV (PDF)
+      href: cv-michael-andersen.pdf
+      target: _blank
     - icon: envelope
       text: E-mail
       href: mailto:michael.asger.andersen@regionh.dk
@@ -32,23 +36,26 @@ about:
 
 :::{#hero-heading}
 
-I am a clinical pharmacologist studying how pharmacogenetic test results change prescribing and patient outcomes. I combine Danish national registry data with prospective clinical trials to measure whether genotype-guided dosing reduces adverse drug reactions and treatment failures.
+I am a physician and specialty registrar in clinical pharmacology studying how pharmacogenetic test results change prescribing and patient outcomes. I combine Danish national registry data with prospective clinical trials to measure whether genotype-guided dosing reduces adverse drug reactions and treatment failures.
 
 My current work focuses on CYP2C19-guided antiplatelet therapy, SLCO1B1 genotyping for statin intolerance, and therapeutic drug monitoring of targeted cancer therapies.
 
 ## Experience
 
-**Fellow in Clinical Pharmacology** | 2023 to 2028
+**Specialty registrar in clinical pharmacology** | 2023 to 2027
 
-- Department of Genomic Medicine, Rigshospitalet (current)
-- Department of Endocrinology, Herlev Hospital
-- Cardiovascular Medical and Science, Novo Nordisk
+- Department of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital (current)
+- Department of Clinical Biochemistry and Genomic Medicine, Rigshospitalet (2025 to 2026)
+- Department of Endocrinology, Herlev Hospital (2024 to 2025)
+- Cardiovascular Clinical Development, Novo Nordisk (2023 to 2024)
 
-**Postdoctoral Researcher** | Department of Clinical Pharmacology, Bispebjerg Hospital
+**Resident** | Department of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital | 2021 to 2023
+
+**Postdoctoral researcher** | CLL-LAB, Department of Hematology, Rigshospitalet | 2020 to 2021
 
 ## Education
 
-**PhD in Medical Science** | University of Copenhagen | 2016 to 2020
+**PhD in Medical Science** | University of Copenhagen | 2016 to 2021
 
 - Thesis: *Real-world evidence on the risk, type and treatment of infectious complications in chronic lymphocytic leukaemia*
 
@@ -57,7 +64,10 @@ My current work focuses on CYP2C19-guided antiplatelet therapy, SLCO1B1 genotypi
 ## Positions
 
 - Chair, Danish Society for Personalized Medicine (2025 to present)
-- Editor, Frontiers in Epidemiology (2023 to present)
+- Appointed national expert, Danish National Strategy for Personalized Medicine (2026 to present)
+- Auditor, Danish Society of Clinical Pharmacology (2026 to present)
+- Working group member, CPIC guideline for NAT2 (published 2025)
+- Review editor, Frontiers in Epidemiology (2023 to present)
 - Member, Clinical Pharmacogenetics Implementation Consortium (CPIC) (2022 to present)
 - Member, Pharmacogenomics Global Research Network (2022 to present)
 
