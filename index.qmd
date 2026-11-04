@@ -1,74 +1,38 @@
 ---
-title: "Michael Asger Andersen, MD, PhD"
-description-meta: "Michael Asger Andersen, physician and researcher in clinical pharmacology and pharmacogenetics"
+title: "Michael Asger Andersen"
 image: "files/images/cph_foto_michael.jpg"
+open-graph:
+  image: images/social-card.jpg
+twitter-card:
+  image: images/social-card.jpg
+  card-style: summary_large_image
+description-meta: "Michael Asger Andersen, physician and researcher in clinical pharmacology and pharmacogenetics"
 page-navigation: false
 toc: false
-page-layout: full
-
 about:
-  id: hero-heading
   template: trestles
-  image-width: 70%
+  image-width: 60%
+  image-shape: round
   links:
-    - icon: file-earmark-text
-      text: CV (PDF)
+    - text: '<i class="ai ai-cv fa-lg"></i>'
       href: cv-michael-andersen.pdf
       target: _blank
     - icon: envelope
-      text: E-mail
       href: mailto:michael.asger.andersen@regionh.dk
-    - text: "{{< ai orcid >}} ORCID"
-      href: https://orcid.org/0000-0001-9729-9974
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ
-      target: _blank
     - icon: github
-      text: GitHub
       href: https://github.com/masger
-      target: _blank
     - icon: linkedin
-      text: LinkedIn
       href: https://www.linkedin.com/in/michael-asger-andersen-44ba759a/
-      target: _blank
+    - text: '<i class="ai ai-google-scholar fa-lg"></i>'
+      href: https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ
+    - text: '<i class="ai ai-orcid fa-lg"></i>'
+      href: https://orcid.org/0000-0001-9729-9974
 ---
 
-:::{#hero-heading}
+### Physician and clinical pharmacologist in training
 
-I am a physician and specialty registrar in clinical pharmacology studying how pharmacogenetic test results change prescribing and patient outcomes. I combine Danish national registry data with prospective clinical trials to measure whether genotype-guided dosing reduces adverse drug reactions and treatment failures.
+I am a specialty registrar in clinical pharmacology at [Bispebjerg and Frederiksberg Hospital](https://www.bispebjerghospital.dk/), Copenhagen, with a PhD in medical science. I study whether pharmacogenetic testing and therapeutic drug monitoring change prescribing and patient outcomes. The data come from Danish nationwide health registers, the Copenhagen Hospital Biobank and prospective clinical trials.
 
-My current work focuses on CYP2C19-guided antiplatelet therapy, SLCO1B1 genotyping for statin intolerance, and therapeutic drug monitoring of targeted cancer therapies.
+Right now I run [SAMSON-2](projects/samson2.qmd), a nationwide N-of-1 trial on statin intolerance, and [TDM-VISION](projects/tdm-vision.qmd), a drug monitoring project for ibrutinib and venetoclax in chronic lymphocytic leukemia. In parallel I link CYP2C19 and SLCO1B1 genotypes from the [Copenhagen Hospital Biobank](projects/chb-pharmacogenetics.qmd) to clinical outcomes in nationwide registers.
 
-## Experience
-
-**Specialty registrar in clinical pharmacology** | 2023 to 2027
-
-- Department of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital (current)
-- Department of Clinical Biochemistry and Genomic Medicine, Rigshospitalet (2025 to 2026)
-- Department of Endocrinology, Herlev Hospital (2024 to 2025)
-- Cardiovascular Clinical Development, Novo Nordisk (2023 to 2024)
-
-**Resident** | Department of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital | 2021 to 2023
-
-**Postdoctoral researcher** | CLL-LAB, Department of Hematology, Rigshospitalet | 2020 to 2021
-
-## Education
-
-**PhD in Medical Science** | University of Copenhagen | 2016 to 2021
-
-- Thesis: *Real-world evidence on the risk, type and treatment of infectious complications in chronic lymphocytic leukaemia*
-
-**Medical Doctor (MD)** | University of Copenhagen | 2008 to 2015
-
-## Positions
-
-- Chair, Danish Society for Personalized Medicine (2025 to present)
-- Appointed national expert, Danish National Strategy for Personalized Medicine (2026 to present)
-- Auditor, Danish Society of Clinical Pharmacology (2026 to present)
-- Working group member, CPIC guideline for NAT2 (published 2025)
-- Review editor, Frontiers in Epidemiology (2023 to present)
-- Member, Clinical Pharmacogenetics Implementation Consortium (CPIC) (2022 to present)
-- Member, Pharmacogenomics Global Research Network (2022 to present)
-
-:::
+See all [projects](projects.qmd), the [publication list](publications.qmd) or the [CV as PDF](cv-michael-andersen.pdf).

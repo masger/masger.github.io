@@ -1,0 +1,15 @@
+---
+title: "SPOCK and European PGx networks"
+description: "European clopidogrel pharmacogenomics consortium and working group participation in COST Action CardioPharmGeneNet and CPIC guideline development."
+image: "../images/projects/spock.svg"
+categories: [Pharmacogenetics, Consortium]
+order: 4
+---
+
+::: {.project-facts}
+**Role:** Work package collaborator\
+**Networks:** SPOCK consortium, COST Action CardioPharmGeneNet, Clinical Pharmacogenetics Implementation Consortium (CPIC)\
+**Status:** Ongoing since 2022
+:::
+
+SPOCK is a multinational consortium on CYP2C19 genotype-guided antiplatelet therapy. I contribute Danish register and biobank data and take part in the methods work package. Through CPIC I co-authored the 2025 guideline on NAT2 and take part in the network's working groups.

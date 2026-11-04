@@ -11,21 +11,18 @@ title-block-banner: false
 
 Course on using Danish national health registers for epidemiological research. Covers data sources, study design, and data analysis in R.
 
----
 
 ### Clinical Pharmacology CRASH Course
 **Bispebjerg and Frederiksberg Hospital** | 2021 to 2023
 
 Intensive course for junior doctors covering pharmacokinetics, drug interactions, therapeutic drug monitoring, and adverse drug reactions.
 
----
 
 ### SEMS: Statistics and R Programming
 **University of Copenhagen, Section of Biostatistics** | 2021 to 2022
 
 Statistical methods course for medical students. Topics include survival analysis, regression modelling, and generalized additive models, with exercises in R.
 
----
 
 ## Supervision
 

@@ -1,8 +1,8 @@
 ---
 title: "Publications"
 description-meta: "Peer-reviewed publications by Michael Asger Andersen, MD, PhD"
-title-block-banner: false
-page-layout: full
+toc: true
+toc-location: left
 ---
 
 ::: {.metric-banner}
@@ -24,13 +24,23 @@ page-layout: full
 :::
 :::
 
-[{{< ai google-scholar >}} Google Scholar](https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ){.btn .btn-outline-primary .btn-sm target="_blank"} [{{< ai pubmed >}} PubMed Search](https://pubmed.ncbi.nlm.nih.gov/?term=Andersen+MA%5BAuthor%5D&sort=date){.btn .btn-outline-secondary .btn-sm target="_blank"} [{{< ai orcid >}} ORCID: 0000-0001-9729-9974](https://orcid.org/0000-0001-9729-9974){.btn .btn-outline-info .btn-sm target="_blank"}
+[{{< ai google-scholar >}} Google Scholar](https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ){.btn .btn-outline-primary .btn-sm target="_blank"} [{{< ai pubmed >}} PubMed Search](https://pubmed.ncbi.nlm.nih.gov/?term=Andersen+MA%5BAuthor%5D&sort=date){.btn .btn-outline-primary .btn-sm target="_blank"} [{{< ai orcid >}} ORCID: 0000-0001-9729-9974](https://orcid.org/0000-0001-9729-9974){.btn .btn-outline-primary .btn-sm target="_blank"}
 
 
 ---
 
 Publication list as of 29 October 2026. Citation metrics from Google Scholar (h-index 18, i10-index 27). One further case report in *Ugeskrift for Læger* (2017) is listed under section IV.
 
+
+## Selected publications
+
+Five papers that show what I work on. The full list follows below.
+
+- Eadon MT, Hein DW, **Andersen MA**, Chapman AB, Cooper-DeHoff RM, Desta Z, ..., Agúndez JAG. Clinical Pharmacogenetics Implementation Consortium Guideline for NAT2 Genotype and Hydralazine Therapy. *Clin Pharmacol Ther* 2025;118(6):1430-1436. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/40974042/){target="_blank" .pub-badge}]
+- **Andersen MA**, Helms Andreasen A, Evi Bang L, Jimenez-Solem E, Petersen TS. A register-based cohort study on the effectiveness and Safety of anti-PCSK9 treatment in persons with hyperlipidemia. *Commun Med (Lond)* 2024;4(1):193. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39375518/){target="_blank" .pub-badge}]
+- Damkier P, **Andersen MA**. Temporary Like Achilles: Pre-emptive germline pharmacogenetic testing. *Basic Clin Pharmacol Toxicol* 2023;133(4):397-399. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/37337835/){target="_blank" .pub-badge}]
+- Agius R, Brieghel C, **Andersen MA**, Pearson AT, Ledergerber B, Cozzi-Lepri A, ..., Niemann CU. Machine learning can identify newly diagnosed patients with CLL at high risk of infection. *Nat Commun* 2020;11(1):363. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/31953409/){target="_blank" .pub-badge}]
+- **Andersen MA**, Moser CE, Lundgren J, Niemann CU. Epidemiology of bloodstream infections in patients with chronic lymphocytic leukemia: a longitudinal nation-wide cohort study. *Leukemia* 2019;33(3):662-670. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/30546080/){target="_blank" .pub-badge}]
 
 ## I. Original scientific publications (peer reviewed)
 

@@ -1,0 +1,15 @@
+---
+title: "Biobank pharmacogenetics"
+description: "CYP2C19 and SLCO1B1 genotypes from the Copenhagen Hospital Biobank linked to antiplatelet and statin outcomes in nationwide registers."
+image: "../images/projects/chb.svg"
+categories: [Pharmacogenetics, Registers, Biobank]
+order: 3
+---
+
+::: {.project-facts}
+**Role:** Principal investigator\
+**Data:** Copenhagen Hospital Biobank genotypes linked to the Danish National Patient Register, the Prescription Register and the Civil Registration System\
+**Status:** Analyses ongoing
+:::
+
+Guidelines recommend CYP2C19 testing before clopidogrel and SLCO1B1 testing before simvastatin, but Danish hospitals rarely test. This project uses existing genotypes from the Copenhagen Hospital Biobank to estimate what testing would have changed: how many patients carry actionable variants, what happened to them on the drug, and whether the result justifies routine genotyping. The analyses run in R with data.table on the Danish national research servers.

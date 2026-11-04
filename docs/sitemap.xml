@@ -1,23 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://masger.github.io/teaching.html</loc>
-    <lastmod>2026-10-29T20:23:32.192Z</lastmod>
+    <loc>https://masger.github.io/publications.html</loc>
+    <lastmod>2026-11-04T17:33:21.714Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masger.github.io/projects/spock.html</loc>
+    <lastmod>2026-11-04T17:17:15.687Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masger.github.io/projects/optimus-af.html</loc>
+    <lastmod>2026-11-04T17:17:17.280Z</lastmod>
   </url>
   <url>
     <loc>https://masger.github.io/projects.html</loc>
-    <lastmod>2026-09-29T10:30:09.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://masger.github.io/contact.html</loc>
-    <lastmod>2026-10-29T20:23:32.185Z</lastmod>
+    <lastmod>2026-11-04T17:17:08.340Z</lastmod>
   </url>
   <url>
     <loc>https://masger.github.io/index.html</loc>
-    <lastmod>2026-10-29T20:23:32.176Z</lastmod>
+    <lastmod>2026-11-04T17:34:47.687Z</lastmod>
   </url>
   <url>
-    <loc>https://masger.github.io/publications.html</loc>
-    <lastmod>2026-10-29T20:23:32.169Z</lastmod>
+    <loc>https://masger.github.io/about.html</loc>
+    <lastmod>2026-11-04T17:33:21.720Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masger.github.io/projects/chb-pharmacogenetics.html</loc>
+    <lastmod>2026-11-04T17:17:13.558Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masger.github.io/projects/samson2.html</loc>
+    <lastmod>2026-11-04T17:34:45.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masger.github.io/projects/tdm-vision.html</loc>
+    <lastmod>2026-11-04T17:17:12.225Z</lastmod>
+  </url>
+  <url>
+    <loc>https://masger.github.io/teaching.html</loc>
+    <lastmod>2026-11-04T17:17:20.442Z</lastmod>
   </url>
 </urlset>

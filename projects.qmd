@@ -1,19 +1,20 @@
 ---
 title: "Projects"
-subtitle: "Current research projects"
-page-layout: full
+description-meta: "Research projects led by or involving Michael Asger Andersen"
+toc: false
 listing:
-  - id: projects
-    contents: projects.yml
-    sort:
-      - "start desc"
-    type: table
-    fields: [title, description, start]
-    field-display-names:
-      title: Project
-      description: Description
-      start: Since
+  id: projects
+  type: grid
+  grid-columns: 3
+  image-height: 160px
+  fields: [image, title, description]
+  sort: "order"
+  sort-ui: false
+  filter-ui: false
+  contents: "projects/*.qmd"
 ---
+
+Trials I run or help run, and the register and biobank studies behind them. Each card links to a short page with status, funding and collaborators.
 
 :::{#projects}
 :::

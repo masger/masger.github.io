@@ -1,0 +1,218 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;800&display=swap&text=0123456789";
+
+/*-- scss:defaults --*/
+
+$primary-color: #5480a7;
+$primary-color-dark: #2c3f51;
+$secondary-color: #56a754;
+$body-bg: #f2f6f9;
+$body-color: $primary-color-dark;
+$link-color: $primary-color;
+$link-hover-color: $secondary-color;
+$footer-bg: $primary-color;
+$footer-fg: white;
+$navbar-bg: $body-bg;
+$navbar-fg: $primary-color;
+$navbar-hl: $secondary-color;
+$dropdown-link-color: $primary-color;
+$font-family-base: "Raleway", sans-serif;
+$headings-font-family: "Raleway", sans-serif;
+$navbar-font-family: "Raleway", sans-serif;
+$headings-color: $primary-color-dark;
+$border-color: $navbar-bg;
+
+/*-- scss:rules --*/
+
+/* Raleway digits are not aligned, so digits are set in Roboto */
+body {
+  font-family: "Roboto", $font-family-base;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+  font-family: "Roboto", $font-family-base;
+  font-weight: 800;
+}
+
+#title-block-header {
+  margin-block-end: 2rem;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.nav-link {
+  font-weight: 700;
+}
+
+.nav-link.active {
+  color: $secondary-color !important;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.navbar-title {
+  font-weight: 700;
+}
+
+/* Front page (about template "trestles") */
+
+/* Quarto gives the round portrait height: 60% of the column, which makes an ellipse */
+div.quarto-about-trestles .about-entity img.about-image.round {
+  height: auto !important;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+div.quarto-about-trestles .about-entity .about-link {
+  background-color: $primary-color;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border: solid 1.5px $primary-color;
+  padding: 0.3rem 0.7rem;
+}
+
+div.quarto-about-trestles .about-entity .about-link:hover {
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+  color: white;
+}
+
+/* Profiles menu in the navbar: academicons glyphs for Scholar, ORCID and CV */
+
+.quarto-navbar-tools a[href*="scholar.google"] .bi::before,
+.quarto-navbar-tools a[href*="orcid.org"] .bi::before,
+.quarto-navbar-tools a[href$=".pdf"] .bi::before {
+  font-family: "Academicons" !important;
+}
+.quarto-navbar-tools a[href*="scholar.google"] .bi::before { content: "\e9d4"; }
+.quarto-navbar-tools a[href*="orcid.org"] .bi::before { content: "\e9d9"; }
+.quarto-navbar-tools a[href$=".pdf"] .bi::before { content: "\e9a5"; }
+
+.quarto-navbar-tools .dropdown-menu {
+  left: auto;
+  right: 0;
+  min-width: 0;
+  padding: 0.3rem;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  box-shadow: 0 6px 20px rgba(44, 63, 81, 0.15);
+}
+
+.quarto-navbar-tools .dropdown-item {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 0.35rem 0.75rem;
+  color: $primary-color-dark;
+  text-decoration: none;
+}
+
+.quarto-navbar-tools .dropdown-item .bi {
+  flex: none;
+  width: 1.6rem;
+  color: $primary-color;
+}
+
+.quarto-navbar-tools .dropdown-item:hover {
+  background-color: rgba($primary-color, 0.1);
+}
+
+@media (min-width: 992px) and (hover: hover) {
+  .quarto-navbar-tools .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+
+/* Tables on the About and Teaching pages: narrow first column */
+
+table td:first-child, table th:first-child {
+  white-space: nowrap;
+  width: 1%;
+  padding-right: 1.5rem;
+}
+
+/* Project cards */
+
+.quarto-grid-item {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(44, 63, 81, 0.10);
+  background-color: white;
+}
+
+.quarto-grid-item .card-img-top {
+  border-radius: 8px 8px 0 0;
+}
+
+.quarto-grid-item .listing-title {
+  font-weight: 700;
+}
+
+.quarto-grid-item .listing-categories .listing-category {
+  border-color: $primary-color;
+  color: $primary-color;
+}
+
+/* Project pages */
+
+.project-facts {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.project-facts p {
+  margin: 0.2rem 0;
+}
+
+/* Publications */
+
+.metric-banner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.metric-item {
+  flex: 1 1 140px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+  text-align: center;
+}
+
+.metric-val {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: $primary-color;
+}
+
+.metric-label {
+  display: block;
+  font-size: 0.85rem;
+  color: $primary-color-dark;
+}
+
+.pub-badge {
+  font-size: 0.85em;
+}
+
+/* Footer */
+
+.nav-footer a {
+  color: white;
+}
+
+.nav-footer .ai, .nav-footer .bi {
+  color: white;
+}

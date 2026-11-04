@@ -1,87 +1,17 @@
 [
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "University of Copenhagen, Department of Computer Science | 2021 to 2025\nCourse on using Danish national health registers for epidemiological research. Covers data sources, study design, and data analysis in R.\n\n\n\n\nBispebjerg and Frederiksberg Hospital | 2021 to 2023\nIntensive course for junior doctors covering pharmacokinetics, drug interactions, therapeutic drug monitoring, and adverse drug reactions.\n\n\n\n\nUniversity of Copenhagen, Section of Biostatistics | 2021 to 2022\nStatistical methods course for medical students. Topics include survival analysis, regression modelling, and generalized additive models, with exercises in R."
-  },
-  {
-    "objectID": "teaching.html#courses",
-    "href": "teaching.html#courses",
-    "title": "Teaching",
-    "section": "",
-    "text": "University of Copenhagen, Department of Computer Science | 2021 to 2025\nCourse on using Danish national health registers for epidemiological research. Covers data sources, study design, and data analysis in R.\n\n\n\n\nBispebjerg and Frederiksberg Hospital | 2021 to 2023\nIntensive course for junior doctors covering pharmacokinetics, drug interactions, therapeutic drug monitoring, and adverse drug reactions.\n\n\n\n\nUniversity of Copenhagen, Section of Biostatistics | 2021 to 2022\nStatistical methods course for medical students. Topics include survival analysis, regression modelling, and generalized additive models, with exercises in R."
-  },
-  {
-    "objectID": "teaching.html#supervision",
-    "href": "teaching.html#supervision",
-    "title": "Teaching",
-    "section": "Supervision",
-    "text": "Supervision\n\n\n\nRole\nCurrent\nCompleted\n\n\n\n\nCo-supervisor, PhD students (TDM-VISION)\n1\n0\n\n\nPrimary supervisor, Master’s theses\n0\n4\n\n\nPrimary supervisor, Bachelor’s projects\n0\n2\n\n\n\nExternal examiner (censor) for 10 Bachelor’s and Master’s theses in Medicine, University of Copenhagen, and for 2 Master’s theses in Personalized Medicine, University of Copenhagen and Technical University of Denmark (2026)."
-  },
-  {
-    "objectID": "teaching.html#awards",
-    "href": "teaching.html#awards",
-    "title": "Teaching",
-    "section": "Awards",
-    "text": "Awards\n\n\n\n\n\n\n\nYear\nAward\n\n\n\n\n2026\nBest poster award, 40th Nordic Congress in Clinical Biochemistry, Aarhus\n\n\n2024\nSecond best oral presentation, Danish Society of Clinical Pharmacology (DSKF) annual meeting\n\n\n2023\nLassen-dagen Second Best Oral, Bispebjerg and Frederiksberg Hospital\n\n\n2022\nBest Poster Award, Lassen-dagen, Bispebjerg and Frederiksberg Hospital\n\n\n2019\nBest Abstract Award, IWCLL Conference, Edinburgh\n\n\n2019\nAudience Award, FYF Annual Poster Competition, Rigshospitalet\n\n\n2018\nBest Scientific Visualization, ARTIS, University of Copenhagen\n\n\n2017\nBest Abstract Award, IWCLL Conference, New York"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Project\n        \n         \n          Description\n        \n         \n          Since\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nProject\n\n\nDescription\n\n\nSince\n\n\n\n\n\n\nOPTIMUS-AF\n\n\nNationwide, decentralised randomised trial (n = 520) in persistent or permanent atrial fibrillation with side effects attributed to rate-control therapy, comparing a double-blind double-dummy N-of-1 crossover of metoprolol versus verapamil against standard care. PI Morten Lamberts, Herlev and Gentofte Hospital. Funded by Independent Research Fund Denmark (2027 to 2031). Responsible for investigational medicinal product, N-of-1 methodology, and CYP2D6 and drug concentration analyses.\n\n\n2027\n\n\n\n\nCardiovascular Pharmacogenetics & Biobank Linkage\n\n\nDeterministic individual-level linkage across Danish nationwide health registries and the Copenhagen Hospital Biobank (CHB) evaluating clinical outcomes associated with CYP2C19 loss-of-function variants in antiplatelet therapy, SLCO1B1-mediated statin uptake, and bedside clinical decision support.\n\n\n2025\n\n\n\n\nSAMSON-2 Trial\n\n\nInvestigator-initiated, nationwide, 11-center randomized controlled trial comparing a digital double-blind N-of-1 trial platform against guideline-directed standard care titration to systematically differentiate statin-associated muscle symptoms from expectation bias. Funded by the Capital Region of Denmark, Bispebjerg Hospital, and Hørslev-Fonden. Protocol approved in CTIS (2025-524955-30-01); protocol paper submitted to American Heart Journal in October 2026.\n\n\n2024\n\n\n\n\nTDM-VISION\n\n\nProspective clinical research project evaluating therapeutic drug monitoring algorithms and pharmacokinetic-pharmacodynamic exposure metrics for targeted oral therapies (ibrutinib and venetoclax) in chronic lymphocytic leukemia. Funded by the Danish Cancer Society (DKK 2.3M).\n\n\n2024\n\n\n\n\nSPOCK Trial & European PGx Networks\n\n\nMultinational European clopidogrel pharmacogenomics consortium investigating CYP2C19 genotype-guided antiplatelet therapy, alongside active working group participation in COST Action CardioPharmGeneNet and CPIC guideline development.\n\n\n2022\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Specialty registrar in clinical pharmacology\nDepartment of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital\nBispebjerg Bakke 23, 2400 Copenhagen NV\nCopenhagen, Denmark\n\n\n\n\nWork E-mail: michael.asger.andersen at regionh dot dk\nDirect Phone: +45 31 77 08 56\nORCID: 0000-0001-9729-9974\nGoogle Scholar: Profile\nGitHub: github.com/masger\nLinkedIn: Profile\n\n\n\n\n\nThe academic CV with the full publication list was updated on 29 October 2026:\nAcademic CV (PDF) Publication list (PDF)"
-  },
-  {
-    "objectID": "contact.html#michael-asger-andersen-md-phd",
-    "href": "contact.html#michael-asger-andersen-md-phd",
-    "title": "Contact",
-    "section": "",
-    "text": "Specialty registrar in clinical pharmacology\nDepartment of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital\nBispebjerg Bakke 23, 2400 Copenhagen NV\nCopenhagen, Denmark\n\n\n\n\nWork E-mail: michael.asger.andersen at regionh dot dk\nDirect Phone: +45 31 77 08 56\nORCID: 0000-0001-9729-9974\nGoogle Scholar: Profile\nGitHub: github.com/masger\nLinkedIn: Profile\n\n\n\n\n\nThe academic CV with the full publication list was updated on 29 October 2026:\nAcademic CV (PDF) Publication list (PDF)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Michael Asger Andersen, MD, PhD",
-    "section": "",
-    "text": "CV (PDF)\n  \n  \n    \n     E-mail\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n\n  \n  \nI am a physician and specialty registrar in clinical pharmacology studying how pharmacogenetic test results change prescribing and patient outcomes. I combine Danish national registry data with prospective clinical trials to measure whether genotype-guided dosing reduces adverse drug reactions and treatment failures.\nMy current work focuses on CYP2C19-guided antiplatelet therapy, SLCO1B1 genotyping for statin intolerance, and therapeutic drug monitoring of targeted cancer therapies.\n\n\nSpecialty registrar in clinical pharmacology | 2023 to 2027\n\nDepartment of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital (current)\nDepartment of Clinical Biochemistry and Genomic Medicine, Rigshospitalet (2025 to 2026)\nDepartment of Endocrinology, Herlev Hospital (2024 to 2025)\nCardiovascular Clinical Development, Novo Nordisk (2023 to 2024)\n\nResident | Department of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital | 2021 to 2023\nPostdoctoral researcher | CLL-LAB, Department of Hematology, Rigshospitalet | 2020 to 2021\n\n\n\nPhD in Medical Science | University of Copenhagen | 2016 to 2021\n\nThesis: Real-world evidence on the risk, type and treatment of infectious complications in chronic lymphocytic leukaemia\n\nMedical Doctor (MD) | University of Copenhagen | 2008 to 2015\n\n\n\n\nChair, Danish Society for Personalized Medicine (2025 to present)\nAppointed national expert, Danish National Strategy for Personalized Medicine (2026 to present)\nAuditor, Danish Society of Clinical Pharmacology (2026 to present)\nWorking group member, CPIC guideline for NAT2 (published 2025)\nReview editor, Frontiers in Epidemiology (2023 to present)\nMember, Clinical Pharmacogenetics Implementation Consortium (CPIC) (2022 to present)\nMember, Pharmacogenomics Global Research Network (2022 to present)"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Michael Asger Andersen, MD, PhD",
-    "section": "",
-    "text": "Specialty registrar in clinical pharmacology | 2023 to 2027\n\nDepartment of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital (current)\nDepartment of Clinical Biochemistry and Genomic Medicine, Rigshospitalet (2025 to 2026)\nDepartment of Endocrinology, Herlev Hospital (2024 to 2025)\nCardiovascular Clinical Development, Novo Nordisk (2023 to 2024)\n\nResident | Department of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital | 2021 to 2023\nPostdoctoral researcher | CLL-LAB, Department of Hematology, Rigshospitalet | 2020 to 2021"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Michael Asger Andersen, MD, PhD",
-    "section": "",
-    "text": "PhD in Medical Science | University of Copenhagen | 2016 to 2021\n\nThesis: Real-world evidence on the risk, type and treatment of infectious complications in chronic lymphocytic leukaemia\n\nMedical Doctor (MD) | University of Copenhagen | 2008 to 2015"
-  },
-  {
-    "objectID": "index.html#positions",
-    "href": "index.html#positions",
-    "title": "Michael Asger Andersen, MD, PhD",
-    "section": "",
-    "text": "Chair, Danish Society for Personalized Medicine (2025 to present)\nAppointed national expert, Danish National Strategy for Personalized Medicine (2026 to present)\nAuditor, Danish Society of Clinical Pharmacology (2026 to present)\nWorking group member, CPIC guideline for NAT2 (published 2025)\nReview editor, Frontiers in Epidemiology (2023 to present)\nMember, Clinical Pharmacogenetics Implementation Consortium (CPIC) (2022 to present)\nMember, Pharmacogenomics Global Research Network (2022 to present)"
-  },
-  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
     "text": "46 Peer-Reviewed Articles\n\n\n18 First / Last Author\n\n\n18 H-Index (Google Scholar)\n\n\n1,112 Citations\nGoogle Scholar  PubMed Search  ORCID: 0000-0001-9729-9974\nPublication list as of 29 October 2026. Citation metrics from Google Scholar (h-index 18, i10-index 27). One further case report in Ugeskrift for Læger (2017) is listed under section IV."
+  },
+  {
+    "objectID": "publications.html#selected-publications",
+    "href": "publications.html#selected-publications",
+    "title": "Publications",
+    "section": "Selected publications",
+    "text": "Selected publications\nFive papers that show what I work on. The full list follows below.\n\nEadon MT, Hein DW, Andersen MA, Chapman AB, Cooper-DeHoff RM, Desta Z, …, Agúndez JAG. Clinical Pharmacogenetics Implementation Consortium Guideline for NAT2 Genotype and Hydralazine Therapy. Clin Pharmacol Ther 2025;118(6):1430-1436. [PubMed]\nAndersen MA, Helms Andreasen A, Evi Bang L, Jimenez-Solem E, Petersen TS. A register-based cohort study on the effectiveness and Safety of anti-PCSK9 treatment in persons with hyperlipidemia. Commun Med (Lond) 2024;4(1):193. [PubMed]\nDamkier P, Andersen MA. Temporary Like Achilles: Pre-emptive germline pharmacogenetic testing. Basic Clin Pharmacol Toxicol 2023;133(4):397-399. [PubMed]\nAgius R, Brieghel C, Andersen MA, Pearson AT, Ledergerber B, Cozzi-Lepri A, …, Niemann CU. Machine learning can identify newly diagnosed patients with CLL at high risk of infection. Nat Commun 2020;11(1):363. [PubMed]\nAndersen MA, Moser CE, Lundgren J, Niemann CU. Epidemiology of bloodstream infections in patients with chronic lymphocytic leukemia: a longitudinal nation-wide cohort study. Leukemia 2019;33(3):662-670. [PubMed]"
   },
   {
     "objectID": "publications.html#i.-original-scientific-publications-peer-reviewed",
@@ -110,5 +40,124 @@
     "title": "Publications",
     "section": "IV. Short reports, commentaries and other peer reviewed publications",
     "text": "IV. Short reports, commentaries and other peer reviewed publications\n\nAndersen MA, Nielsen RT. Spontaneous renal rupture of fornix due to obstructing urethral stone. Ugeskr Laeger 2017;179(36):V02170114. [PubMed]\nAndersen MA, Niemann CU. Immune failure, infection and survival in chronic lymphocytic leukemia in Denmark. Haematologica 2018;103(7):e330. [PubMed]\nAndersen MA, Eriksen CT, Brieghel C, Biccler JL, Cunha-Bang CD, Helleberg M, Niemann CU. Incidence and predictors of infection among patients prior to treatment of chronic lymphocytic leukemia: a Danish nationwide cohort study. Haematologica 2018;103(7):e300-e303. [PubMed]\nAndersen MA, Valentin R, Dissing Sjö L, Borgwardt L, Schmiegelow K, Andersen MK, …, Niemann CU. Combining epigenetic therapy with venetoclax overcomes alemtuzumab resistance in T-cell prolymphocytic leukemia. A case report of a 26-year-old man with a prior history of T-cell acute lymphoblastic leukemia and GI-T lymphoma. Acta Oncol 2020;59(12):1547-1551. [PubMed]\nEgholm GJ, Andersen MA, Andersen CL, Frederiksen H, Bjerrum OW, Niemann CU. Abnormal eosinophil count at CLL diagnosis correlates with shorter treatment free survival. Br J Haematol 2021;192(3):e81-e84. [PubMed]\nVojdeman FJ, Helby J, Pedersen LB, Brieghel C, Andersen MA, Nordestgaard BG, Bojesen SE, Niemann CU. Chronic lymphocytic leukaemia clones are detectable decades before diagnosis. Br J Haematol 2022;196(3):784-787. [PubMed]\nDamkier P, Andersen MA. Temporary Like Achilles: Pre-emptive germline pharmacogenetic testing. Basic Clin Pharmacol Toxicol 2023;133(4):397-399. [PubMed]\nWindfeld-Mathiasen J, Heerfordt IM, Dalhoff KP, Andersen JT, Andersen MA, Johansson KS, …, Horwitz H. Response by Windfeld-Mathiasen et al to Letter Regarding Article, “Cardiovascular Disease in Anabolic Androgenic Steroid Users”. Circulation 2025;152(16):e296-e297. [PubMed]"
+  },
+  {
+    "objectID": "projects/spock.html",
+    "href": "projects/spock.html",
+    "title": "SPOCK and European PGx networks",
+    "section": "",
+    "text": "Role: Work package collaborator\nNetworks: SPOCK consortium, COST Action CardioPharmGeneNet, Clinical Pharmacogenetics Implementation Consortium (CPIC)\nStatus: Ongoing since 2022\n\nSPOCK is a multinational consortium on CYP2C19 genotype-guided antiplatelet therapy. I contribute Danish register and biobank data and take part in the methods work package. Through CPIC I co-authored the 2025 guideline on NAT2 and take part in the network’s working groups."
+  },
+  {
+    "objectID": "projects/optimus-af.html",
+    "href": "projects/optimus-af.html",
+    "title": "OPTIMUS-AF",
+    "section": "",
+    "text": "Role: Co-applicant, responsible for the investigational medicinal product, N-of-1 methodology and the CYP2D6 and drug concentration analyses\nPrincipal investigator: Morten Lamberts, Herlev and Gentofte Hospital\nDesign: Nationwide decentralised randomised trial, 520 participants, double-blind double-dummy N-of-1 crossover against standard care\nFunding: Independent Research Fund Denmark, 2027 to 2031\n\nPatients with persistent or permanent atrial fibrillation often report side effects on rate-control drugs, and the usual answer is to switch and hope. OPTIMUS-AF lets each patient compare metoprolol and verapamil blinded in their own crossover and uses CYP2D6 genotype and drug concentrations to explain who tolerates what."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Trials I run or help run, and the register and biobank studies behind them. Each card links to a short page with status, funding and collaborators.\n\n\n\n\n\n\n\n\n\n\nSAMSON-2\n\n\nNationwide randomized trial testing a digital double-blind N-of-1 platform against standard care for statin intolerance. Sponsor and principal investigator.\n\n\n\n\n\n\n\n\n\n\n\n\n\nTDM-VISION\n\n\nTherapeutic drug monitoring of ibrutinib and venetoclax in chronic lymphocytic leukemia. Principal investigator, funded by the Danish Cancer Society.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBiobank pharmacogenetics\n\n\nCYP2C19 and SLCO1B1 genotypes from the Copenhagen Hospital Biobank linked to antiplatelet and statin outcomes in nationwide registers.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSPOCK and European PGx networks\n\n\nEuropean clopidogrel pharmacogenomics consortium and working group participation in COST Action CardioPharmGeneNet and CPIC guideline development.\n\n\n\n\n\n\n\n\n\n\n\n\n\nOPTIMUS-AF\n\n\nDecentralised N-of-1 trial of metoprolol versus verapamil in atrial fibrillation with side effects. Co-applicant responsible for the N-of-1 methodology and CYP2D6 analyses.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Michael Asger Andersen",
+    "section": "",
+    "text": "Physician and clinical pharmacologist in training\nI am a specialty registrar in clinical pharmacology at Bispebjerg and Frederiksberg Hospital, Copenhagen, with a PhD in medical science. I study whether pharmacogenetic testing and therapeutic drug monitoring change prescribing and patient outcomes. The data come from Danish nationwide health registers, the Copenhagen Hospital Biobank and prospective clinical trials.\nRight now I run SAMSON-2, a nationwide N-of-1 trial on statin intolerance, and TDM-VISION, a drug monitoring project for ibrutinib and venetoclax in chronic lymphocytic leukemia. In parallel I link CYP2C19 and SLCO1B1 genotypes from the Copenhagen Hospital Biobank to clinical outcomes in nationwide registers.\nSee all projects, the publication list or the CV as PDF."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a physician and specialty registrar in clinical pharmacology at Bispebjerg and Frederiksberg Hospital, Copenhagen. I trained as a doctor at the University of Copenhagen, did a PhD on infections in chronic lymphocytic leukemia at Rigshospitalet, and spent a year in cardiovascular clinical development at Novo Nordisk before returning to the hospital. My research combines Danish nationwide health registers, the Copenhagen Hospital Biobank and prospective clinical trials to test whether genotype-guided prescribing and therapeutic drug monitoring improve patient outcomes."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\n\n\n\n\n\n\n\nYears\nPosition\n\n\n\n\n2023 to 2027\nSpecialty registrar in clinical pharmacology, Bispebjerg and Frederiksberg Hospital. Rotations at the Department of Clinical Biochemistry and Genomic Medicine, Rigshospitalet (2025 to 2026), the Department of Endocrinology, Herlev Hospital (2024 to 2025) and Cardiovascular Clinical Development, Novo Nordisk (2023 to 2024)\n\n\n2021 to 2023\nResident, Department of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital\n\n\n2020 to 2021\nPostdoctoral researcher, CLL-LAB, Department of Hematology, Rigshospitalet\n\n\n2016 to 2020\nResearch fellow and clinical assistant, Department of Hematology, Rigshospitalet\n\n\n2015 to 2016\nResident (KBU), Departments of Infectious Diseases and Urology, Herlev Hospital"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\n\nYears\nDegree\n\n\n\n\n2026\nBRIDGE Translational Excellence Programme, Omics courses, University of Copenhagen\n\n\n2016 to 2021\nPhD in medical science, University of Copenhagen. Thesis: Real-world evidence on the risk, type and treatment of infectious complications in chronic lymphocytic leukaemia\n\n\n2008 to 2015\nMedical doctor (MD), University of Copenhagen"
+  },
+  {
+    "objectID": "about.html#positions-of-trust",
+    "href": "about.html#positions-of-trust",
+    "title": "About",
+    "section": "Positions of trust",
+    "text": "Positions of trust\n\nChair, Danish Society for Personalized Medicine (2025 to present)\nAppointed national expert, Danish National Strategy for Personalized Medicine (2026 to present)\nAuditor, Danish Society of Clinical Pharmacology (2026 to present)\nWorking group member, CPIC guideline for NAT2 (published 2025)\nReview editor, Frontiers in Epidemiology (2023 to present)\nMember, Clinical Pharmacogenetics Implementation Consortium (CPIC) (2022 to present)\nMember, Pharmacogenomics Global Research Network (2022 to present)"
+  },
+  {
+    "objectID": "about.html#book",
+    "href": "about.html#book",
+    "title": "About",
+    "section": "Book",
+    "text": "Book\nI am writing Kun dosis gør giften, a popular science book in Danish about how medicines work, for the publisher Lindhardt og Ringhof. Each chapter opens at the bedside at Herlev Hospital and follows one drug from plant, mould or laboratory to the pharmacy shelf. The book is for patients and relatives and is not part of my academic publication list."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nDepartment of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital\nBispebjerg Bakke 23, 2400 Copenhagen NV, Denmark\nE-mail: michael.asger.andersen at regionh dot dk\nPhone: +45 31 77 08 56\nAcademic CV (PDF) Publication list (PDF)"
+  },
+  {
+    "objectID": "projects/chb-pharmacogenetics.html",
+    "href": "projects/chb-pharmacogenetics.html",
+    "title": "Biobank pharmacogenetics",
+    "section": "",
+    "text": "Role: Principal investigator\nData: Copenhagen Hospital Biobank genotypes linked to the Danish National Patient Register, the Prescription Register and the Civil Registration System\nStatus: Analyses ongoing\n\nGuidelines recommend CYP2C19 testing before clopidogrel and SLCO1B1 testing before simvastatin, but Danish hospitals rarely test. This project uses existing genotypes from the Copenhagen Hospital Biobank to estimate what testing would have changed: how many patients carry actionable variants, what happened to them on the drug, and whether the result justifies routine genotyping. The analyses run in R with data.table on the Danish national research servers."
+  },
+  {
+    "objectID": "projects/samson2.html",
+    "href": "projects/samson2.html",
+    "title": "SAMSON-2",
+    "section": "",
+    "text": "Role: Sponsor and principal investigator\nDesign: Multicenter randomized controlled trial across 11 Danish cardiology lipid clinics\nStatus: Approved in CTIS (2025-524955-30-01), protocol paper submitted October 2026\nFunding: Capital Region of Denmark, Bispebjerg Hospital research fund, Hørslev-Fonden\n\nMany patients stop statins because of muscle symptoms, but blinded trials show that most of those symptoms also appear on placebo. SAMSON-2 asks whether a patient’s own blinded comparison changes that. Participants in the N-of-1 arm go through six blinded 28-day blocks, three on rosuvastatin 20 mg and three on identical placebo, separated by 14-day washouts. They record symptoms daily in an app and receive their personal result at the end. The control arm gets guideline-directed titration by the lipid clinic. The primary question is whether the N-of-1 result leads to more patients on a statin one year later.\nThe trial builds on the UK SAMSON trial by Howard, Francis and colleagues (2020). Darrel P. Francis (Imperial College London) and Luke Pilling (University of Exeter) collaborate on design and genetics.\n\n\n\nTrial flow. 160 participants are randomised 1:1. The N-of-1 arm alternates rosuvastatin and placebo in six four-week blocks and sees its own result at week 36; the control arm gets standard titration. The primary endpoint is read at month 15.\n\n\n\n\n\nTrial flow. 160 participants are randomised 1:1. The N-of-1 arm alternates rosuvastatin and placebo in six four-week blocks and sees its own result at week 36; the control arm gets standard titration. The primary endpoint is read at month 15."
+  },
+  {
+    "objectID": "projects/tdm-vision.html",
+    "href": "projects/tdm-vision.html",
+    "title": "TDM-VISION",
+    "section": "",
+    "text": "Role: Principal investigator\nDesign: Prospective clinical study with pharmacokinetic sampling and exposure-response modelling\nStatus: Recruiting, one PhD student co-supervised\nFunding: Danish Cancer Society, DKK 2.3 million\n\nIbrutinib and venetoclax are dosed by label, not by concentration, although exposure varies several-fold between patients. TDM-VISION measures drug concentrations in patients with chronic lymphocytic leukemia treated at Danish hematology departments and relates them to response, toxicity and dose changes. The goal is a monitoring algorithm that tells the clinician when a concentration should change the dose."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "University of Copenhagen, Department of Computer Science | 2021 to 2025\nCourse on using Danish national health registers for epidemiological research. Covers data sources, study design, and data analysis in R.\n\n\n\nBispebjerg and Frederiksberg Hospital | 2021 to 2023\nIntensive course for junior doctors covering pharmacokinetics, drug interactions, therapeutic drug monitoring, and adverse drug reactions.\n\n\n\nUniversity of Copenhagen, Section of Biostatistics | 2021 to 2022\nStatistical methods course for medical students. Topics include survival analysis, regression modelling, and generalized additive models, with exercises in R."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "University of Copenhagen, Department of Computer Science | 2021 to 2025\nCourse on using Danish national health registers for epidemiological research. Covers data sources, study design, and data analysis in R.\n\n\n\nBispebjerg and Frederiksberg Hospital | 2021 to 2023\nIntensive course for junior doctors covering pharmacokinetics, drug interactions, therapeutic drug monitoring, and adverse drug reactions.\n\n\n\nUniversity of Copenhagen, Section of Biostatistics | 2021 to 2022\nStatistical methods course for medical students. Topics include survival analysis, regression modelling, and generalized additive models, with exercises in R."
+  },
+  {
+    "objectID": "teaching.html#supervision",
+    "href": "teaching.html#supervision",
+    "title": "Teaching",
+    "section": "Supervision",
+    "text": "Supervision\n\n\n\nRole\nCurrent\nCompleted\n\n\n\n\nCo-supervisor, PhD students (TDM-VISION)\n1\n0\n\n\nPrimary supervisor, Master’s theses\n0\n4\n\n\nPrimary supervisor, Bachelor’s projects\n0\n2\n\n\n\nExternal examiner (censor) for 10 Bachelor’s and Master’s theses in Medicine, University of Copenhagen, and for 2 Master’s theses in Personalized Medicine, University of Copenhagen and Technical University of Denmark (2026)."
+  },
+  {
+    "objectID": "teaching.html#awards",
+    "href": "teaching.html#awards",
+    "title": "Teaching",
+    "section": "Awards",
+    "text": "Awards\n\n\n\n\n\n\n\nYear\nAward\n\n\n\n\n2026\nBest poster award, 40th Nordic Congress in Clinical Biochemistry, Aarhus\n\n\n2024\nSecond best oral presentation, Danish Society of Clinical Pharmacology (DSKF) annual meeting\n\n\n2023\nLassen-dagen Second Best Oral, Bispebjerg and Frederiksberg Hospital\n\n\n2022\nBest Poster Award, Lassen-dagen, Bispebjerg and Frederiksberg Hospital\n\n\n2019\nBest Abstract Award, IWCLL Conference, Edinburgh\n\n\n2019\nAudience Award, FYF Annual Poster Competition, Rigshospitalet\n\n\n2018\nBest Scientific Visualization, ARTIS, University of Copenhagen\n\n\n2017\nBest Abstract Award, IWCLL Conference, New York"
   }
 ]

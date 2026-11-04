@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Michael Asger Andersen">
 <meta name="description" content="Peer-reviewed publications by Michael Asger Andersen, MD, PhD">
 
 <title>Michael Asger Andersen - Publications</title>
@@ -32,6 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -48,7 +48,7 @@ ul.task-list li input[type="checkbox"] {
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
-  "type": "textbox",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -69,32 +69,24 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
-
-<script type="text/javascript">
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '', { 'anonymize_ip': true});
-</script>
+<style>html{ scroll-behavior: smooth; }</style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
 
 
-<link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Michael Asger Andersen - Publications">
 <meta property="og:description" content="Physician and researcher in clinical pharmacology and pharmacogenetics">
-<meta property="og:image" content="https://masger.github.io/files/images/cph_foto_michael.jpg">
+<meta property="og:image" content="https://masger.github.io/images/social-card.jpg">
 <meta property="og:site_name" content="Michael Asger Andersen">
 <meta name="twitter:title" content="Michael Asger Andersen - Publications">
 <meta name="twitter:description" content="Physician and researcher in clinical pharmacology and pharmacogenetics">
-<meta name="twitter:image" content="https://masger.github.io/files/images/cph_foto_michael.jpg">
+<meta name="twitter:image" content="https://masger.github.io/images/social-card.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -110,18 +102,15 @@ gtag('config', '', { 'anonymize_ip': true});
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">About</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
-        <li>
-    <a class="dropdown-item" href="./contact.html">
- <span class="dropdown-text">Contact</span></a>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
-    </ul>
-  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./publications.html" aria-current="page"> 
 <span class="menu-text">Publications</span></a>
@@ -130,55 +119,70 @@ gtag('config', '', { 'anonymize_ip': true});
     <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cv-michael-andersen.pdf" target="_blank"> 
-<span class="menu-text">CV</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/masger" target="_blank"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0000-0001-9729-9974" target="_blank"> 
-<span class="menu-text"><i class="ai  ai-orcid" aria-label="orcid"></i></span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
-  <div class="quarto-reader-toggle-btn">
-  <i class="bi"></i>
-  </div>
-</a>
+    <div class="dropdown">
+      <a href="" title="Profiles" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Profiles"><i class="bi bi-person-circle"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/masger">
+              <i class="bi bi-bi-github pe-1"></i>
+            GitHub
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://www.linkedin.com/in/michael-asger-andersen-44ba759a/">
+              <i class="bi bi-bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://scholar.google.dk/citations?hl=da&amp;user=Bu8uQCAAAAAJ">
+              <i class="bi bi-bi-mortarboard pe-1"></i>
+            Google Scholar
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://orcid.org/0000-0001-9729-9974">
+              <i class="bi bi-bi-person-vcard pe-1"></i>
+            ORCID
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="./cv-michael-andersen.pdf">
+              <i class="bi bi-bi-file-earmark-person pe-1"></i>
+            CV (PDF)
+            </a>
+          </li>
+      </ul>
+    </div>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#i.-original-scientific-publications-peer-reviewed" id="toc-i.-original-scientific-publications-peer-reviewed" class="nav-link active" data-scroll-target="#i.-original-scientific-publications-peer-reviewed">I. Original scientific publications (peer reviewed)</a></li>
+  <li><a href="#selected-publications" id="toc-selected-publications" class="nav-link active" data-scroll-target="#selected-publications">Selected publications</a></li>
+  <li><a href="#i.-original-scientific-publications-peer-reviewed" id="toc-i.-original-scientific-publications-peer-reviewed" class="nav-link" data-scroll-target="#i.-original-scientific-publications-peer-reviewed">I. Original scientific publications (peer reviewed)</a></li>
   <li><a href="#ii.-clinical-guidelines-and-consortia-peer-reviewed" id="toc-ii.-clinical-guidelines-and-consortia-peer-reviewed" class="nav-link" data-scroll-target="#ii.-clinical-guidelines-and-consortia-peer-reviewed">II. Clinical guidelines and consortia (peer reviewed)</a></li>
   <li><a href="#iii.-scientific-reviews-peer-reviewed" id="toc-iii.-scientific-reviews-peer-reviewed" class="nav-link" data-scroll-target="#iii.-scientific-reviews-peer-reviewed">III. Scientific reviews (peer reviewed)</a></li>
   <li><a href="#iv.-short-reports-commentaries-and-other-peer-reviewed-publications" id="toc-iv.-short-reports-commentaries-and-other-peer-reviewed-publications" class="nav-link" data-scroll-target="#iv.-short-reports-commentaries-and-other-peer-reviewed-publications">IV. Short reports, commentaries and other peer reviewed publications</a></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -187,7 +191,7 @@ gtag('config', '', { 'anonymize_ip': true});
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
   
@@ -213,9 +217,20 @@ gtag('config', '', { 'anonymize_ip': true});
 <p><span class="metric-val">1,112</span> <span class="metric-label">Citations</span></p>
 </div>
 </div>
-<p><a href="https://scholar.google.dk/citations?hl=da&amp;user=Bu8uQCAAAAAJ" class="btn btn-outline-primary btn-sm" target="_blank"><i class="ai  ai-google-scholar" aria-label="google-scholar"></i> Google Scholar</a> <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Andersen+MA%5BAuthor%5D&amp;sort=date" class="btn btn-outline-secondary btn-sm" target="_blank"><i class="ai  ai-pubmed" aria-label="pubmed"></i> PubMed Search</a> <a href="https://orcid.org/0000-0001-9729-9974" class="btn btn-outline-info btn-sm" target="_blank"><i class="ai  ai-orcid" aria-label="orcid"></i> ORCID: 0000-0001-9729-9974</a></p>
+<p><a href="https://scholar.google.dk/citations?hl=da&amp;user=Bu8uQCAAAAAJ" class="btn btn-outline-primary btn-sm" target="_blank"><i class="ai  ai-google-scholar" aria-label="google-scholar"></i> Google Scholar</a> <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Andersen+MA%5BAuthor%5D&amp;sort=date" class="btn btn-outline-primary btn-sm" target="_blank"><i class="ai  ai-pubmed" aria-label="pubmed"></i> PubMed Search</a> <a href="https://orcid.org/0000-0001-9729-9974" class="btn btn-outline-primary btn-sm" target="_blank"><i class="ai  ai-orcid" aria-label="orcid"></i> ORCID: 0000-0001-9729-9974</a></p>
 <hr>
 <p>Publication list as of 29 October 2026. Citation metrics from Google Scholar (h-index 18, i10-index 27). One further case report in <em>Ugeskrift for Læger</em> (2017) is listed under section IV.</p>
+<section id="selected-publications" class="level2">
+<h2 class="anchored" data-anchor-id="selected-publications">Selected publications</h2>
+<p>Five papers that show what I work on. The full list follows below.</p>
+<ul>
+<li>Eadon MT, Hein DW, <strong>Andersen MA</strong>, Chapman AB, Cooper-DeHoff RM, Desta Z, …, Agúndez JAG. Clinical Pharmacogenetics Implementation Consortium Guideline for NAT2 Genotype and Hydralazine Therapy. <em>Clin Pharmacol Ther</em> 2025;118(6):1430-1436. [<a href="https://pubmed.ncbi.nlm.nih.gov/40974042/" class="pub-badge" target="_blank">PubMed</a>]</li>
+<li><strong>Andersen MA</strong>, Helms Andreasen A, Evi Bang L, Jimenez-Solem E, Petersen TS. A register-based cohort study on the effectiveness and Safety of anti-PCSK9 treatment in persons with hyperlipidemia. <em>Commun Med (Lond)</em> 2024;4(1):193. [<a href="https://pubmed.ncbi.nlm.nih.gov/39375518/" class="pub-badge" target="_blank">PubMed</a>]</li>
+<li>Damkier P, <strong>Andersen MA</strong>. Temporary Like Achilles: Pre-emptive germline pharmacogenetic testing. <em>Basic Clin Pharmacol Toxicol</em> 2023;133(4):397-399. [<a href="https://pubmed.ncbi.nlm.nih.gov/37337835/" class="pub-badge" target="_blank">PubMed</a>]</li>
+<li>Agius R, Brieghel C, <strong>Andersen MA</strong>, Pearson AT, Ledergerber B, Cozzi-Lepri A, …, Niemann CU. Machine learning can identify newly diagnosed patients with CLL at high risk of infection. <em>Nat Commun</em> 2020;11(1):363. [<a href="https://pubmed.ncbi.nlm.nih.gov/31953409/" class="pub-badge" target="_blank">PubMed</a>]</li>
+<li><strong>Andersen MA</strong>, Moser CE, Lundgren J, Niemann CU. Epidemiology of bloodstream infections in patients with chronic lymphocytic leukemia: a longitudinal nation-wide cohort study. <em>Leukemia</em> 2019;33(3):662-670. [<a href="https://pubmed.ncbi.nlm.nih.gov/30546080/" class="pub-badge" target="_blank">PubMed</a>]</li>
+</ul>
+</section>
 <section id="i.-original-scientific-publications-peer-reviewed" class="level2">
 <h2 class="anchored" data-anchor-id="i.-original-scientific-publications-peer-reviewed">I. Original scientific publications (peer reviewed)</h2>
 <ol type="1">
@@ -705,21 +720,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<a href="https://masger.github.io">Michael Asger Andersen</a> ©
-<script>document.write(new Date().getFullYear())</script>
-</div>   
-    <div class="nav-footer-center">
       &nbsp;
-    </div>
+    </div>   
+    <div class="nav-footer-center">
+<a href="cv-michael-andersen.pdf" target="_blank">CV</a> &nbsp; <a href="https://github.com/masger" target="_blank"><i class="bi bi-github"></i></a> &nbsp; <a href="https://www.linkedin.com/in/michael-asger-andersen-44ba759a/" target="_blank"><i class="bi bi-linkedin"></i></a> &nbsp; <a href="https://scholar.google.dk/citations?hl=da&amp;user=Bu8uQCAAAAAJ" target="_blank"><i class="ai ai-google-scholar fa-lg"></i></a> &nbsp; <a href="https://orcid.org/0000-0001-9729-9974" target="_blank"><i class="ai ai-orcid fa-lg"></i></a> <br>Site made with <a href="https://quarto.org/" target="_blank">Quarto</a> · ©
+<script>document.write(new Date().getFullYear())</script>
+<p>Michael Asger Andersen</p>
+</div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/masger" target="_blank">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
   </div>
 </footer>
@@ -727,4 +736,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

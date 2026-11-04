@@ -1,6 +1,12 @@
 [
   {
     "listing": "/projects.html",
-    "items": []
+    "items": [
+      "/projects/samson2.html",
+      "/projects/tdm-vision.html",
+      "/projects/chb-pharmacogenetics.html",
+      "/projects/spock.html",
+      "/projects/optimus-af.html"
+    ]
   }
 ]

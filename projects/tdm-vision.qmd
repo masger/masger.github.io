@@ -1,0 +1,16 @@
+---
+title: "TDM-VISION"
+description: "Therapeutic drug monitoring of ibrutinib and venetoclax in chronic lymphocytic leukemia. Principal investigator, funded by the Danish Cancer Society."
+image: "../images/projects/tdm-vision.svg"
+categories: [TDM, Hematology, PK/PD]
+order: 2
+---
+
+::: {.project-facts}
+**Role:** Principal investigator\
+**Design:** Prospective clinical study with pharmacokinetic sampling and exposure-response modelling\
+**Status:** Recruiting, one PhD student co-supervised\
+**Funding:** Danish Cancer Society, DKK 2.3 million
+:::
+
+Ibrutinib and venetoclax are dosed by label, not by concentration, although exposure varies several-fold between patients. TDM-VISION measures drug concentrations in patients with chronic lymphocytic leukemia treated at Danish hematology departments and relates them to response, toxicity and dose changes. The goal is a monitoring algorithm that tells the clinician when a concentration should change the dose.

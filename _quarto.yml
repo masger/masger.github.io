@@ -1,75 +1,81 @@
 project:
   type: website
   output-dir: docs
-
-description-meta: "Michael Asger Andersen, physician and researcher in clinical pharmacology and pharmacogenetics"
-author-meta: "Michael Asger Andersen"
+  render:
+    - "index.qmd"
+    - "about.qmd"
+    - "projects.qmd"
+    - "projects/*.qmd"
+    - "publications.qmd"
+    - "teaching.qmd"
+    - "404.qmd"
+  resources:
+    - "!docs/"
+    - "!_preview/"
+    - "cv-michael-andersen.pdf"
+    - "publication-list.pdf"
+    - "robots.txt"
+    - "googlebaf36bbe59a6b247.html"
 
 website:
   title: "Michael Asger Andersen"
-  image: "files/images/cph_foto_michael.jpg"
   description: "Physician and researcher in clinical pharmacology and pharmacogenetics"
+  image: "images/social-card.jpg"
+  favicon: "images/favicon.png"
+  site-url: "https://masger.github.io"
+  open-graph: true
+  twitter-card: true
+  back-to-top-navigation: false
+  search:
+    location: navbar
+    type: overlay
 
   navbar:
-    background: light
-
-    left:
+    right:
       - text: About
-        menu:
-          - text: Contact
-            href: contact.qmd
+        href: about.qmd
+      - text: Projects
+        href: projects.qmd
       - text: Publications
         href: publications.qmd
       - text: Teaching
         href: teaching.qmd
-      - text: Projects
-        href: projects.qmd
-      - text: CV
-        href: cv-michael-andersen.pdf
-        target: _blank
-
-    right:
-      - icon: github
-        href: https://github.com/masger
-        target: _blank
-      - text: "{{< ai orcid >}}"
-        href: https://orcid.org/0000-0001-9729-9974
-        target: _blank
-
-  page-navigation: true
+    tools:
+      - icon: person-circle
+        text: Profiles
+        menu:
+          - icon: github
+            text: GitHub
+            href: https://github.com/masger
+          - icon: linkedin
+            text: LinkedIn
+            href: https://www.linkedin.com/in/michael-asger-andersen-44ba759a/
+          - icon: mortarboard
+            text: Google Scholar
+            href: https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ
+          - icon: person-vcard
+            text: ORCID
+            href: https://orcid.org/0000-0001-9729-9974
+          - icon: file-earmark-person
+            text: CV (PDF)
+            href: cv-michael-andersen.pdf
 
   page-footer:
-    left: "[Michael Asger Andersen](https://masger.github.io) &copy; <script>document.write(new Date().getFullYear())</script>"
-    right:
-      - icon: github
-        href: https://github.com/masger
-        target: _blank
-
-  search:
-    location: navbar
-    type: textbox
-
-  reader-mode: true
-
-  open-graph: true
-  twitter-card: true
-
-  site-url: "https://masger.github.io"
-
-  google-analytics:
-    tracking-id: ""
-    anonymize-ip: true
-
-bibliography: references.bib
+    center: |
+      <a href="cv-michael-andersen.pdf" target="_blank">CV</a> &nbsp;
+      <a href="https://github.com/masger" target="_blank"><i class="bi bi-github"></i></a> &nbsp;
+      <a href="https://www.linkedin.com/in/michael-asger-andersen-44ba759a/" target="_blank"><i class="bi bi-linkedin"></i></a> &nbsp;
+      <a href="https://scholar.google.dk/citations?hl=da&user=Bu8uQCAAAAAJ" target="_blank"><i class="ai ai-google-scholar fa-lg"></i></a> &nbsp;
+      <a href="https://orcid.org/0000-0001-9729-9974" target="_blank"><i class="ai ai-orcid fa-lg"></i></a>
+      <br>Site made with <a href="https://quarto.org/" target="_blank">Quarto</a> &middot; &copy; <script>document.write(new Date().getFullYear())</script> Michael Asger Andersen
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-    footnotes-hover: true
-    fig-align: center
-    link-external-icon: false
+    theme: [default, css/theme.scss]
+    anchor-sections: true
+    lightbox: true
+    smooth-scroll: true
     link-external-newwindow: true
+    link-external-icon: false
     email-obfuscation: javascript
     include-in-header: "files/includes/_academic.qmd"

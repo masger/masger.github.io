@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="380" viewBox="0 0 600 380">
+<rect width="600" height="380" fill="#ffffff"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2c3f51"/></marker></defs>
+<rect x="40" y="60" width="220" height="70" rx="8" fill="#eef3f8" stroke="#2c3f51" stroke-width="2.5"/>
+<text x="150.0" y="93.0" font-family="Raleway, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#2c3f51" text-anchor="middle">Copenhagen Hospital</text>
+<text x="150.0" y="115.0" font-family="Raleway, Helvetica, Arial, sans-serif" font-size="15" fill="#2c3f51" text-anchor="middle">Biobank, 380,000 genotyped</text>
+<rect x="340" y="60" width="220" height="70" rx="8" fill="#eef3f8" stroke="#2c3f51" stroke-width="2.5"/>
+<text x="450.0" y="93.0" font-family="Raleway, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#2c3f51" text-anchor="middle">National registers</text>
+<text x="450.0" y="115.0" font-family="Raleway, Helvetica, Arial, sans-serif" font-size="15" fill="#2c3f51" text-anchor="middle">patients, prescriptions, deaths</text>
+<rect x="190" y="210" width="220" height="70" rx="8" fill="#ffffff" stroke="#2c3f51" stroke-width="2.5"/>
+<text x="300.0" y="243.0" font-family="Raleway, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#2c3f51" text-anchor="middle">CYP2C19, SLCO1B1</text>
+<text x="300.0" y="265.0" font-family="Raleway, Helvetica, Arial, sans-serif" font-size="15" fill="#2c3f51" text-anchor="middle">per patient</text>
+<rect x="190" y="300" width="220" height="60" rx="8" fill="#56a75433" stroke="#56a754" stroke-width="2.5"/>
+<text x="300.0" y="336.0" font-family="Raleway, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#2c3f51" text-anchor="middle">Outcomes on drug</text>
+<line x1="150" y1="130" x2="270" y2="205" stroke="#2c3f51" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="450" y1="130" x2="330" y2="205" stroke="#2c3f51" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="300" y1="280" x2="300" y2="296" stroke="#2c3f51" stroke-width="2.5" marker-end="url(#a)"/>
+</svg>

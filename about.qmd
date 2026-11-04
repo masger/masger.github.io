@@ -1,0 +1,51 @@
+---
+title: "About"
+description-meta: "About Michael Asger Andersen, MD, PhD"
+toc: true
+toc-location: left
+tbl-colwidths: [18, 82]
+---
+
+I am a physician and specialty registrar in clinical pharmacology at Bispebjerg and Frederiksberg Hospital, Copenhagen. I trained as a doctor at the University of Copenhagen, did a PhD on infections in chronic lymphocytic leukemia at Rigshospitalet, and spent a year in cardiovascular clinical development at Novo Nordisk before returning to the hospital. My research combines Danish nationwide health registers, the Copenhagen Hospital Biobank and prospective clinical trials to test whether genotype-guided prescribing and therapeutic drug monitoring improve patient outcomes.
+
+## Experience
+
+| Years | Position |
+|-------|----------|
+| 2023 to 2027 | Specialty registrar in clinical pharmacology, Bispebjerg and Frederiksberg Hospital. Rotations at the Department of Clinical Biochemistry and Genomic Medicine, Rigshospitalet (2025 to 2026), the Department of Endocrinology, Herlev Hospital (2024 to 2025) and Cardiovascular Clinical Development, Novo Nordisk (2023 to 2024) |
+| 2021 to 2023 | Resident, Department of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital |
+| 2020 to 2021 | Postdoctoral researcher, CLL-LAB, Department of Hematology, Rigshospitalet |
+| 2016 to 2020 | Research fellow and clinical assistant, Department of Hematology, Rigshospitalet |
+| 2015 to 2016 | Resident (KBU), Departments of Infectious Diseases and Urology, Herlev Hospital |
+
+## Education
+
+| Years | Degree |
+|-------|--------|
+| 2026 | BRIDGE Translational Excellence Programme, Omics courses, University of Copenhagen |
+| 2016 to 2021 | PhD in medical science, University of Copenhagen. Thesis: *Real-world evidence on the risk, type and treatment of infectious complications in chronic lymphocytic leukaemia* |
+| 2008 to 2015 | Medical doctor (MD), University of Copenhagen |
+
+## Positions of trust
+
+- Chair, Danish Society for Personalized Medicine (2025 to present)
+- Appointed national expert, Danish National Strategy for Personalized Medicine (2026 to present)
+- Auditor, Danish Society of Clinical Pharmacology (2026 to present)
+- Working group member, CPIC guideline for NAT2 (published 2025)
+- Review editor, Frontiers in Epidemiology (2023 to present)
+- Member, Clinical Pharmacogenetics Implementation Consortium (CPIC) (2022 to present)
+- Member, Pharmacogenomics Global Research Network (2022 to present)
+
+## Book
+
+I am writing *Kun dosis gør giften*, a popular science book in Danish about how medicines work, for the publisher Lindhardt og Ringhof. Each chapter opens at the bedside at Herlev Hospital and follows one drug from plant, mould or laboratory to the pharmacy shelf. The book is for patients and relatives and is not part of my academic publication list.
+
+## Contact
+
+Department of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital\
+Bispebjerg Bakke 23, 2400 Copenhagen NV, Denmark
+
+E-mail: [michael.asger.andersen@regionh.dk](mailto:michael.asger.andersen@regionh.dk)\
+Phone: +45 31 77 08 56
+
+[Academic CV (PDF)](cv-michael-andersen.pdf){.btn .btn-primary .btn-sm target="_blank"} [Publication list (PDF)](publication-list.pdf){.btn .btn-outline-primary .btn-sm target="_blank"}
