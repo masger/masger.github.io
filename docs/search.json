@@ -49,25 +49,11 @@
     "text": "Role: Work package collaborator\nNetworks: SPOCK consortium, COST Action CardioPharmGeneNet, Clinical Pharmacogenetics Implementation Consortium (CPIC)\nStatus: Ongoing since 2022\n\nSPOCK is a multinational consortium on CYP2C19 genotype-guided antiplatelet therapy. I contribute Danish register and biobank data and take part in the methods work package. Through CPIC I co-authored the 2025 guideline on NAT2 and take part in the network’s working groups."
   },
   {
-    "objectID": "projects/optimus-af.html",
-    "href": "projects/optimus-af.html",
-    "title": "OPTIMUS-AF",
+    "objectID": "projects/chb-pharmacogenetics.html",
+    "href": "projects/chb-pharmacogenetics.html",
+    "title": "Biobank pharmacogenetics",
     "section": "",
-    "text": "Role: Co-applicant, responsible for the investigational medicinal product, N-of-1 methodology and the CYP2D6 and drug concentration analyses\nPrincipal investigator: Morten Lamberts, Herlev and Gentofte Hospital\nDesign: Nationwide decentralised randomised trial, 520 participants, double-blind double-dummy N-of-1 crossover against standard care\nFunding: Independent Research Fund Denmark, 2027 to 2031\n\nPatients with persistent or permanent atrial fibrillation often report side effects on rate-control drugs, and the usual answer is to switch and hope. OPTIMUS-AF lets each patient compare metoprolol and verapamil blinded in their own crossover and uses CYP2D6 genotype and drug concentrations to explain who tolerates what."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Trials I run or help run, and the register and biobank studies behind them. Each card links to a short page with status, funding and collaborators.\n\n\n\n\n\n\n\n\n\n\nSAMSON-2\n\n\nNationwide randomized trial testing a digital double-blind N-of-1 platform against standard care for statin intolerance. Sponsor and principal investigator.\n\n\n\n\n\n\n\n\n\n\n\n\n\nTDM-VISION\n\n\nTherapeutic drug monitoring of ibrutinib and venetoclax in chronic lymphocytic leukemia. Principal investigator, funded by the Danish Cancer Society.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBiobank pharmacogenetics\n\n\nCYP2C19 and SLCO1B1 genotypes from the Copenhagen Hospital Biobank linked to antiplatelet and statin outcomes in nationwide registers.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSPOCK and European PGx networks\n\n\nEuropean clopidogrel pharmacogenomics consortium and working group participation in COST Action CardioPharmGeneNet and CPIC guideline development.\n\n\n\n\n\n\n\n\n\n\n\n\n\nOPTIMUS-AF\n\n\nDecentralised N-of-1 trial of metoprolol versus verapamil in atrial fibrillation with side effects. Co-applicant responsible for the N-of-1 methodology and CYP2D6 analyses.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Michael Asger Andersen",
-    "section": "",
-    "text": "Physician and clinical pharmacologist in training\nI am a specialty registrar in clinical pharmacology at Bispebjerg and Frederiksberg Hospital, Copenhagen, with a PhD in medical science. I study whether pharmacogenetic testing and therapeutic drug monitoring change prescribing and patient outcomes. The data come from Danish nationwide health registers, the Copenhagen Hospital Biobank and prospective clinical trials.\nRight now I run SAMSON-2, a nationwide N-of-1 trial on statin intolerance, and TDM-VISION, a drug monitoring project for ibrutinib and venetoclax in chronic lymphocytic leukemia. In parallel I link CYP2C19 and SLCO1B1 genotypes from the Copenhagen Hospital Biobank to clinical outcomes in nationwide registers.\nSee all projects, the publication list or the CV as PDF."
+    "text": "Role: Principal investigator\nData: Copenhagen Hospital Biobank genotypes linked to the Danish National Patient Register, the Prescription Register and the Civil Registration System\nStatus: Analyses ongoing\n\nGuidelines recommend CYP2C19 testing before clopidogrel and SLCO1B1 testing before simvastatin, but Danish hospitals rarely test. This project uses existing genotypes from the Copenhagen Hospital Biobank to estimate what testing would have changed: how many patients carry actionable variants, what happened to them on the drug, and whether the result justifies routine genotyping. The analyses run in R with data.table on the Danish national research servers."
   },
   {
     "objectID": "about.html",
@@ -112,11 +98,18 @@
     "text": "Contact\nDepartment of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital\nBispebjerg Bakke 23, 2400 Copenhagen NV, Denmark\nE-mail: michael.asger.andersen at regionh dot dk\nPhone: +45 31 77 08 56\nAcademic CV (PDF) Publication list (PDF)"
   },
   {
-    "objectID": "projects/chb-pharmacogenetics.html",
-    "href": "projects/chb-pharmacogenetics.html",
-    "title": "Biobank pharmacogenetics",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Michael Asger Andersen",
     "section": "",
-    "text": "Role: Principal investigator\nData: Copenhagen Hospital Biobank genotypes linked to the Danish National Patient Register, the Prescription Register and the Civil Registration System\nStatus: Analyses ongoing\n\nGuidelines recommend CYP2C19 testing before clopidogrel and SLCO1B1 testing before simvastatin, but Danish hospitals rarely test. This project uses existing genotypes from the Copenhagen Hospital Biobank to estimate what testing would have changed: how many patients carry actionable variants, what happened to them on the drug, and whether the result justifies routine genotyping. The analyses run in R with data.table on the Danish national research servers."
+    "text": "Physician and clinical pharmacologist in training\nI am a specialty registrar in clinical pharmacology at Bispebjerg and Frederiksberg Hospital, Copenhagen, with a PhD in medical science. I study whether pharmacogenetic testing and therapeutic drug monitoring change prescribing and patient outcomes. The data come from Danish nationwide health registers, the Copenhagen Hospital Biobank and prospective clinical trials.\nRight now I run SAMSON-2, a nationwide N-of-1 trial on statin intolerance, and TDM-VISION, a drug monitoring project for ibrutinib and venetoclax in chronic lymphocytic leukemia. In parallel I link CYP2C19 and SLCO1B1 genotypes from the Copenhagen Hospital Biobank to clinical outcomes in nationwide registers.\nSee all projects, the publication list or the CV as PDF."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Trials I run or help run, and the register and biobank studies behind them. Each card links to a short page with status, funding and collaborators.\n\n\n\n\n\n\n\n\n\n\nSAMSON-2\n\n\nNationwide randomized trial testing a digital double-blind N-of-1 platform against standard care for statin intolerance. Sponsor and principal investigator.\n\n\n\n\n\n\n\n\n\n\n\n\n\nTDM-VISION\n\n\nTherapeutic drug monitoring of ibrutinib and venetoclax in chronic lymphocytic leukemia. Principal investigator, funded by the Danish Cancer Society.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBiobank pharmacogenetics\n\n\nCYP2C19 and SLCO1B1 genotypes from the Copenhagen Hospital Biobank linked to antiplatelet and statin outcomes in nationwide registers.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSPOCK and European PGx networks\n\n\nEuropean clopidogrel pharmacogenomics consortium and working group participation in COST Action CardioPharmGeneNet and CPIC guideline development.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/samson2.html",
