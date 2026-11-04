@@ -1,0 +1,18 @@
+---
+title: "National pharmacogenetics pipeline"
+description: "One national method for pharmacogenetic results from whole-genome sequencing, from the National Genome Center to the prescriber. Initiative 2.1 of the National Strategy for Personalised Medicine."
+image: "../images/projects/national-pgx.svg"
+categories: [Pharmacogenetics, National strategy, Implementation]
+order: 2
+---
+
+::: {.project-facts}
+**Role:** Member of the national clinical project group, appointed national expert\
+**Lead:** National Genome Center, with the Department of Molecular Medicine (Aarhus University Hospital) and MDx Core (Rigshospitalet)\
+**Period:** 2025 to 2027, under the National Strategy for Personalised Medicine\
+**Scope:** 24 drug-gene pairs where CPIC, DPWG and FDA agree
+:::
+
+Thousands of Danish patients have whole-genome sequencing done on clinical indication every year. The pharmacogenetic variants in those genomes are read once and then sit unused. Initiative 2.1 builds one national bioinformatic method that calls star alleles for CYP2C19, CYP2D6, CYP2C9, DPYD, TPMT, NUDT15, SLCO1B1, ABCG2 and UGT1A1 from the sequencing data, reports them as structured laboratory results, and shows the recommendation in the shared medication decision support system when a doctor prescribes one of the affected drugs.
+
+I write the clinical recommendations for the drug-gene pairs together with the other clinical pharmacologists in the group, and I align the regional pharmacogenetic panel at MDx Core, Rigshospitalet, where I am clinical lead, with the national method so the two give the same answer.

@@ -49,11 +49,25 @@
     "text": "Role: Work package collaborator\nNetworks: SPOCK consortium, COST Action CardioPharmGeneNet, Clinical Pharmacogenetics Implementation Consortium (CPIC)\nStatus: Ongoing since 2022\n\nSPOCK is a multinational consortium on CYP2C19 genotype-guided antiplatelet therapy. I contribute Danish register and biobank data and take part in the methods work package. Through CPIC I co-authored the 2025 guideline on NAT2 and take part in the network’s working groups."
   },
   {
-    "objectID": "projects/chb-pharmacogenetics.html",
-    "href": "projects/chb-pharmacogenetics.html",
-    "title": "Biobank pharmacogenetics",
+    "objectID": "projects/national-pgx.html",
+    "href": "projects/national-pgx.html",
+    "title": "National pharmacogenetics pipeline",
     "section": "",
-    "text": "Role: Principal investigator\nData: Copenhagen Hospital Biobank genotypes linked to the Danish National Patient Register, the Prescription Register and the Civil Registration System\nStatus: Analyses ongoing\n\nGuidelines recommend CYP2C19 testing before clopidogrel and SLCO1B1 testing before simvastatin, but Danish hospitals rarely test. This project uses existing genotypes from the Copenhagen Hospital Biobank to estimate what testing would have changed: how many patients carry actionable variants, what happened to them on the drug, and whether the result justifies routine genotyping. The analyses run in R with data.table on the Danish national research servers."
+    "text": "Role: Member of the national clinical project group, appointed national expert\nLead: National Genome Center, with the Department of Molecular Medicine (Aarhus University Hospital) and MDx Core (Rigshospitalet)\nPeriod: 2025 to 2027, under the National Strategy for Personalised Medicine\nScope: 24 drug-gene pairs where CPIC, DPWG and FDA agree\n\nThousands of Danish patients have whole-genome sequencing done on clinical indication every year. The pharmacogenetic variants in those genomes are read once and then sit unused. Initiative 2.1 builds one national bioinformatic method that calls star alleles for CYP2C19, CYP2D6, CYP2C9, DPYD, TPMT, NUDT15, SLCO1B1, ABCG2 and UGT1A1 from the sequencing data, reports them as structured laboratory results, and shows the recommendation in the shared medication decision support system when a doctor prescribes one of the affected drugs.\nI write the clinical recommendations for the drug-gene pairs together with the other clinical pharmacologists in the group, and I align the regional pharmacogenetic panel at MDx Core, Rigshospitalet, where I am clinical lead, with the national method so the two give the same answer."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Trials I run or help run, the register and biobank studies behind them, and the national pharmacogenetics work. Each card links to a short page with status, funding and collaborators.\n\n\n\n\n\n\n\n\n\n\nSAMSON-2\n\n\nNationwide randomized trial testing a digital double-blind N-of-1 platform against standard care for statin intolerance. Sponsor and principal investigator.\n\n\n\n\n\n\n\n\n\n\n\n\n\nNational pharmacogenetics pipeline\n\n\nOne national method for pharmacogenetic results from whole-genome sequencing, from the National Genome Center to the prescriber. Initiative 2.1 of the National Strategy for…\n\n\n\n\n\n\n\n\n\n\n\n\n\nTDM-VISION\n\n\nTherapeutic drug monitoring of ibrutinib and venetoclax in chronic lymphocytic leukemia. Principal investigator, funded by the Danish Cancer Society.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBiobank pharmacogenetics\n\n\nCYP2C19 and SLCO1B1 genotypes from the Copenhagen Hospital Biobank linked to antiplatelet and statin outcomes in nationwide registers.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSPOCK and European PGx networks\n\n\nEuropean clopidogrel pharmacogenomics consortium and working group participation in COST Action CardioPharmGeneNet and CPIC guideline development.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Michael Asger Andersen",
+    "section": "",
+    "text": "Physician and clinical pharmacologist in training\nI am a specialty registrar in clinical pharmacology at Bispebjerg and Frederiksberg Hospital, Copenhagen, with a PhD in medical science. I study whether pharmacogenetic testing and therapeutic drug monitoring change prescribing and patient outcomes. The data come from Danish nationwide health registers, the Copenhagen Hospital Biobank and prospective clinical trials.\nRight now I run SAMSON-2, a nationwide N-of-1 trial on statin intolerance, and TDM-VISION, a drug monitoring project for ibrutinib and venetoclax in chronic lymphocytic leukemia. In parallel I link CYP2C19 and SLCO1B1 genotypes from the Copenhagen Hospital Biobank to clinical outcomes in nationwide registers, and I sit on the national project group that builds the pharmacogenetic pipeline under the Danish National Strategy for Personalised Medicine.\nSee all projects, the publication list or the CV as PDF."
   },
   {
     "objectID": "about.html",
@@ -98,18 +112,11 @@
     "text": "Contact\nDepartment of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital\nBispebjerg Bakke 23, 2400 Copenhagen NV, Denmark\nE-mail: michael.asger.andersen at regionh dot dk\nPhone: +45 31 77 08 56\nAcademic CV (PDF) Publication list (PDF)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Michael Asger Andersen",
+    "objectID": "projects/chb-pharmacogenetics.html",
+    "href": "projects/chb-pharmacogenetics.html",
+    "title": "Biobank pharmacogenetics",
     "section": "",
-    "text": "Physician and clinical pharmacologist in training\nI am a specialty registrar in clinical pharmacology at Bispebjerg and Frederiksberg Hospital, Copenhagen, with a PhD in medical science. I study whether pharmacogenetic testing and therapeutic drug monitoring change prescribing and patient outcomes. The data come from Danish nationwide health registers, the Copenhagen Hospital Biobank and prospective clinical trials.\nRight now I run SAMSON-2, a nationwide N-of-1 trial on statin intolerance, and TDM-VISION, a drug monitoring project for ibrutinib and venetoclax in chronic lymphocytic leukemia. In parallel I link CYP2C19 and SLCO1B1 genotypes from the Copenhagen Hospital Biobank to clinical outcomes in nationwide registers.\nSee all projects, the publication list or the CV as PDF."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Trials I run or help run, and the register and biobank studies behind them. Each card links to a short page with status, funding and collaborators.\n\n\n\n\n\n\n\n\n\n\nSAMSON-2\n\n\nNationwide randomized trial testing a digital double-blind N-of-1 platform against standard care for statin intolerance. Sponsor and principal investigator.\n\n\n\n\n\n\n\n\n\n\n\n\n\nTDM-VISION\n\n\nTherapeutic drug monitoring of ibrutinib and venetoclax in chronic lymphocytic leukemia. Principal investigator, funded by the Danish Cancer Society.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBiobank pharmacogenetics\n\n\nCYP2C19 and SLCO1B1 genotypes from the Copenhagen Hospital Biobank linked to antiplatelet and statin outcomes in nationwide registers.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSPOCK and European PGx networks\n\n\nEuropean clopidogrel pharmacogenomics consortium and working group participation in COST Action CardioPharmGeneNet and CPIC guideline development.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Role: Principal investigator\nData: Copenhagen Hospital Biobank genotypes linked to the Danish National Patient Register, the Prescription Register and the Civil Registration System\nStatus: Analyses ongoing\n\nGuidelines recommend CYP2C19 testing before clopidogrel and SLCO1B1 testing before simvastatin, but Danish hospitals rarely test. This project uses existing genotypes from the Copenhagen Hospital Biobank to estimate what testing would have changed: how many patients carry actionable variants, what happened to them on the drug, and whether the result justifies routine genotyping. The analyses run in R with data.table on the Danish national research servers."
   },
   {
     "objectID": "projects/samson2.html",

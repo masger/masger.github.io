@@ -14,7 +14,7 @@ listing:
   contents: "projects/*.qmd"
 ---
 
-Trials I run or help run, and the register and biobank studies behind them. Each card links to a short page with status, funding and collaborators.
+Trials I run or help run, the register and biobank studies behind them, and the national pharmacogenetics work. Each card links to a short page with status, funding and collaborators.
 
 :::{#projects}
 :::

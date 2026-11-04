@@ -33,6 +33,6 @@ about:
 
 I am a specialty registrar in clinical pharmacology at [Bispebjerg and Frederiksberg Hospital](https://www.bispebjerghospital.dk/), Copenhagen, with a PhD in medical science. I study whether pharmacogenetic testing and therapeutic drug monitoring change prescribing and patient outcomes. The data come from Danish nationwide health registers, the Copenhagen Hospital Biobank and prospective clinical trials.
 
-Right now I run [SAMSON-2](projects/samson2.qmd), a nationwide N-of-1 trial on statin intolerance, and [TDM-VISION](projects/tdm-vision.qmd), a drug monitoring project for ibrutinib and venetoclax in chronic lymphocytic leukemia. In parallel I link CYP2C19 and SLCO1B1 genotypes from the [Copenhagen Hospital Biobank](projects/chb-pharmacogenetics.qmd) to clinical outcomes in nationwide registers.
+Right now I run [SAMSON-2](projects/samson2.qmd), a nationwide N-of-1 trial on statin intolerance, and [TDM-VISION](projects/tdm-vision.qmd), a drug monitoring project for ibrutinib and venetoclax in chronic lymphocytic leukemia. In parallel I link CYP2C19 and SLCO1B1 genotypes from the [Copenhagen Hospital Biobank](projects/chb-pharmacogenetics.qmd) to clinical outcomes in nationwide registers, and I sit on the national project group that builds the [pharmacogenetic pipeline](projects/national-pgx.qmd) under the Danish National Strategy for Personalised Medicine.
 
 See all [projects](projects.qmd), the [publication list](publications.qmd) or the [CV as PDF](cv-michael-andersen.pdf).

@@ -3,7 +3,7 @@ title: "SPOCK and European PGx networks"
 description: "European clopidogrel pharmacogenomics consortium and working group participation in COST Action CardioPharmGeneNet and CPIC guideline development."
 image: "../images/projects/spock.svg"
 categories: [Pharmacogenetics, Consortium]
-order: 4
+order: 5
 ---
 
 ::: {.project-facts}

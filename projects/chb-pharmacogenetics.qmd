@@ -3,7 +3,7 @@ title: "Biobank pharmacogenetics"
 description: "CYP2C19 and SLCO1B1 genotypes from the Copenhagen Hospital Biobank linked to antiplatelet and statin outcomes in nationwide registers."
 image: "../images/projects/chb.svg"
 categories: [Pharmacogenetics, Registers, Biobank]
-order: 3
+order: 4
 ---
 
 ::: {.project-facts}
