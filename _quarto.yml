@@ -16,6 +16,7 @@ project:
     - "publication-list.pdf"
     - "robots.txt"
     - "googlebaf36bbe59a6b247.html"
+    - "poll/**"
 
 website:
   title: "Michael Asger Andersen"
