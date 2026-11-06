@@ -9,8 +9,10 @@ order: 3
 ::: {.project-facts}
 **Role:** Principal investigator\
 **Design:** Prospective clinical study with pharmacokinetic sampling and exposure-response modelling\
-**Status:** Recruiting, one PhD student co-supervised\
-**Funding:** Danish Cancer Society, DKK 2.3 million
+**Status:** Recruiting\
+**Funding:** Danish Cancer Society, DKK 2.3 million\
+**PhD student:** Cathrine Korsholm, supervised by Tonny Studsgaard Petersen and Mikkel Bring Christensen (Department of Clinical Pharmacology, Bispebjerg and Frederiksberg Hospital), Trine Meldgaard Lund (University of Copenhagen), Carsten Niemann (Department of Hematology, Rigshospitalet) and me\
+**Collaborators:** The Danish CLL network DALYCA and the Department of Clinical Pharmacy and Toxicology, Leiden University Medical Center
 :::
 
 Ibrutinib and venetoclax are dosed by label, not by concentration, although exposure varies several-fold between patients. TDM-VISION measures drug concentrations in patients with chronic lymphocytic leukemia treated at Danish hematology departments and relates them to response, toxicity and dose changes. The goal is a monitoring algorithm that tells the clinician when a concentration should change the dose.
