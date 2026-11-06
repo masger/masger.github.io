@@ -11,7 +11,7 @@ order: 2
 **Lead:** National Genome Center, with the Department of Molecular Medicine (Aarhus University Hospital) and MDx Core (Rigshospitalet)\
 **Period:** 2025 to 2027, under the National Strategy for Personalised Medicine\
 **Scope:** 24 drug-gene pairs where CPIC, DPWG and FDA agree\
-**Collaborators:** Peter Breining (Aalborg University Hospital and Aarhus University Hospital, clinical lead), Troels Korshøj Bergmann (University of Southern Denmark), Per Damkier (Odense University Hospital and University of Southern Denmark) and Niels Herluf Paulsen (Odense University Hospital)
+**Collaborators:** Peter Breining (Aalborg University Hospital and Aarhus University Hospital, clinical lead), Troels Korshøj Bergmann, Per Damkier and Niels Herluf Paulsen (Odense University Hospital and University of Southern Denmark)
 :::
 
 Thousands of Danish patients have whole-genome sequencing done on clinical indication every year. The pharmacogenetic variants in those genomes are read once and then sit unused. Initiative 2.1 builds one national bioinformatic method that calls star alleles for CYP2C19, CYP2D6, CYP2C9, DPYD, TPMT, NUDT15, SLCO1B1, ABCG2 and UGT1A1 from the sequencing data, reports them as structured laboratory results, and shows the recommendation in the shared medication decision support system when a doctor prescribes one of the affected drugs.
