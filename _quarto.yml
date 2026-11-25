@@ -17,6 +17,7 @@ project:
     - "robots.txt"
     - "googlebaf36bbe59a6b247.html"
     - "poll/**"
+    - "files/js/**"
 
 website:
   title: "Michael Asger Andersen"

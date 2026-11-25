@@ -159,6 +159,296 @@ table td:first-child, table th:first-child {
   color: $primary-color;
 }
 
+/* Disc golf scene on the Projects page (files/js/discgolf.js) */
+
+.discgolf:empty {
+  display: none;
+}
+
+/* The project cards are the data for the scene and stay hidden while it runs.
+   They are shown when the scene cannot start (class set in projects.qmd and discgolf.js). */
+#listing-projects {
+  display: none;
+}
+
+.dg-fallback #listing-projects {
+  display: block;
+}
+
+.discgolf {
+  margin: 0.5rem 0 2rem 0;
+}
+
+.dg-stage {
+  position: relative;
+  height: clamp(340px, 44vw, 560px);
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #dbe9f4;
+  box-shadow: 0 4px 14px rgba(44, 63, 81, 0.10);
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.dg-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: pan-y;
+  cursor: grab;
+}
+
+.dg-stage[data-mode="aiming"] .dg-canvas {
+  cursor: grabbing;
+}
+
+.dg-labels {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.dg-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 10.5rem;
+  margin: 0;
+  padding: 0.28rem 0.6rem;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  color: $primary-color-dark;
+  background-color: rgba(255, 255, 255, 0.95);
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(44, 63, 81, 0.2);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+/* The lines from the signs down to their baskets */
+.dg-leads {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.dg-leads line {
+  stroke: rgba(255, 255, 255, 0.95);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.dg-label:focus-visible {
+  color: white;
+  background-color: $primary-color;
+}
+
+@media (hover: hover) {
+  .dg-label:hover {
+    color: white;
+    background-color: $primary-color;
+  }
+}
+
+.dg-label.is-aimed {
+  color: white;
+  background-color: $secondary-color;
+}
+
+.dg-label.is-hit::before {
+  content: "\2713\00a0";
+}
+
+.dg-handle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  touch-action: none;
+  cursor: grab;
+}
+
+.dg-stage:not([data-mode="ready"]):not([data-mode="aiming"]) .dg-handle {
+  display: none;
+}
+
+.dg-handle::before {
+  content: "";
+  position: absolute;
+  inset: 22px;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  opacity: 0;
+  animation: dg-pulse 2.2s ease-out infinite;
+}
+
+.dg-stage.is-used .dg-handle::before,
+.dg-stage[data-mode="aiming"] .dg-handle::before {
+  animation: none;
+}
+
+@keyframes dg-pulse {
+  0% { transform: scale(0.55); opacity: 0.9; }
+  100% { transform: scale(1.25); opacity: 0; }
+}
+
+.dg-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 0.7rem;
+  transform: translateX(-50%);
+  max-width: calc(100% - 1.5rem);
+  margin: 0;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+  color: $primary-color-dark;
+  background-color: rgba(255, 255, 255, 0.88);
+  border-radius: 999px;
+  pointer-events: none;
+  transition: opacity 0.4s;
+}
+
+.dg-stage.is-used .dg-hint {
+  opacity: 0;
+}
+
+.dg-panel {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  width: min(24rem, calc(100% - 2rem));
+  padding: 1rem 1.1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 28px rgba(44, 63, 81, 0.25);
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.25s, transform 0.25s;
+}
+
+.dg-panel.is-open {
+  opacity: 1;
+  transform: none;
+}
+
+.dg-panel[hidden] {
+  display: none;
+}
+
+.dg-eyebrow {
+  margin: 0 0 0.2rem 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $secondary-color;
+}
+
+.dg-title {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.15rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.dg-text {
+  margin: 0 0 0.8rem 0;
+  font-size: 0.9rem;
+}
+
+.dg-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.dg-link,
+.dg-again {
+  padding: 0.35rem 0.8rem;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: 1.5px solid $primary-color;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dg-link {
+  color: white;
+  background-color: $primary-color;
+  text-decoration: none;
+}
+
+.dg-link:hover {
+  color: white;
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+}
+
+.dg-again {
+  color: $primary-color;
+  background: none;
+}
+
+.dg-again:hover {
+  color: $secondary-color;
+  border-color: $secondary-color;
+}
+
+@media (max-width: 600px) {
+  .dg-stage {
+    height: 430px;
+  }
+
+  .dg-label {
+    max-width: 7.2rem;
+    font-size: 0.68rem;
+    padding: 0.2rem 0.4rem;
+  }
+
+  .dg-hint {
+    font-size: 0.72rem;
+  }
+
+  /* Small panel on a phone: title and buttons only, so the basket stays in view */
+  .dg-panel {
+    left: 0.6rem;
+    bottom: 0.6rem;
+    width: calc(100% - 1.2rem);
+    padding: 0.7rem 0.8rem;
+  }
+
+  .dg-title {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .dg-text {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dg-handle::before {
+    animation: none;
+  }
+
+  .dg-panel {
+    transition: none;
+  }
+}
+
 /* Project pages */
 
 .project-facts {

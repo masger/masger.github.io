@@ -2,6 +2,7 @@
 title: "Projects"
 description-meta: "Research projects led by or involving Michael Asger Andersen"
 toc: false
+html-math-method: plain
 listing:
   id: projects
   type: grid
@@ -14,7 +15,16 @@ listing:
   contents: "projects/*.qmd"
 ---
 
-Trials I run or help run, the register and biobank studies behind them, and the national pharmacogenetics work. Each card links to a short page with status, funding and collaborators.
+Trials I run or help run, the register and biobank studies behind them, and the national pharmacogenetics work. Each basket leads to a short page with status, funding and collaborators.
+
+::: {#discgolf .discgolf .column-page}
+:::
+
+```{=html}
+<script type="module" src="files/js/discgolf.js" onerror="document.documentElement.classList.add('dg-fallback')"></script>
+<script nomodule>document.documentElement.classList.add('dg-fallback')</script>
+<noscript><style>#listing-projects { display: block !important; }</style></noscript>
+```
 
 :::{#projects}
 :::
