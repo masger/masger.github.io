@@ -5,6 +5,10 @@
    let go to throw, or pick a sign and the disc flies to that basket.
    A new project page under projects/ gets its own basket automatically.
 
+   Discs stay in the baskets between visits (localStorage). A visitor who hits
+   every basket by hand wins the golden disc and is invited to write to Michael.
+   Throws by sign open the project but do not count towards the prize.
+
    The cards stay in the page as the data for the scene, but css/theme.scss hides
    them. If the scene cannot start (no WebGL, script blocked, no JavaScript), the
    class dg-fallback on <html> shows the card grid instead, so the project links
@@ -42,6 +46,14 @@ const CATCH_LO = 0.95;               // metres above the ground
 const CATCH_HI = 2.7;
 const TRAY_Y = 1.1;
 const CAM_Z = 5.4;
+
+// The round is kept in the browser (localStorage), so the discs still lie in the baskets
+// when a visitor comes back from a project page. Nothing is sent anywhere.
+const STORE_KEY = 'discgolf-round';
+const WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight'];
+// Put together here so the address does not stand in clear text for address harvesters,
+// like the mail links Quarto writes on the other pages.
+const MAIL = ['michael.asger.andersen', 'regionh.dk'].join('@');
 
 const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
 const smooth = (a, b, v) => {
@@ -100,6 +112,7 @@ const root = document.getElementById('discgolf');
 const projects = [...document.querySelectorAll('a.quarto-grid-link')]
   .map((a) => ({
     href: a.getAttribute('href'),
+    key: new URL(a.href).pathname, // name of the basket in the saved round, the same however the link is written
     title: a.querySelector('.listing-title')?.textContent.trim() ?? '',
     text: a.querySelector('.listing-description')?.textContent.trim() ?? '',
   }))
@@ -428,7 +441,45 @@ function init(root, projects) {
   // A white stripe across the top makes the spin visible.
   const stripeGeo = new THREE.BoxGeometry(0.34, 0.012, 0.07).translate(0, 0.04, 0);
   const stripeMat = new THREE.MeshLambertMaterial({ color: 0xffffff });
+  const goldMat = new THREE.MeshLambertMaterial({ color: 0xffcc33, emissive: 0x5c4300 });
   let discCount = 0;
+
+  // The prize for hitting every basket by hand: a cup with a golden disc on top.
+  const trophy = new THREE.Group();
+  {
+    const gold = new THREE.MeshLambertMaterial({ color: 0xffcc33, emissive: 0x5c4300, flatShading: true });
+    const cup = new THREE.Mesh(
+      new THREE.LatheGeometry(
+        [[0, 0], [0.34, 0], [0.34, 0.07], [0.1, 0.13], [0.07, 0.45], [0.2, 0.56], [0.36, 0.8], [0.42, 1.1], [0.37, 1.1], [0.3, 0.82], [0, 0.64]].map(
+          ([r, y]) => new THREE.Vector2(r, y)
+        ),
+        12
+      ),
+      gold
+    );
+    const earGeo = new THREE.TorusGeometry(0.15, 0.035, 6, 10, Math.PI);
+    const left = new THREE.Mesh(earGeo, gold);
+    left.position.set(-0.37, 0.88, 0);
+    left.rotation.z = Math.PI / 2;
+    const right = new THREE.Mesh(earGeo, gold);
+    right.position.set(0.37, 0.88, 0);
+    right.rotation.z = -Math.PI / 2;
+    const top = new THREE.Mesh(discGeo, goldMat);
+    top.position.y = 1.42;
+    top.rotation.x = 0.45;
+    for (const mesh of [cup, left, right, top]) mesh.castShadow = true;
+    trophy.add(cup, left, right, top);
+    trophy.visible = false;
+    scene.add(trophy);
+  }
+  const TROPHY_UP = new THREE.Vector3(0, groundY(0, -6.5) + 2.1, -6.5); // floating over the fairway
+  const TROPHY_HOME = new THREE.Vector3(1.8, TEE_Y - 0.02, -0.9);       // standing beside the tee
+  function placeTrophy(home) {
+    trophy.visible = true;
+    trophy.position.copy(home ? TROPHY_HOME : TROPHY_UP);
+    trophy.scale.setScalar(home ? 0.85 : 2.3);
+    trophy.rotation.set(0, home ? -0.5 : 0, 0);
+  }
 
   const DOTS = 44;
   const dots = new THREE.InstancedMesh(
@@ -440,7 +491,7 @@ function init(root, projects) {
   dots.visible = false;
   scene.add(dots);
 
-  const BITS = 22;
+  const BITS = 150;
   const bits = new THREE.InstancedMesh(
     new THREE.PlaneGeometry(0.16, 0.16),
     new THREE.MeshBasicMaterial({ side: THREE.DoubleSide, fog: false }),
@@ -454,10 +505,26 @@ function init(root, projects) {
     const c = new THREE.Color();
     for (let i = 0; i < BITS; i++) {
       bits.setColorAt(i, c.set(COL.confetti[i % COL.confetti.length]));
-      bitState.push({ p: new THREE.Vector3(), v: new THREE.Vector3(), r: 0, w: 0 });
+      bitState.push({ p: new THREE.Vector3(), v: new THREE.Vector3(), r: 0, w: 0, age: 1, life: 1 });
     }
   }
-  let bitT = -1;
+  let bitNext = 0;
+
+  // Throws n pieces of confetti up from a point. The pieces come from a fixed pool.
+  function confetti(x, y, z, n, speed) {
+    for (let k = 0; k < n; k++) {
+      const s = bitState[bitNext++ % BITS];
+      const a = rnd() * Math.PI * 2;
+      const sp = (0.5 + rnd()) * speed;
+      s.p.set(x, y, z);
+      s.v.set(Math.cos(a) * sp, 2.5 + rnd() * 3, Math.sin(a) * sp);
+      s.r = rnd() * 6;
+      s.w = (rnd() - 0.5) * 14;
+      s.age = 0;
+      s.life = 1.1 + rnd() * 0.6;
+    }
+    bits.visible = true;
+  }
 
   /* ----- HTML on top of the canvas ----- */
 
@@ -487,12 +554,13 @@ function init(root, projects) {
   const panelEyebrow = el('p', 'dg-eyebrow');
   const panelTitle = el('p', 'dg-title');
   const panelText = el('p', 'dg-text');
+  const panelProgress = el('p', 'dg-progress');
   const panelLink = el('a', 'dg-link', 'Open the project page');
   const panelAgain = el('button', 'dg-again', 'Throw again');
   panelAgain.type = 'button';
   const actions = el('div', 'dg-actions');
   actions.append(panelLink, panelAgain);
-  panel.append(panelEyebrow, panelTitle, panelText, actions);
+  panel.append(panelEyebrow, panelTitle, panelText, panelProgress, actions);
 
   stage.append(canvas, leads, labels, handle, hint, panel);
   root.append(stage);
@@ -514,17 +582,92 @@ function init(root, projects) {
     stage.dataset.mode = mode;
   }
 
-  function spawnDisc() {
+  /* ----- the round: what the browser remembers between visits ----- */
+
+  // discs: colours of the discs lying in each basket (by the path of the project page).
+  // hit: baskets hit by hand in this round. throws: hand throws in this round.
+  // won: the prize has been won.
+  const saved = { discs: {}, hit: [], throws: 0, won: false };
+  try {
+    const s = JSON.parse(window.localStorage.getItem(STORE_KEY) || '{}');
+    const known = new Set(baskets.map((b) => b.key));
+    for (const [key, list] of Object.entries(s.discs || {})) {
+      if (known.has(key) && Array.isArray(list)) saved.discs[key] = list.slice(-3).map((n) => Math.max(-1, n | 0));
+    }
+    saved.hit = (Array.isArray(s.hit) ? s.hit : []).filter((key) => known.has(key));
+    saved.throws = Math.max(0, s.throws | 0);
+    saved.won = s.won === true;
+  } catch (err) {
+    // No storage in this browser: the round lasts until the page is closed.
+  }
+  function save() {
+    try {
+      window.localStorage.setItem(STORE_KEY, JSON.stringify(saved));
+    } catch (err) {
+      // ignore
+    }
+  }
+
+  // colour: a number picks from the disc colours, -1 is the golden disc.
+  function makeDisc(color) {
     const g = new THREE.Group();
-    const body = new THREE.Mesh(discGeo, discMats[discCount++ % discMats.length]);
+    const body = new THREE.Mesh(discGeo, color < 0 ? goldMat : discMats[color % discMats.length]);
     body.castShadow = true;
     body.add(new THREE.Mesh(stripeGeo, stripeMat));
     g.add(body);
     g.userData.body = body;
+    g.userData.color = color;
+    scene.add(g);
+    return g;
+  }
+
+  function spawnDisc() {
+    const g = makeDisc(saved.won ? -1 : discCount++);
     g.userData.born = state.clock;
     g.position.copy(P0);
-    scene.add(g);
     state.disc = g;
+  }
+
+  // Where a disc rests in a basket: leaning in the chains on the side that faces the tee,
+  // where it can be seen. A basket holds up to three discs, one per slot.
+  function restPose(b, slot) {
+    const a = Math.atan2(-b.x, -b.z) + [0, 0.75, -0.75][slot];
+    const lean = new THREE.Vector3(Math.sin(a) * 0.75, 0.65, Math.cos(a) * 0.75).normalize();
+    return {
+      pos: new THREE.Vector3(b.x + Math.sin(a) * 0.4, b.y + TRAY_Y + 0.52, b.z + Math.cos(a) * 0.4),
+      quat: new THREE.Quaternion().setFromUnitVectors(UP, lean),
+    };
+  }
+
+  // A new round after the prize: empty baskets, no marks, the cup stays beside the tee.
+  function newRound() {
+    saved.discs = {};
+    saved.hit = [];
+    saved.throws = 0;
+    for (const b of baskets) {
+      for (const d of b.discs) scene.remove(d);
+      b.discs = [];
+      b.label.classList.remove('is-hit');
+    }
+    if (saved.won) placeTrophy(true);
+    save();
+  }
+
+  // Put back what the visitor left behind last time.
+  function restoreRound() {
+    if (saved.hit.length >= baskets.length) return newRound();
+    for (const b of baskets) {
+      for (const color of saved.discs[b.key] || []) {
+        const d = makeDisc(color);
+        const pose = restPose(b, b.discs.length);
+        d.position.copy(pose.pos);
+        d.quaternion.copy(pose.quat);
+        d.userData.slot = b.discs.length;
+        b.discs.push(d);
+      }
+      b.label.classList.toggle('is-hit', saved.hit.includes(b.key));
+    }
+    if (saved.won) placeTrophy(true);
   }
 
   function launchVelocity(yaw, power) {
@@ -595,6 +738,10 @@ function init(root, projects) {
     state.flight = { v0, sim, t: 0 };
     state.assisted = assisted;
     state.throws++;
+    if (!assisted) {
+      saved.throws++;
+      save();
+    }
     stage.classList.add('is-used');
     clearAim();
     setMode('flying');
@@ -604,7 +751,7 @@ function init(root, projects) {
   function assistedThrow(b, keyboard) {
     if (state.mode === 'flying' || state.mode === 'aiming') return;
     if (state.mode === 'landed') finishLanding();
-    if (state.mode === 'caught') closePanel();
+    if (state.mode === 'caught' || state.mode === 'won') closePanel();
     state.keyboard = keyboard;
     const dist = Math.hypot(b.x - P0.x, b.z - P0.z);
     const ty = b.y + (CATCH_LO + CATCH_HI) / 2;
@@ -632,43 +779,43 @@ function init(root, projects) {
   function onCatch(b) {
     const d = state.disc;
     state.target = b;
-    // The disc ends up leaning in the chains on the side that faces the tee, where it can be seen.
-    const a = Math.atan2(-b.x, -b.z) + (b.discs.length ? (rnd() - 0.5) * 1.6 : 0);
-    const lean = new THREE.Vector3(Math.sin(a) * 0.75, 0.65, Math.cos(a) * 0.75).normalize();
-    state.settle = {
-      disc: d,
-      from: d.position.clone(),
-      to: new THREE.Vector3(b.x + Math.sin(a) * 0.4, b.y + TRAY_Y + 0.52, b.z + Math.cos(a) * 0.4),
-      fromQ: d.quaternion.clone(),
-      toQ: new THREE.Quaternion().setFromUnitVectors(UP, lean),
-      t: 0,
-    };
+    if (b.discs.length >= 3) scene.remove(b.discs.shift());
+    const taken = b.discs.map((x) => x.userData.slot);
+    d.userData.slot = [0, 1, 2].find((slot) => !taken.includes(slot));
+    const pose = restPose(b, d.userData.slot);
+    state.settle = { disc: d, from: d.position.clone(), to: pose.pos, fromQ: d.quaternion.clone(), toQ: pose.quat, t: 0 };
     b.discs.push(d);
-    if (b.discs.length > 3) scene.remove(b.discs.shift());
     b.jig = 0;
-    b.label.classList.add('is-hit');
-    if (!reduceMotion) burst(b);
+
+    // Only hand throws count towards the prize. A throw by sign still leaves its disc in the basket.
+    const byHand = !state.assisted;
+    if (byHand) {
+      if (!saved.hit.includes(b.key)) saved.hit.push(b.key);
+      b.label.classList.add('is-hit');
+    }
+    const prize = byHand && saved.hit.length === baskets.length;
+    if (prize) saved.won = true;
+    saved.discs[b.key] = b.discs.map((x) => x.userData.color);
+    save();
+
+    if (!reduceMotion) confetti(b.x, b.y + 2.4, b.z, 22, 2.2);
     setMode('caught');
     const seq = ++state.seq;
     window.setTimeout(() => {
-      if (state.seq === seq && state.mode === 'caught') openPanel(b);
-    }, 500);
+      if (state.seq !== seq || state.mode !== 'caught') return;
+      if (prize) celebrate();
+      else openPanel(b);
+    }, prize ? 900 : 500);
   }
 
-  function burst(b) {
-    for (const s of bitState) {
-      s.p.set(b.x, b.y + 2.4, b.z);
-      const a = rnd() * Math.PI * 2;
-      const sp = 1.2 + rnd() * 2.2;
-      s.v.set(Math.cos(a) * sp, 2.5 + rnd() * 3, Math.sin(a) * sp);
-      s.r = rnd() * 6;
-      s.w = (rnd() - 0.5) * 14;
-    }
-    bitT = 0;
-    bits.visible = true;
+  function showPanel() {
+    panel.hidden = false;
+    requestAnimationFrame(() => panel.classList.add('is-open'));
   }
 
   function openPanel(b) {
+    const n = baskets.length;
+    panel.classList.remove('is-prize');
     panelEyebrow.textContent = state.assisted
       ? 'In the basket'
       : state.throws === 1
@@ -676,18 +823,52 @@ function init(root, projects) {
         : `In the basket on throw ${state.throws}`;
     panelTitle.textContent = b.title;
     panelText.textContent = b.text;
+    panelProgress.hidden = state.assisted;
+    panelProgress.textContent = saved.won
+      ? `${saved.hit.length} of ${n} baskets in this round.`
+      : `${saved.hit.length} of ${n} baskets by hand. Hit them all and there is a prize.`;
+    panelLink.textContent = 'Open the project page';
     panelLink.href = b.href;
-    panel.hidden = false;
-    requestAnimationFrame(() => panel.classList.add('is-open'));
+    panelAgain.textContent = 'Throw again';
+    showPanel();
     if (state.keyboard) panelLink.focus({ preventScroll: true });
   }
 
+  // Every basket is hit by hand: the cup rises over the fairway and the panel offers a mail to Michael.
+  function celebrate() {
+    state.wonAt = state.clock;
+    state.party = 0;
+    placeTrophy(false);
+    setMode('won');
+    const seq = ++state.seq;
+    window.setTimeout(() => {
+      if (state.seq === seq && state.mode === 'won') openPrize();
+    }, reduceMotion ? 0 : 1200);
+  }
+
+  function openPrize() {
+    const n = baskets.length;
+    const all = `All ${WORDS[n] || n} baskets`;
+    const throws = `${saved.throws} ${saved.throws === 1 ? 'throw' : 'throws'}`;
+    panel.classList.add('is-prize');
+    panelEyebrow.textContent = all;
+    panelTitle.textContent = 'The golden disc is yours';
+    panelText.textContent = `You hit every basket by hand in ${throws}. You are welcome to write to me and tell me how it went.`;
+    panelProgress.hidden = true;
+    panelLink.textContent = 'Write to me';
+    panelLink.href = `mailto:${MAIL}?subject=${encodeURIComponent(`${all} in ${throws}`)}`;
+    panelAgain.textContent = 'Keep playing';
+    showPanel();
+  }
+
   function closePanel() {
+    const afterPrize = state.mode === 'won';
     state.seq++;
     panel.classList.remove('is-open');
     panel.hidden = true;
     state.throws = 0;
     state.target = null;
+    if (afterPrize) newRound();
     spawnDisc();
     setMode('ready');
   }
@@ -751,6 +932,7 @@ function init(root, projects) {
     camera.fov = clamp((v * 180) / Math.PI, 44, 74);
     camera.updateProjectionMatrix();
     for (const b of baskets) {
+      if (!b.label.offsetWidth) continue; // the signs are hidden while the prize is shown
       b.lw = b.label.offsetWidth;
       b.lh = b.label.offsetHeight;
     }
@@ -790,9 +972,9 @@ function init(root, projects) {
       placed.push(b);
     }
     for (const b of baskets) {
-      const key = b.on ? `${b.sx.toFixed(1)} ${b.bottom.toFixed(1)} ${b.ax.toFixed(1)} ${b.ay.toFixed(1)}` : 'off';
-      if (key !== b.key) {
-        b.key = key;
+      const spot = b.on ? `${b.sx.toFixed(1)} ${b.bottom.toFixed(1)} ${b.ax.toFixed(1)} ${b.ay.toFixed(1)}` : 'off';
+      if (spot !== b.spot) {
+        b.spot = spot;
         b.label.style.transform = b.on
           ? `translate(${b.sx.toFixed(1)}px, ${b.bottom.toFixed(1)}px) translate(-50%, -100%)`
           : 'translate(-999px, -999px)';
@@ -895,20 +1077,34 @@ function init(root, projects) {
       }
     }
 
-    if (bitT >= 0) {
-      bitT += dt;
+    if (state.mode === 'won' && !reduceMotion) {
+      const t = state.clock - state.wonAt;
+      trophy.scale.setScalar(2.3 * smooth(0, 0.5, t));
+      trophy.position.y = TROPHY_UP.y + Math.sin(t * 2) * 0.12;
+      trophy.rotation.y += dt * 1.3;
+      if (t < 4 && t >= state.party) {
+        state.party += 0.7;
+        confetti(TROPHY_UP.x, TROPHY_UP.y + 3, TROPHY_UP.z, 24, 3);
+        for (const b of baskets) confetti(b.x, b.y + 2.4, b.z, 5, 2);
+      }
+    }
+
+    if (bits.visible) {
+      let alive = 0;
       bitState.forEach((s, i) => {
-        s.v.y -= 9 * dt;
-        s.p.addScaledVector(s.v, dt);
-        s.r += s.w * dt;
+        const on = s.age < s.life;
+        if (on) {
+          alive++;
+          s.age += dt;
+          s.v.y -= 9 * dt;
+          s.p.addScaledVector(s.v, dt);
+          s.r += s.w * dt;
+        }
         tmpQ.setFromAxisAngle(UP, s.r);
-        bits.setMatrixAt(i, tmpM.compose(s.p, tmpQ, tmpS.setScalar(Math.max(0.01, 1 - bitT / 1.3))));
+        bits.setMatrixAt(i, tmpM.compose(s.p, tmpQ, tmpS.setScalar(on ? Math.max(0.01, 1 - s.age / s.life) : 0)));
       });
       bits.instanceMatrix.needsUpdate = true;
-      if (bitT > 1.3) {
-        bitT = -1;
-        bits.visible = false;
-      }
+      if (!alive) bits.visible = false;
     }
 
     if (!reduceMotion) {
@@ -980,6 +1176,7 @@ function init(root, projects) {
   document.addEventListener('visibilitychange', setRunning);
   document.fonts?.ready.then(resize);
 
+  restoreRound();
   spawnDisc();
   setMode('ready');
   resize();

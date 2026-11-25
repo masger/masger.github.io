@@ -366,6 +366,20 @@ table td:first-child, table th:first-child {
   font-size: 0.9rem;
 }
 
+/* How many baskets the visitor has hit by hand */
+.dg-progress {
+  margin: 0 0 0.7rem 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: $primary-color;
+}
+
+/* The signs step aside while the prize is shown */
+.dg-stage[data-mode="won"] .dg-labels,
+.dg-stage[data-mode="won"] .dg-leads {
+  display: none;
+}
+
 .dg-actions {
   display: flex;
   flex-wrap: wrap;
@@ -437,6 +451,16 @@ table td:first-child, table th:first-child {
   .dg-text {
     display: none;
   }
+
+  .dg-panel.is-prize .dg-text {
+    display: block;
+    margin-bottom: 0.6rem;
+    font-size: 0.82rem;
+  }
+
+  .dg-progress {
+    margin-bottom: 0.5rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -450,6 +474,27 @@ table td:first-child, table th:first-child {
 }
 
 /* Project pages */
+
+/* Link back to the Projects page at the bottom of every project page (projects/_metadata.yml) */
+.back-to-projects {
+  margin-top: 2.5rem;
+}
+
+.back-to-projects a {
+  display: inline-block;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: $primary-color;
+  text-decoration: none;
+  border: 1.5px solid $primary-color;
+  border-radius: 6px;
+}
+
+.back-to-projects a:hover {
+  color: $secondary-color;
+  border-color: $secondary-color;
+}
 
 .project-facts {
   background-color: white;

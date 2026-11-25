@@ -1,0 +1,4 @@
+# Applies to every project page in this folder.
+# The filter adds the link "Back to all projects" at the bottom of the page.
+filters:
+  - ../files/filters/back-to-projects.lua
